@@ -18,38 +18,51 @@
       "DebugActionIndex": 0
     },
     {
-      "Annotation": "Il2Cpp C:/Users/Owner/GPGSLab/Library/Il2cppBuildCache/Android/armeabi-v7a/Native/armeabi-v7a/libil2cpp.so",
-      "Action": "\"C:\\Program Files\\Unity\\Hub\\Editor\\2020.3.17f1\\Editor\\Data\\il2cpp/build/deploy/netcoreapp3.1/il2cpp.exe\" --convert-to-cpp --emit-null-checks --enable-array-bounds-check --dotnetprofile=\"unityaot\" --compile-cpp --libil2cpp-static --platform=\"Android\" --architecture=\"ARMv7\" --configuration=\"Release\" --outputpath=\"C:\\Users\\Owner\\GPGSLab\\Library\\Il2cppBuildCache\\Android\\armeabi-v7a\\Native\\armeabi-v7a\\libil2cpp.so\" --cachedirectory=\"C:\\Users\\Owner\\GPGSLab\\Assets\\..\\Library\\il2cpp_android_armeabi-v7a/il2cpp_cache\" --additional-include-directories=\"C:/Program Files/Unity/Hub/Editor/2020.3.17f1/Editor/Data/PlaybackEngines/AndroidPlayer/Tools\\bdwgc/include\" --additional-include-directories=\"C:/Program Files/Unity/Hub/Editor/2020.3.17f1/Editor/Data/PlaybackEngines/AndroidPlayer/Tools\\libil2cpp/include\" --baselib-directory=\"C:/Program Files/Unity/Hub/Editor/2020.3.17f1/Editor/Data/PlaybackEngines/AndroidPlayer\\Variations\\il2cpp\\Release\\StaticLibs\\armeabi-v7a\" --avoid-dynamic-library-copy --tool-chain-path=\"C:/Program Files/Unity/Hub/Editor/2020.3.17f1/Editor/Data/PlaybackEngines/AndroidPlayer/NDK\" --incremental-g-c-time-slice=3 --profiler-report --map-file-parser=\"C:/Program Files/Unity/Hub/Editor/2020.3.17f1/Editor/Data/Tools/MapFileParser/MapFileParser.exe\" --directory=C:/Users/Owner/GPGSLab/Temp/StagingArea/assets/bin/Data/Managed --generatedcppdir=C:/Users/Owner/GPGSLab/Library/Il2cppBuildCache/Android/armeabi-v7a/il2cppOutput",
+      "Annotation": "Il2Cpp D:/bild/GoogleCloudServiesTest/GPGSLab/Library/Il2cppBuildCache/Android/armeabi-v7a/Native/armeabi-v7a/libil2cpp.so",
+      "Action": "\"C:\\Program Files\\Unity\\Hub\\Editor\\2020.3.17f1\\Editor\\Data\\il2cpp/build/deploy/netcoreapp3.1/il2cpp.exe\" --convert-to-cpp --emit-null-checks --enable-array-bounds-check --dotnetprofile=\"unityaot\" --compile-cpp --libil2cpp-static --platform=\"Android\" --architecture=\"ARMv7\" --configuration=\"Release\" --outputpath=\"D:\\bild\\GoogleCloudServiesTest\\GPGSLab\\Library\\Il2cppBuildCache\\Android\\armeabi-v7a\\Native\\armeabi-v7a\\libil2cpp.so\" --cachedirectory=\"D:\\bild\\GoogleCloudServiesTest\\GPGSLab\\Assets\\..\\Library\\il2cpp_android_armeabi-v7a/il2cpp_cache\" --additional-include-directories=\"C:/Program Files/Unity/Hub/Editor/2020.3.17f1/Editor/Data/PlaybackEngines/AndroidPlayer/Tools\\bdwgc/include\" --additional-include-directories=\"C:/Program Files/Unity/Hub/Editor/2020.3.17f1/Editor/Data/PlaybackEngines/AndroidPlayer/Tools\\libil2cpp/include\" --baselib-directory=\"C:/Program Files/Unity/Hub/Editor/2020.3.17f1/Editor/Data/PlaybackEngines/AndroidPlayer\\Variations\\il2cpp\\Release\\StaticLibs\\armeabi-v7a\" --avoid-dynamic-library-copy --tool-chain-path=\"C:/Program Files/Unity/Hub/Editor/2020.3.17f1/Editor/Data/PlaybackEngines/AndroidPlayer/NDK\" --incremental-g-c-time-slice=3 --profiler-report --map-file-parser=\"C:/Program Files/Unity/Hub/Editor/2020.3.17f1/Editor/Data/Tools/MapFileParser/MapFileParser.exe\" --directory=D:/bild/GoogleCloudServiesTest/GPGSLab/Temp/StagingArea/assets/bin/Data/Managed --generatedcppdir=D:/bild/GoogleCloudServiesTest/GPGSLab/Library/Il2cppBuildCache/Android/armeabi-v7a/il2cppOutput",
       "Inputs": [
-        "C:/Users/Owner/GPGSLab/Temp/StagingArea/assets/bin/Data/Managed",
-        "C:/Users/Owner/GPGSLab/Temp/StagingArea/assets/bin/Data/Managed/Assembly-CSharp.dll",
-        "C:/Users/Owner/GPGSLab/Temp/StagingArea/assets/bin/Data/Managed/Mono.Security.dll",
-        "C:/Users/Owner/GPGSLab/Temp/StagingArea/assets/bin/Data/Managed/mscorlib.dll",
-        "C:/Users/Owner/GPGSLab/Temp/StagingArea/assets/bin/Data/Managed/System.Configuration.dll",
-        "C:/Users/Owner/GPGSLab/Temp/StagingArea/assets/bin/Data/Managed/System.Core.dll",
-        "C:/Users/Owner/GPGSLab/Temp/StagingArea/assets/bin/Data/Managed/System.dll",
-        "C:/Users/Owner/GPGSLab/Temp/StagingArea/assets/bin/Data/Managed/System.Xml.dll",
-        "C:/Users/Owner/GPGSLab/Temp/StagingArea/assets/bin/Data/Managed/Unity.2D.IK.Runtime.dll",
-        "C:/Users/Owner/GPGSLab/Temp/StagingArea/assets/bin/Data/Managed/UnityEngine.AndroidJNIModule.dll",
-        "C:/Users/Owner/GPGSLab/Temp/StagingArea/assets/bin/Data/Managed/UnityEngine.AudioModule.dll",
-        "C:/Users/Owner/GPGSLab/Temp/StagingArea/assets/bin/Data/Managed/UnityEngine.CoreModule.dll",
-        "C:/Users/Owner/GPGSLab/Temp/StagingArea/assets/bin/Data/Managed/UnityEngine.dll",
-        "C:/Users/Owner/GPGSLab/Temp/StagingArea/assets/bin/Data/Managed/UnityEngine.GameCenterModule.dll",
-        "C:/Users/Owner/GPGSLab/Temp/StagingArea/assets/bin/Data/Managed/UnityEngine.ImageConversionModule.dll",
-        "C:/Users/Owner/GPGSLab/Temp/StagingArea/assets/bin/Data/Managed/UnityEngine.IMGUIModule.dll",
-        "C:/Users/Owner/GPGSLab/Temp/StagingArea/assets/bin/Data/Managed/UnityEngine.InputLegacyModule.dll",
-        "C:/Users/Owner/GPGSLab/Temp/StagingArea/assets/bin/Data/Managed/UnityEngine.SharedInternalsModule.dll",
-        "C:/Users/Owner/GPGSLab/Temp/StagingArea/assets/bin/Data/Managed/UnityEngine.TextRenderingModule.dll",
-        "C:/Users/Owner/GPGSLab/Temp/StagingArea/assets/bin/Data/Managed/UnityEngine.UnityAnalyticsModule.dll",
-        "C:/Users/Owner/GPGSLab/Temp/StagingArea/assets/bin/Data/Managed/UnityEngine.UnityWebRequestModule.dll",
-        "C:/Users/Owner/GPGSLab/Temp/StagingArea/assets/bin/Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll",
+        "D:/bild/GoogleCloudServiesTest/GPGSLab/Temp/StagingArea/assets/bin/Data/Managed",
+        "D:/bild/GoogleCloudServiesTest/GPGSLab/Temp/StagingArea/assets/bin/Data/Managed/Assembly-CSharp.dll",
+        "D:/bild/GoogleCloudServiesTest/GPGSLab/Temp/StagingArea/assets/bin/Data/Managed/Google.Play.Common.dll",
+        "D:/bild/GoogleCloudServiesTest/GPGSLab/Temp/StagingArea/assets/bin/Data/Managed/Google.Play.Core.dll",
+        "D:/bild/GoogleCloudServiesTest/GPGSLab/Temp/StagingArea/assets/bin/Data/Managed/Google.Play.Integrity.dll",
+        "D:/bild/GoogleCloudServiesTest/GPGSLab/Temp/StagingArea/assets/bin/Data/Managed/Mono.Security.dll",
+        "D:/bild/GoogleCloudServiesTest/GPGSLab/Temp/StagingArea/assets/bin/Data/Managed/mscorlib.dll",
+        "D:/bild/GoogleCloudServiesTest/GPGSLab/Temp/StagingArea/assets/bin/Data/Managed/System.Configuration.dll",
+        "D:/bild/GoogleCloudServiesTest/GPGSLab/Temp/StagingArea/assets/bin/Data/Managed/System.Core.dll",
+        "D:/bild/GoogleCloudServiesTest/GPGSLab/Temp/StagingArea/assets/bin/Data/Managed/System.dll",
+        "D:/bild/GoogleCloudServiesTest/GPGSLab/Temp/StagingArea/assets/bin/Data/Managed/System.Xml.dll",
+        "D:/bild/GoogleCloudServiesTest/GPGSLab/Temp/StagingArea/assets/bin/Data/Managed/Unity.2D.IK.Runtime.dll",
+        "D:/bild/GoogleCloudServiesTest/GPGSLab/Temp/StagingArea/assets/bin/Data/Managed/UnityEngine.AndroidJNIModule.dll",
+        "D:/bild/GoogleCloudServiesTest/GPGSLab/Temp/StagingArea/assets/bin/Data/Managed/UnityEngine.AnimationModule.dll",
+        "D:/bild/GoogleCloudServiesTest/GPGSLab/Temp/StagingArea/assets/bin/Data/Managed/UnityEngine.AssetBundleModule.dll",
+        "D:/bild/GoogleCloudServiesTest/GPGSLab/Temp/StagingArea/assets/bin/Data/Managed/UnityEngine.AudioModule.dll",
+        "D:/bild/GoogleCloudServiesTest/GPGSLab/Temp/StagingArea/assets/bin/Data/Managed/UnityEngine.CoreModule.dll",
+        "D:/bild/GoogleCloudServiesTest/GPGSLab/Temp/StagingArea/assets/bin/Data/Managed/UnityEngine.dll",
+        "D:/bild/GoogleCloudServiesTest/GPGSLab/Temp/StagingArea/assets/bin/Data/Managed/UnityEngine.GameCenterModule.dll",
+        "D:/bild/GoogleCloudServiesTest/GPGSLab/Temp/StagingArea/assets/bin/Data/Managed/UnityEngine.GridModule.dll",
+        "D:/bild/GoogleCloudServiesTest/GPGSLab/Temp/StagingArea/assets/bin/Data/Managed/UnityEngine.ImageConversionModule.dll",
+        "D:/bild/GoogleCloudServiesTest/GPGSLab/Temp/StagingArea/assets/bin/Data/Managed/UnityEngine.IMGUIModule.dll",
+        "D:/bild/GoogleCloudServiesTest/GPGSLab/Temp/StagingArea/assets/bin/Data/Managed/UnityEngine.InputLegacyModule.dll",
+        "D:/bild/GoogleCloudServiesTest/GPGSLab/Temp/StagingArea/assets/bin/Data/Managed/UnityEngine.Physics2DModule.dll",
+        "D:/bild/GoogleCloudServiesTest/GPGSLab/Temp/StagingArea/assets/bin/Data/Managed/UnityEngine.PhysicsModule.dll",
+        "D:/bild/GoogleCloudServiesTest/GPGSLab/Temp/StagingArea/assets/bin/Data/Managed/UnityEngine.SharedInternalsModule.dll",
+        "D:/bild/GoogleCloudServiesTest/GPGSLab/Temp/StagingArea/assets/bin/Data/Managed/UnityEngine.SpriteShapeModule.dll",
+        "D:/bild/GoogleCloudServiesTest/GPGSLab/Temp/StagingArea/assets/bin/Data/Managed/UnityEngine.TextRenderingModule.dll",
+        "D:/bild/GoogleCloudServiesTest/GPGSLab/Temp/StagingArea/assets/bin/Data/Managed/UnityEngine.TilemapModule.dll",
+        "D:/bild/GoogleCloudServiesTest/GPGSLab/Temp/StagingArea/assets/bin/Data/Managed/UnityEngine.UI.dll",
+        "D:/bild/GoogleCloudServiesTest/GPGSLab/Temp/StagingArea/assets/bin/Data/Managed/UnityEngine.UIModule.dll",
+        "D:/bild/GoogleCloudServiesTest/GPGSLab/Temp/StagingArea/assets/bin/Data/Managed/UnityEngine.UnityAnalyticsModule.dll",
+        "D:/bild/GoogleCloudServiesTest/GPGSLab/Temp/StagingArea/assets/bin/Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll",
+        "D:/bild/GoogleCloudServiesTest/GPGSLab/Temp/StagingArea/assets/bin/Data/Managed/UnityEngine.UnityWebRequestModule.dll",
+        "D:/bild/GoogleCloudServiesTest/GPGSLab/Temp/StagingArea/assets/bin/Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll",
         "C:/Program Files/Unity/Hub/Editor/2020.3.17f1/Editor/Data/Tools/MapFileParser/MapFileParser.exe",
         "C:/Program Files/Unity/Hub/Editor/2020.3.17f1/Editor/Data/PlaybackEngines/AndroidPlayer/Variations/il2cpp/Release/StaticLibs/armeabi-v7a/baselib.a",
         "C:/Program Files/Unity/Hub/Editor/2020.3.17f1/Editor/Data/PlaybackEngines/AndroidPlayer/Variations/il2cpp/Release/StaticLibs/armeabi-v7a/libunityruntime.a",
         "\"C:/Program Files/Unity/Hub/Editor/2020.3.17f1/Editor/Data/il2cpp/build/deploy/netcoreapp3.1/il2cpp.exe\""
       ],
       "Outputs": [
-        "C:/Users/Owner/GPGSLab/Library/Il2cppBuildCache/Android/armeabi-v7a/Native/armeabi-v7a/libil2cpp.so"
+        "D:/bild/GoogleCloudServiesTest/GPGSLab/Library/Il2cppBuildCache/Android/armeabi-v7a/Native/armeabi-v7a/libil2cpp.so"
       ],
       "TargetDirectories": [],
       "PassIndex": 0,
@@ -64,19 +77,19 @@
   ],
   "FileSignatures": [
     {
-      "File": "../../../../../../../Program Files/Unity/Hub/Editor/2020.3.17f1/Editor/Data/PlaybackEngines/AndroidPlayer/Tools/bdwgc/include"
-    },
-    {
-      "File": "../../../../../../../Program Files/Unity/Hub/Editor/2020.3.17f1/Editor/Data/PlaybackEngines/AndroidPlayer/Tools/libil2cpp/include"
-    },
-    {
-      "File": "../../../../../../../Program Files/Unity/Hub/Editor/2020.3.17f1/Editor/Data/PlaybackEngines/AndroidPlayer/Variations/il2cpp/Release/StaticLibs/armeabi-v7a"
-    },
-    {
       "File": "../../../../Temp/StagingArea/assets/bin/Data/Managed"
     },
     {
       "File": "artifacts/buildprogram/tundra_buildprogram.dag.json"
+    },
+    {
+      "File": "C:/Program Files/Unity/Hub/Editor/2020.3.17f1/Editor/Data/PlaybackEngines/AndroidPlayer/Tools/bdwgc/include"
+    },
+    {
+      "File": "C:/Program Files/Unity/Hub/Editor/2020.3.17f1/Editor/Data/PlaybackEngines/AndroidPlayer/Tools/libil2cpp/include"
+    },
+    {
+      "File": "C:/Program Files/Unity/Hub/Editor/2020.3.17f1/Editor/Data/PlaybackEngines/AndroidPlayer/Variations/il2cpp/Release/StaticLibs/armeabi-v7a"
     },
     {
       "File": "il2cpp_settings.json"
@@ -90,7 +103,7 @@
       "Path": "../../../../Temp/StagingArea/assets/bin/Data/Managed"
     },
     {
-      "Path": "../../../../../../../Program Files/Unity/Hub/Editor/2020.3.17f1/Editor/Data/PlaybackEngines/AndroidPlayer/Variations/il2cpp/Release/StaticLibs/armeabi-v7a",
+      "Path": "C:/Program Files/Unity/Hub/Editor/2020.3.17f1/Editor/Data/PlaybackEngines/AndroidPlayer/Variations/il2cpp/Release/StaticLibs/armeabi-v7a",
       "Recurse": 1
     }
   ],

@@ -121,6 +121,8 @@ struct Action_1_tCE2D770918A65CAD277C08C4E8C05385EA267E83;
 struct Action_1_t92EFF5F91E7EA6B7D2D01147ADF0524CF2F4ED37;
 // System.Action`1<GooglePlayGames.BasicApi.Nearby.ConnectionResponse>
 struct Action_1_tEF3BAB8AE7663D808DCED6C58246FEBF0B8D8348;
+// System.Action`1<GooglePlayGames.BasicApi.FriendsListVisibilityStatus>
+struct Action_1_t83D4049B0560A54AF04ACCA619A2FA343D81FD46;
 // System.Action`1<GooglePlayGames.BasicApi.Nearby.INearbyConnectionClient>
 struct Action_1_tD4E3131F8801005BF06CEBA1838FA49CBB285172;
 // System.Action`1<System.Int32>
@@ -129,6 +131,8 @@ struct Action_1_t080BA8EFA9616A494EBB4DD352BFEF943792E05B;
 struct Action_1_tF0FD284A49EB7135379250254D6B49FA84383C09;
 // System.Action`1<GooglePlayGames.BasicApi.LeaderboardScoreData>
 struct Action_1_t2F0F651210175332DCE126659B641AFABEA069B3;
+// System.Action`1<GooglePlayGames.BasicApi.LoadFriendsStatus>
+struct Action_1_tFBCCF6B7BE425F8161C22FEA37361607EE8E1151;
 // System.Action`1<System.Object>
 struct Action_1_tD9663D9715FAA4E62035CFCF1AD4D094EE7872DC;
 // System.Action`1<GooglePlayGames.BasicApi.SignInStatus>
@@ -365,6 +369,22 @@ struct VideoCapabilities_tCFD333CB6914C81DB9D35BBFE41F469BBC693B99;
 struct VideoCaptureState_t2AF8B5BAF15632F82FE8C3323DEE568068083A1E;
 // System.Void
 struct Void_t700C6383A2A510C2CF4DD86DABD5CA9FF70ADAC5;
+// GooglePlayGames.Android.AndroidClient/<>c__DisplayClass20_0
+struct U3CU3Ec__DisplayClass20_0_t3BD03DA049C5F54E6849504F7EFA64EE4EA6B84D;
+// GooglePlayGames.Android.AndroidClient/<>c__DisplayClass32_0
+struct U3CU3Ec__DisplayClass32_0_tE75F7BAC89BD1A8F5C35119D494FDAFB5F49E8A8;
+// GooglePlayGames.Android.AndroidClient/<>c__DisplayClass35_0
+struct U3CU3Ec__DisplayClass35_0_t4B792C26A5EC5B570439BE34D5DE5A83A86B177E;
+// GooglePlayGames.Android.AndroidClient/<>c__DisplayClass35_1
+struct U3CU3Ec__DisplayClass35_1_t514D2E56BDAE5CC8E5376E2E58F6B2715C46D1AE;
+// GooglePlayGames.Android.AndroidClient/<>c__DisplayClass37_0
+struct U3CU3Ec__DisplayClass37_0_t4BB39D58F0807DF08E9CCC85EE1EE93C2A491950;
+// GooglePlayGames.Android.AndroidClient/<>c__DisplayClass37_1
+struct U3CU3Ec__DisplayClass37_1_tF74C9E0DD6647133DE88E1A3DAB64D215CE27DEE;
+// GooglePlayGames.Android.AndroidClient/<>c__DisplayClass39_0
+struct U3CU3Ec__DisplayClass39_0_tFDF588BDFF20E759A9CCB87F36CB7FF8C260FB4D;
+// GooglePlayGames.Android.AndroidClient/<>c__DisplayClass47_0
+struct U3CU3Ec__DisplayClass47_0_t4B10C607ECA6ED4EC8328E6B474FC71F802E7125;
 // GooglePlayGames.Android.AndroidClient/<>c__DisplayClass48_0
 struct U3CU3Ec__DisplayClass48_0_tF55F99D03A650FB20307C6B18DAF1313A14C33F7;
 // GooglePlayGames.Android.AndroidClient/<>c__DisplayClass48_1
@@ -562,12 +582,14 @@ IL2CPP_EXTERN_C RuntimeClass* IMessageListener_tC2C50F206BC9FAC318DCDDBEFE35A215
 IL2CPP_EXTERN_C RuntimeClass* IPlayGamesClient_tA36CDA40256B599478F8269F31F083BF577CD3C2_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* ISavedGameClient_tD004619C1CC1F615D58AE3B0B9DBD4D878ABBF29_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* ISavedGameMetadata_tBB651FD35E23180071D14340E1ADDA4AFB8108FB_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* IUserProfileU5BU5D_t4B36B0CF06DE6A00F5D6D0A015DC3E99B02FC65E_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* Int32_tFDE5F8CD43D10453F6A2E0C77FE48C6CC7009046_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* InvalidOperationException_t10D3EE59AD28EC641ACEE05BCA4271A527E5ECAB_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* LeaderboardScoreData_tFB3294363C69976558D10147503B5A6C1B12471A_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* List_1_t5F18829CFCBB086043265F2B5298389F9BC067E4_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* List_1_t6C9F81EDBF0F4A31A9B0DA372D2EF34BDA3A1AF3_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* List_1_tBDC772CCF8369BBC77ACBF4DBC318D9D0056DFF8_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* LoadFriendsStatus_t14AB28B64E647E2B64ED77E90F83DC1D61834265_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* Logger_t3CA8CDA0069054EEEB97286B98E898DEAF625207_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* NearbyHelperObject_tAA1014558619FAC07B8E5A45633AF444F134D13F_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* NotSupportedException_tB9D89F0E9470A2C423D239D7C68EE0CFD77F9339_il2cpp_TypeInfo_var;
@@ -577,6 +599,7 @@ IL2CPP_EXTERN_C RuntimeClass* PlayGamesAchievement_t0AE5BC41100AA8C189F877EA752D
 IL2CPP_EXTERN_C RuntimeClass* PlayGamesHelperObject_t811D12CA4ECDC868E53C383130E35DA936056627_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* PlayGamesLeaderboard_t63BA8C32B80F0D26A20C958337DBE4AB3FF4103B_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* PlayGamesPlatform_t37CF2DD1D3AE9874E13AF34B1DFC4429A7BD975F_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* PlayerStats_tDF1598DA58B629082F9C1889DF0E3242571521A5_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* SelectUIStatus_tE3BC39A02A1CD04825A49B705478FE3E32F38EC3_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* SignInHelper_tD9043E9BEEDD34030E2DB35BB33D5B7C33FE84A6_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* SignInStatus_t8AB2FD9416400CA43D65FC1F4217E509CE05D968_il2cpp_TypeInfo_var;
@@ -587,6 +610,8 @@ IL2CPP_EXTERN_C RuntimeClass* U3CU3Ec__DisplayClass13_1_t619C52E9E0299533B21B5A4
 IL2CPP_EXTERN_C RuntimeClass* U3CU3Ec__DisplayClass2_0_t3AB64EA834826C490341842E1F025B45BE316BB7_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* U3CU3Ec__DisplayClass2_0_t7AC9953B2421A79B7821986D0B9D970A5996C8A4_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* U3CU3Ec__DisplayClass2_0_tA8CAA40AF7E63A15CBEBE280B1337FE9ADE6CAD5_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* U3CU3Ec__DisplayClass35_1_t514D2E56BDAE5CC8E5376E2E58F6B2715C46D1AE_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* U3CU3Ec__DisplayClass37_1_tF74C9E0DD6647133DE88E1A3DAB64D215CE27DEE_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* U3CU3Ec__DisplayClass3_0_tDBD1EA268703AB432125788330B6A6173A98CCFC_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* U3CU3Ec__DisplayClass3_0_tFB0C2E6D2ED758CA8CDBC373282072749C1FA9DB_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* U3CU3Ec__DisplayClass58_1_tA90A52063B14FAC58543619D652C7D7FAB948B91_il2cpp_TypeInfo_var;
@@ -597,13 +622,16 @@ IL2CPP_EXTERN_C RuntimeClass* U3CU3Ec_t200631AB2C50F5CA8778D01234B0A16A28B94B4C_
 IL2CPP_EXTERN_C RuntimeClass* U3CU3Ec_tCE26F1179816A5674199B49AA1575906BAB545B6_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* U3CU3Ec_tFEA4E9CD045992B66CA49AD4C075C719C17EEC54_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C String_t* _stringLiteral0D48E1AA60DBD50CA0858F6A3DC0AA861C16F19B;
+IL2CPP_EXTERN_C String_t* _stringLiteral0FFB0A0266691BD7C2B31691C095453E7F6EABC7;
 IL2CPP_EXTERN_C String_t* _stringLiteral1003366035A114F03685FC092206E4A0C0754F01;
 IL2CPP_EXTERN_C String_t* _stringLiteral120F94D6065CAF0D0F3DD64A963FBDA43A3F81AC;
 IL2CPP_EXTERN_C String_t* _stringLiteral17698B1A5B3CA25CC9708FAF8FBB97619723B14F;
+IL2CPP_EXTERN_C String_t* _stringLiteral17710F7581C5EF43B501A51F5029D577D1B3A07C;
 IL2CPP_EXTERN_C String_t* _stringLiteral19805C2CFE8D8E3255C3A40125916677AB9EFB2F;
 IL2CPP_EXTERN_C String_t* _stringLiteral1A35E0B605D4EDB2F62E9B55F34CFDA403448330;
 IL2CPP_EXTERN_C String_t* _stringLiteral1B3C7000ACF0EB48C1458817E59DD90219ED2B97;
 IL2CPP_EXTERN_C String_t* _stringLiteral1C6139D15E4A0CE921A546FC37904E1ABC36AE9A;
+IL2CPP_EXTERN_C String_t* _stringLiteral2031F4EEABE50C80501FAD9E38A616B1DC8E6AA8;
 IL2CPP_EXTERN_C String_t* _stringLiteral20BB23A674F385779F076FBBECD1E67230DE5751;
 IL2CPP_EXTERN_C String_t* _stringLiteral24278202528A13F91A7E8306203F176C630AAF51;
 IL2CPP_EXTERN_C String_t* _stringLiteral26488A8CD7247C44737CB3AE2E29A44847D24D69;
@@ -621,15 +649,21 @@ IL2CPP_EXTERN_C String_t* _stringLiteral45249FF012C050F03C791D13FCFECD7AC4807BB1
 IL2CPP_EXTERN_C String_t* _stringLiteral4958F24C5425BA5FE9D09E863AC23DF289505EBD;
 IL2CPP_EXTERN_C String_t* _stringLiteral495DD512A2F1C21C6107D1EA689AF431C75A1C5A;
 IL2CPP_EXTERN_C String_t* _stringLiteral4A38285D75FE32B54871978A6E0511E9877F707D;
+IL2CPP_EXTERN_C String_t* _stringLiteral4BAF45B663A9FCB5F97487C161CE49E0B461F2B6;
 IL2CPP_EXTERN_C String_t* _stringLiteral4F159651BB274F35A4016D49CAFAEFBF01496CB0;
+IL2CPP_EXTERN_C String_t* _stringLiteral5004BB2B79B894E5CC70CDBEA1DD320044EF8F3A;
+IL2CPP_EXTERN_C String_t* _stringLiteral534477A97466CA5EB28D776B81399AA7EED4C083;
 IL2CPP_EXTERN_C String_t* _stringLiteral555798D4456BCA1D9097AD8963F64FD0555D0644;
 IL2CPP_EXTERN_C String_t* _stringLiteral561E871CE42CF20E1FB60AA8B6941D7D0B7B9466;
 IL2CPP_EXTERN_C String_t* _stringLiteral58BB47D89B96E4992A8CEB702213DCC616635297;
+IL2CPP_EXTERN_C String_t* _stringLiteral5C74360290F2429EE2C7ACF3ED3EF80F9B772812;
 IL2CPP_EXTERN_C String_t* _stringLiteral601D1A23C72B11D39CCA86302633CE83D7171F52;
 IL2CPP_EXTERN_C String_t* _stringLiteral606A1AABCD700AA996E7EBA6688387F0DBE20EF8;
+IL2CPP_EXTERN_C String_t* _stringLiteral64127C86A389CDFCCE0CD1646EBF1F8AC12045F3;
 IL2CPP_EXTERN_C String_t* _stringLiteral65D6EF128DBE2390710B0B5A2E6662CB8303BA5A;
 IL2CPP_EXTERN_C String_t* _stringLiteral65F109F7B26F6A9ABF5AC4FAD4E3E7E8A4BB30AE;
 IL2CPP_EXTERN_C String_t* _stringLiteral66268590C25EACB9F710BEC592F98F2BAFE252D5;
+IL2CPP_EXTERN_C String_t* _stringLiteral6D588D20E590B3DA8B690768E086672D5EE3BC4D;
 IL2CPP_EXTERN_C String_t* _stringLiteral6D99F59B6031DAF3396D27E4C54F281C828085C2;
 IL2CPP_EXTERN_C String_t* _stringLiteral6F233C4D15B5D616FDBE2DF3D5E6A1A235975F1F;
 IL2CPP_EXTERN_C String_t* _stringLiteral6F6221199BD1E472760A57F8DF7E7933F5E55442;
@@ -647,6 +681,7 @@ IL2CPP_EXTERN_C String_t* _stringLiteral83D14F5645009AF3BC6D73145881C6B68ECE3F3E
 IL2CPP_EXTERN_C String_t* _stringLiteral86936AE86193740F4A8F4E0C82CC956542D636C6;
 IL2CPP_EXTERN_C String_t* _stringLiteral8709BAA58C4CFC9699C4CE5D29E35AB0B888AF05;
 IL2CPP_EXTERN_C String_t* _stringLiteral87DB964DF5CC52F02E60D7749065E5FC623C85F4;
+IL2CPP_EXTERN_C String_t* _stringLiteral89A120204C5A30CDE790FE6F95C2D3AE1AD655D6;
 IL2CPP_EXTERN_C String_t* _stringLiteral8BD8EBBF9AAADE3A1911E0372AF7DEEFC2B7800D;
 IL2CPP_EXTERN_C String_t* _stringLiteral8E01BE6227E09A61D738F84FBA8C17E0F5D88C90;
 IL2CPP_EXTERN_C String_t* _stringLiteral9B39031A70B6F9CC516EFF8ED028E68B11D464F0;
@@ -656,6 +691,7 @@ IL2CPP_EXTERN_C String_t* _stringLiteral9EA4C1B156B07C8E1369FF6F31DB9D69E417C10B
 IL2CPP_EXTERN_C String_t* _stringLiteralA4FC9CD0D8758CF131018EF2E19E752EC74EB441;
 IL2CPP_EXTERN_C String_t* _stringLiteralA81155A3EE038F466EAFB080DAB50055427D21C6;
 IL2CPP_EXTERN_C String_t* _stringLiteralA8D86353346714C26EB0F7D43FA6797655E84AA3;
+IL2CPP_EXTERN_C String_t* _stringLiteralA9DF91FB4A133186AE97F3F3E096FF3D0539D3A4;
 IL2CPP_EXTERN_C String_t* _stringLiteralB037BCB31B00223C4D7AFC6FBC6F795A27A69A9E;
 IL2CPP_EXTERN_C String_t* _stringLiteralB056053ED873F9751A6BF8D0EBEA1D10D0FF2F34;
 IL2CPP_EXTERN_C String_t* _stringLiteralB0B299A3C03E7726E1DF658C4B9947A4566C5331;
@@ -665,6 +701,7 @@ IL2CPP_EXTERN_C String_t* _stringLiteralB823F51FA08DCBD192B331D861F6AD3669FDFB59
 IL2CPP_EXTERN_C String_t* _stringLiteralBB68568351A940087997D282FCC629EEC87FA6F6;
 IL2CPP_EXTERN_C String_t* _stringLiteralBC8CE884DE2FF26EDD57452E57A0CA7475823B0C;
 IL2CPP_EXTERN_C String_t* _stringLiteralBD066E42B63E30EFFD3D9F2C9C79629108906EC6;
+IL2CPP_EXTERN_C String_t* _stringLiteralBD0DD0865C3872DC5129D863F726B8868042F1E8;
 IL2CPP_EXTERN_C String_t* _stringLiteralBF68B5E8806879817720F1AA46DC7730FCB8187E;
 IL2CPP_EXTERN_C String_t* _stringLiteralC0A5CAFB5426AD10E32B176352988E24E571AD10;
 IL2CPP_EXTERN_C String_t* _stringLiteralC1003F25B0B39EA0A70315465C29B77F91F1AA46;
@@ -673,9 +710,12 @@ IL2CPP_EXTERN_C String_t* _stringLiteralC3B6028370948CB41B24B1C4066C1A1B98AD2302
 IL2CPP_EXTERN_C String_t* _stringLiteralC50A5AF306C14C55F4E3FAD7D922C4C6694807D5;
 IL2CPP_EXTERN_C String_t* _stringLiteralC63555F5631A509A767F8CAE7C637344AE34C6D2;
 IL2CPP_EXTERN_C String_t* _stringLiteralC68E6DD4D6678717C05B5B1EADED9792B1D6A551;
+IL2CPP_EXTERN_C String_t* _stringLiteralC7965BE7BF53D4BC93DEC2FDAB349BBA5A9C501D;
 IL2CPP_EXTERN_C String_t* _stringLiteralC8C48774A0B59B21ACDD799A6675B25C3C8DDC51;
 IL2CPP_EXTERN_C String_t* _stringLiteralC92578BDC42DAC206202E3F97935E34FD1106EAC;
 IL2CPP_EXTERN_C String_t* _stringLiteralCBB186C94AB14D4A73F630789CC80DEC6B6C23C7;
+IL2CPP_EXTERN_C String_t* _stringLiteralCCAE9C77E413C6B915BCC57EC5A2C440CBD7D541;
+IL2CPP_EXTERN_C String_t* _stringLiteralCD31636C37FE221187CCDD1EF632DFEBDF8BDB23;
 IL2CPP_EXTERN_C String_t* _stringLiteralCE4B0E2541EDBBB3C6491A2744BB22061C9DD7BD;
 IL2CPP_EXTERN_C String_t* _stringLiteralCE92B3B0982727A84D8DF8E6115B5FCC5E335A33;
 IL2CPP_EXTERN_C String_t* _stringLiteralCFECEEFA6560CA31874DC20FDDC3AC4AEC3F0D91;
@@ -687,17 +727,20 @@ IL2CPP_EXTERN_C String_t* _stringLiteralDE3298FBB59A4FF58406912DE9FC212BF5689F5C
 IL2CPP_EXTERN_C String_t* _stringLiteralDFCBB082B28043E9AEBC6F63E8FD992116F8417E;
 IL2CPP_EXTERN_C String_t* _stringLiteralE025A661FB50E91883AAEEDA0318C05DD9C9A0A2;
 IL2CPP_EXTERN_C String_t* _stringLiteralE07D234F76F4AE2146896DF2D42C81EC6BBE2F65;
+IL2CPP_EXTERN_C String_t* _stringLiteralE2216C6C2ABA25033433B5F6C882002A5EC2C72D;
 IL2CPP_EXTERN_C String_t* _stringLiteralE370CF9049CF6D477B7F7FCD594C077D1B532CE5;
 IL2CPP_EXTERN_C String_t* _stringLiteralE5D2A4854BE082399577000D4B9187B201EDE6C6;
 IL2CPP_EXTERN_C String_t* _stringLiteralE6A21F3D9B08A106BCF6BE9B82EFB4242E67D049;
 IL2CPP_EXTERN_C String_t* _stringLiteralEA008AB922F24BD7FF67A671D99943A377F6F35A;
 IL2CPP_EXTERN_C String_t* _stringLiteralEE18855CA943C1C72AC31EEA19E4C2786F10D936;
+IL2CPP_EXTERN_C String_t* _stringLiteralF059EC5CB4AB244E5BA381DD03CF4957BD419295;
 IL2CPP_EXTERN_C String_t* _stringLiteralF1307E7CD4CE5634DB752AA2E0A22C312E260865;
 IL2CPP_EXTERN_C String_t* _stringLiteralF16D4694D202A12DE193813F4FF291AA003B00DB;
 IL2CPP_EXTERN_C String_t* _stringLiteralF1E25ACEC61B885878508AE4EC17275C3609C655;
 IL2CPP_EXTERN_C String_t* _stringLiteralF1EA8C940217A15F791B562F3212B58B6A7884F4;
 IL2CPP_EXTERN_C String_t* _stringLiteralF38DC0725B055F0055353646F42479742EEA9894;
 IL2CPP_EXTERN_C String_t* _stringLiteralF52A7F41AA0A7805139481921965C616D126D7F3;
+IL2CPP_EXTERN_C String_t* _stringLiteralF55D056B97B3C6279CCE8A130E4636043B18A2BB;
 IL2CPP_EXTERN_C String_t* _stringLiteralF6BB44F4BC9F8D1D63EFDF77186766035805DAAF;
 IL2CPP_EXTERN_C String_t* _stringLiteralF9031200EA4EF9FF27ADB586D681A191E79DB641;
 IL2CPP_EXTERN_C String_t* _stringLiteralFA62D25F8204ECBC290F7588C1D18774DC787761;
@@ -737,9 +780,15 @@ IL2CPP_EXTERN_C const RuntimeMethod* Action_2_Invoke_mDDBCA2700FD4B79497A64BA8AB
 IL2CPP_EXTERN_C const RuntimeMethod* Action_2_Invoke_mE16F35BD44F353C6D9B080DB4B2BE220FA4FC827_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* Action_2__ctor_m233FFCF1338EDCBFD571B1533B9693CD48D86DD0_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* Action_2__ctor_m3D18FA0D35518396531C2F500D7AA4B0932CED2F_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* AndroidClient_AsOnGameThreadCallback_TisUIStatus_t34F64DC1927A392210216047169D4E196183BD14_mCE03419A2E064D4DE545A13D6DD35F695F7817B9_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* AndroidClient_InvokeCallbackOnGameThread_TisAchievementU5BU5D_tC89C0EEDA1DACDB119E2351AABC29F801FD6B6C0_m1DC54E8C4733CF4A418441A77B08F4432288CD20_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* AndroidClient_InvokeCallbackOnGameThread_TisBoolean_t07D1E3F34E4813023D64F584DFF7B34C9D922F37_mA7CC7B35CCC2219E772E5D1E648A17379F35F7A1_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* AndroidClient_InvokeCallbackOnGameThread_TisCommonStatusCodes_tB68EDA346666BA225DDC1B5A045875777CC9061E_TisPlayerStats_tDF1598DA58B629082F9C1889DF0E3242571521A5_mDDB33C10750F0E733FD7E35373854A52F2BC3CD9_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* AndroidClient_InvokeCallbackOnGameThread_TisFriendsListVisibilityStatus_t353204B8A8C11D7ED64F59483F10A0C2010402FD_m36C32CA9CE02A203DF27342154DD60F8CE27DEA1_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* AndroidClient_InvokeCallbackOnGameThread_TisIUserProfileU5BU5D_t4B36B0CF06DE6A00F5D6D0A015DC3E99B02FC65E_mE243482C5874D42B19E30BAA457875B87A2CE6F0_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* AndroidClient_InvokeCallbackOnGameThread_TisLeaderboardScoreData_tFB3294363C69976558D10147503B5A6C1B12471A_mFF8F78902E92949574047952D47771ADB155F6D1_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* AndroidClient_InvokeCallbackOnGameThread_TisLoadFriendsStatus_t14AB28B64E647E2B64ED77E90F83DC1D61834265_m24661C692FA6731A2C62C7E246E155428583F363_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* AndroidClient_InvokeCallbackOnGameThread_TisUIStatus_t34F64DC1927A392210216047169D4E196183BD14_m78B26B077A1A979B11C5596B45DC6E9A1A2929B6_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* AndroidConflictResolver_U3CChooseMetadataU3Eb__9_0_m41E0871BE66288B3D0A4B381A2B024B378BBD1DE_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* AndroidConflictResolver_U3CChooseMetadataU3Eb__9_1_m4688EFCB4321B82EE4DA94D7391FD72A17420B83_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* AndroidConflictResolver_U3CResolveConflictU3Eb__8_0_m5862A2C87CB049F67E9382CD8E833C34238E52B0_RuntimeMethod_var;
@@ -749,6 +798,7 @@ IL2CPP_EXTERN_C const RuntimeMethod* AndroidJavaObject_Call_TisBoolean_t07D1E3F3
 IL2CPP_EXTERN_C const RuntimeMethod* AndroidJavaObject_Call_TisByteU5BU5D_tDBBEB0E8362242FA7223000D978B0DD19D4B0726_m38C33F395D44CCCFE9D2D2F2323188304089D9F5_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* AndroidJavaObject_Call_TisInt32_tFDE5F8CD43D10453F6A2E0C77FE48C6CC7009046_m02A4D4C9FD8B15173829454766683BA424408A2A_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* AndroidJavaObject_Call_TisInt64_t378EE0D608BD3107E77238E85F30D2BBD46981F3_m2E2FBAE10897A748859DD7EB19EBB1DB9BD02787_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* AndroidJavaObject_Call_TisSingle_tE07797BA3C98D4CA9B5A19413C19A76688AB899E_m068E70BCBA9EACF8129B1C9F711D3132EB6C9061_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* AndroidJavaObject_Call_TisString_t_mB2E722C64FC7BD9F98B983053A6D3F9D94D355AE_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* AndroidJavaObject_Call_TisUInt64_tEC57511B3E3CA2DBA1BEBD434C6983E31C943281_m2BA7EAB8A0E14BA8EEDCD666116A2F5E1B7FFD53_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* AndroidJavaObject_Get_TisAndroidJavaObject_t10188D5695DCD09C9F621B44B0A8C93A2281236E_mFBBE4027C3B10CC9A3F370241DFC7A997C567B12_RuntimeMethod_var;
@@ -780,6 +830,8 @@ IL2CPP_EXTERN_C const RuntimeMethod* U3CU3Ec__DisplayClass2_0_U3COnEndpointFound
 IL2CPP_EXTERN_C const RuntimeMethod* U3CU3Ec__DisplayClass2_0_U3COnMessageReceivedU3Eb__0_m9F0B1111C2474001B8FD55DA7F03FEB89E00A136_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* U3CU3Ec__DisplayClass2_0_U3ConCaptureOverlayStateChangedU3Eb__0_m405AFBA874AEBECB1D3047BAEC93A1BE064C0BA9_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* U3CU3Ec__DisplayClass34_0_U3CAuthenticateU3Eb__5_m86D14AB77710CF4EC079744202286778AD774F31_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* U3CU3Ec__DisplayClass35_1_U3CLoadFriendsPaginatedU3Eb__2_m8E7643243ECEC88321672789E12FAD6ABF9F2933_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* U3CU3Ec__DisplayClass37_1_U3CAskForLoadFriendsResolutionU3Eb__2_m42E6E7CF664258C8850442FDD34D7841DDBCDB22_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* U3CU3Ec__DisplayClass3_0_U3COnEndpointLostU3Eb__0_m0200B31A4C0317224E90DA91C54A0A88F61D5915_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* U3CU3Ec__DisplayClass3_0_U3COnRemoteEndpointDisconnectedU3Eb__0_mFD7A5DFB1A6BD79A2C67EC12D40F44193A6E5DBC_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* U3CU3Ec__DisplayClass58_1_U3CGetUiSignOutCallbackOnGameThreadU3Eb__1_m466B395A7BD495EFC4653688AE6D96C7E02AB64A_RuntimeMethod_var;
@@ -1869,6 +1921,234 @@ struct YieldInstruction_tB0B4E05316710E51ECCC1E57174C27FE6DEBBEAF_marshaled_pinv
 struct YieldInstruction_tB0B4E05316710E51ECCC1E57174C27FE6DEBBEAF_marshaled_com
 {
 };
+
+// GooglePlayGames.Android.AndroidClient/<>c__DisplayClass20_0
+struct U3CU3Ec__DisplayClass20_0_t3BD03DA049C5F54E6849504F7EFA64EE4EA6B84D  : public RuntimeObject
+{
+public:
+	// System.Action GooglePlayGames.Android.AndroidClient/<>c__DisplayClass20_0::callback
+	Action_tAF41423D285AE0862865348CF6CE51CD085ABBA6 * ___callback_0;
+
+public:
+	inline static int32_t get_offset_of_callback_0() { return static_cast<int32_t>(offsetof(U3CU3Ec__DisplayClass20_0_t3BD03DA049C5F54E6849504F7EFA64EE4EA6B84D, ___callback_0)); }
+	inline Action_tAF41423D285AE0862865348CF6CE51CD085ABBA6 * get_callback_0() const { return ___callback_0; }
+	inline Action_tAF41423D285AE0862865348CF6CE51CD085ABBA6 ** get_address_of_callback_0() { return &___callback_0; }
+	inline void set_callback_0(Action_tAF41423D285AE0862865348CF6CE51CD085ABBA6 * value)
+	{
+		___callback_0 = value;
+		Il2CppCodeGenWriteBarrier((void**)(&___callback_0), (void*)value);
+	}
+};
+
+
+// GooglePlayGames.Android.AndroidClient/<>c__DisplayClass32_0
+struct U3CU3Ec__DisplayClass32_0_tE75F7BAC89BD1A8F5C35119D494FDAFB5F49E8A8  : public RuntimeObject
+{
+public:
+	// GooglePlayGames.Android.AndroidClient GooglePlayGames.Android.AndroidClient/<>c__DisplayClass32_0::<>4__this
+	AndroidClient_tBA581A83F4D454AA570D59367F3447F7193BF3B2 * ___U3CU3E4__this_0;
+	// System.Action`1<System.Boolean> GooglePlayGames.Android.AndroidClient/<>c__DisplayClass32_0::callback
+	Action_1_tCE2D770918A65CAD277C08C4E8C05385EA267E83 * ___callback_1;
+	// System.Int32 GooglePlayGames.Android.AndroidClient/<>c__DisplayClass32_0::pageSize
+	int32_t ___pageSize_2;
+
+public:
+	inline static int32_t get_offset_of_U3CU3E4__this_0() { return static_cast<int32_t>(offsetof(U3CU3Ec__DisplayClass32_0_tE75F7BAC89BD1A8F5C35119D494FDAFB5F49E8A8, ___U3CU3E4__this_0)); }
+	inline AndroidClient_tBA581A83F4D454AA570D59367F3447F7193BF3B2 * get_U3CU3E4__this_0() const { return ___U3CU3E4__this_0; }
+	inline AndroidClient_tBA581A83F4D454AA570D59367F3447F7193BF3B2 ** get_address_of_U3CU3E4__this_0() { return &___U3CU3E4__this_0; }
+	inline void set_U3CU3E4__this_0(AndroidClient_tBA581A83F4D454AA570D59367F3447F7193BF3B2 * value)
+	{
+		___U3CU3E4__this_0 = value;
+		Il2CppCodeGenWriteBarrier((void**)(&___U3CU3E4__this_0), (void*)value);
+	}
+
+	inline static int32_t get_offset_of_callback_1() { return static_cast<int32_t>(offsetof(U3CU3Ec__DisplayClass32_0_tE75F7BAC89BD1A8F5C35119D494FDAFB5F49E8A8, ___callback_1)); }
+	inline Action_1_tCE2D770918A65CAD277C08C4E8C05385EA267E83 * get_callback_1() const { return ___callback_1; }
+	inline Action_1_tCE2D770918A65CAD277C08C4E8C05385EA267E83 ** get_address_of_callback_1() { return &___callback_1; }
+	inline void set_callback_1(Action_1_tCE2D770918A65CAD277C08C4E8C05385EA267E83 * value)
+	{
+		___callback_1 = value;
+		Il2CppCodeGenWriteBarrier((void**)(&___callback_1), (void*)value);
+	}
+
+	inline static int32_t get_offset_of_pageSize_2() { return static_cast<int32_t>(offsetof(U3CU3Ec__DisplayClass32_0_tE75F7BAC89BD1A8F5C35119D494FDAFB5F49E8A8, ___pageSize_2)); }
+	inline int32_t get_pageSize_2() const { return ___pageSize_2; }
+	inline int32_t* get_address_of_pageSize_2() { return &___pageSize_2; }
+	inline void set_pageSize_2(int32_t value)
+	{
+		___pageSize_2 = value;
+	}
+};
+
+
+// GooglePlayGames.Android.AndroidClient/<>c__DisplayClass35_0
+struct U3CU3Ec__DisplayClass35_0_t4B792C26A5EC5B570439BE34D5DE5A83A86B177E  : public RuntimeObject
+{
+public:
+	// GooglePlayGames.Android.AndroidClient GooglePlayGames.Android.AndroidClient/<>c__DisplayClass35_0::<>4__this
+	AndroidClient_tBA581A83F4D454AA570D59367F3447F7193BF3B2 * ___U3CU3E4__this_0;
+	// System.Action`1<GooglePlayGames.BasicApi.LoadFriendsStatus> GooglePlayGames.Android.AndroidClient/<>c__DisplayClass35_0::callback
+	Action_1_tFBCCF6B7BE425F8161C22FEA37361607EE8E1151 * ___callback_1;
+
+public:
+	inline static int32_t get_offset_of_U3CU3E4__this_0() { return static_cast<int32_t>(offsetof(U3CU3Ec__DisplayClass35_0_t4B792C26A5EC5B570439BE34D5DE5A83A86B177E, ___U3CU3E4__this_0)); }
+	inline AndroidClient_tBA581A83F4D454AA570D59367F3447F7193BF3B2 * get_U3CU3E4__this_0() const { return ___U3CU3E4__this_0; }
+	inline AndroidClient_tBA581A83F4D454AA570D59367F3447F7193BF3B2 ** get_address_of_U3CU3E4__this_0() { return &___U3CU3E4__this_0; }
+	inline void set_U3CU3E4__this_0(AndroidClient_tBA581A83F4D454AA570D59367F3447F7193BF3B2 * value)
+	{
+		___U3CU3E4__this_0 = value;
+		Il2CppCodeGenWriteBarrier((void**)(&___U3CU3E4__this_0), (void*)value);
+	}
+
+	inline static int32_t get_offset_of_callback_1() { return static_cast<int32_t>(offsetof(U3CU3Ec__DisplayClass35_0_t4B792C26A5EC5B570439BE34D5DE5A83A86B177E, ___callback_1)); }
+	inline Action_1_tFBCCF6B7BE425F8161C22FEA37361607EE8E1151 * get_callback_1() const { return ___callback_1; }
+	inline Action_1_tFBCCF6B7BE425F8161C22FEA37361607EE8E1151 ** get_address_of_callback_1() { return &___callback_1; }
+	inline void set_callback_1(Action_1_tFBCCF6B7BE425F8161C22FEA37361607EE8E1151 * value)
+	{
+		___callback_1 = value;
+		Il2CppCodeGenWriteBarrier((void**)(&___callback_1), (void*)value);
+	}
+};
+
+
+// GooglePlayGames.Android.AndroidClient/<>c__DisplayClass35_1
+struct U3CU3Ec__DisplayClass35_1_t514D2E56BDAE5CC8E5376E2E58F6B2715C46D1AE  : public RuntimeObject
+{
+public:
+	// UnityEngine.AndroidJavaObject GooglePlayGames.Android.AndroidClient/<>c__DisplayClass35_1::exception
+	AndroidJavaObject_t10188D5695DCD09C9F621B44B0A8C93A2281236E * ___exception_0;
+	// GooglePlayGames.Android.AndroidClient/<>c__DisplayClass35_0 GooglePlayGames.Android.AndroidClient/<>c__DisplayClass35_1::CS$<>8__locals1
+	U3CU3Ec__DisplayClass35_0_t4B792C26A5EC5B570439BE34D5DE5A83A86B177E * ___CSU24U3CU3E8__locals1_1;
+
+public:
+	inline static int32_t get_offset_of_exception_0() { return static_cast<int32_t>(offsetof(U3CU3Ec__DisplayClass35_1_t514D2E56BDAE5CC8E5376E2E58F6B2715C46D1AE, ___exception_0)); }
+	inline AndroidJavaObject_t10188D5695DCD09C9F621B44B0A8C93A2281236E * get_exception_0() const { return ___exception_0; }
+	inline AndroidJavaObject_t10188D5695DCD09C9F621B44B0A8C93A2281236E ** get_address_of_exception_0() { return &___exception_0; }
+	inline void set_exception_0(AndroidJavaObject_t10188D5695DCD09C9F621B44B0A8C93A2281236E * value)
+	{
+		___exception_0 = value;
+		Il2CppCodeGenWriteBarrier((void**)(&___exception_0), (void*)value);
+	}
+
+	inline static int32_t get_offset_of_CSU24U3CU3E8__locals1_1() { return static_cast<int32_t>(offsetof(U3CU3Ec__DisplayClass35_1_t514D2E56BDAE5CC8E5376E2E58F6B2715C46D1AE, ___CSU24U3CU3E8__locals1_1)); }
+	inline U3CU3Ec__DisplayClass35_0_t4B792C26A5EC5B570439BE34D5DE5A83A86B177E * get_CSU24U3CU3E8__locals1_1() const { return ___CSU24U3CU3E8__locals1_1; }
+	inline U3CU3Ec__DisplayClass35_0_t4B792C26A5EC5B570439BE34D5DE5A83A86B177E ** get_address_of_CSU24U3CU3E8__locals1_1() { return &___CSU24U3CU3E8__locals1_1; }
+	inline void set_CSU24U3CU3E8__locals1_1(U3CU3Ec__DisplayClass35_0_t4B792C26A5EC5B570439BE34D5DE5A83A86B177E * value)
+	{
+		___CSU24U3CU3E8__locals1_1 = value;
+		Il2CppCodeGenWriteBarrier((void**)(&___CSU24U3CU3E8__locals1_1), (void*)value);
+	}
+};
+
+
+// GooglePlayGames.Android.AndroidClient/<>c__DisplayClass37_0
+struct U3CU3Ec__DisplayClass37_0_t4BB39D58F0807DF08E9CCC85EE1EE93C2A491950  : public RuntimeObject
+{
+public:
+	// System.Action`1<GooglePlayGames.BasicApi.UIStatus> GooglePlayGames.Android.AndroidClient/<>c__DisplayClass37_0::callback
+	Action_1_t6B1F89E58437C0598230633DF931FDE7AA632F94 * ___callback_0;
+	// GooglePlayGames.Android.AndroidClient GooglePlayGames.Android.AndroidClient/<>c__DisplayClass37_0::<>4__this
+	AndroidClient_tBA581A83F4D454AA570D59367F3447F7193BF3B2 * ___U3CU3E4__this_1;
+
+public:
+	inline static int32_t get_offset_of_callback_0() { return static_cast<int32_t>(offsetof(U3CU3Ec__DisplayClass37_0_t4BB39D58F0807DF08E9CCC85EE1EE93C2A491950, ___callback_0)); }
+	inline Action_1_t6B1F89E58437C0598230633DF931FDE7AA632F94 * get_callback_0() const { return ___callback_0; }
+	inline Action_1_t6B1F89E58437C0598230633DF931FDE7AA632F94 ** get_address_of_callback_0() { return &___callback_0; }
+	inline void set_callback_0(Action_1_t6B1F89E58437C0598230633DF931FDE7AA632F94 * value)
+	{
+		___callback_0 = value;
+		Il2CppCodeGenWriteBarrier((void**)(&___callback_0), (void*)value);
+	}
+
+	inline static int32_t get_offset_of_U3CU3E4__this_1() { return static_cast<int32_t>(offsetof(U3CU3Ec__DisplayClass37_0_t4BB39D58F0807DF08E9CCC85EE1EE93C2A491950, ___U3CU3E4__this_1)); }
+	inline AndroidClient_tBA581A83F4D454AA570D59367F3447F7193BF3B2 * get_U3CU3E4__this_1() const { return ___U3CU3E4__this_1; }
+	inline AndroidClient_tBA581A83F4D454AA570D59367F3447F7193BF3B2 ** get_address_of_U3CU3E4__this_1() { return &___U3CU3E4__this_1; }
+	inline void set_U3CU3E4__this_1(AndroidClient_tBA581A83F4D454AA570D59367F3447F7193BF3B2 * value)
+	{
+		___U3CU3E4__this_1 = value;
+		Il2CppCodeGenWriteBarrier((void**)(&___U3CU3E4__this_1), (void*)value);
+	}
+};
+
+
+// GooglePlayGames.Android.AndroidClient/<>c__DisplayClass37_1
+struct U3CU3Ec__DisplayClass37_1_tF74C9E0DD6647133DE88E1A3DAB64D215CE27DEE  : public RuntimeObject
+{
+public:
+	// UnityEngine.AndroidJavaObject GooglePlayGames.Android.AndroidClient/<>c__DisplayClass37_1::exception
+	AndroidJavaObject_t10188D5695DCD09C9F621B44B0A8C93A2281236E * ___exception_0;
+	// GooglePlayGames.Android.AndroidClient/<>c__DisplayClass37_0 GooglePlayGames.Android.AndroidClient/<>c__DisplayClass37_1::CS$<>8__locals1
+	U3CU3Ec__DisplayClass37_0_t4BB39D58F0807DF08E9CCC85EE1EE93C2A491950 * ___CSU24U3CU3E8__locals1_1;
+
+public:
+	inline static int32_t get_offset_of_exception_0() { return static_cast<int32_t>(offsetof(U3CU3Ec__DisplayClass37_1_tF74C9E0DD6647133DE88E1A3DAB64D215CE27DEE, ___exception_0)); }
+	inline AndroidJavaObject_t10188D5695DCD09C9F621B44B0A8C93A2281236E * get_exception_0() const { return ___exception_0; }
+	inline AndroidJavaObject_t10188D5695DCD09C9F621B44B0A8C93A2281236E ** get_address_of_exception_0() { return &___exception_0; }
+	inline void set_exception_0(AndroidJavaObject_t10188D5695DCD09C9F621B44B0A8C93A2281236E * value)
+	{
+		___exception_0 = value;
+		Il2CppCodeGenWriteBarrier((void**)(&___exception_0), (void*)value);
+	}
+
+	inline static int32_t get_offset_of_CSU24U3CU3E8__locals1_1() { return static_cast<int32_t>(offsetof(U3CU3Ec__DisplayClass37_1_tF74C9E0DD6647133DE88E1A3DAB64D215CE27DEE, ___CSU24U3CU3E8__locals1_1)); }
+	inline U3CU3Ec__DisplayClass37_0_t4BB39D58F0807DF08E9CCC85EE1EE93C2A491950 * get_CSU24U3CU3E8__locals1_1() const { return ___CSU24U3CU3E8__locals1_1; }
+	inline U3CU3Ec__DisplayClass37_0_t4BB39D58F0807DF08E9CCC85EE1EE93C2A491950 ** get_address_of_CSU24U3CU3E8__locals1_1() { return &___CSU24U3CU3E8__locals1_1; }
+	inline void set_CSU24U3CU3E8__locals1_1(U3CU3Ec__DisplayClass37_0_t4BB39D58F0807DF08E9CCC85EE1EE93C2A491950 * value)
+	{
+		___CSU24U3CU3E8__locals1_1 = value;
+		Il2CppCodeGenWriteBarrier((void**)(&___CSU24U3CU3E8__locals1_1), (void*)value);
+	}
+};
+
+
+// GooglePlayGames.Android.AndroidClient/<>c__DisplayClass39_0
+struct U3CU3Ec__DisplayClass39_0_tFDF588BDFF20E759A9CCB87F36CB7FF8C260FB4D  : public RuntimeObject
+{
+public:
+	// System.Action`1<GooglePlayGames.BasicApi.FriendsListVisibilityStatus> GooglePlayGames.Android.AndroidClient/<>c__DisplayClass39_0::callback
+	Action_1_t83D4049B0560A54AF04ACCA619A2FA343D81FD46 * ___callback_0;
+
+public:
+	inline static int32_t get_offset_of_callback_0() { return static_cast<int32_t>(offsetof(U3CU3Ec__DisplayClass39_0_tFDF588BDFF20E759A9CCB87F36CB7FF8C260FB4D, ___callback_0)); }
+	inline Action_1_t83D4049B0560A54AF04ACCA619A2FA343D81FD46 * get_callback_0() const { return ___callback_0; }
+	inline Action_1_t83D4049B0560A54AF04ACCA619A2FA343D81FD46 ** get_address_of_callback_0() { return &___callback_0; }
+	inline void set_callback_0(Action_1_t83D4049B0560A54AF04ACCA619A2FA343D81FD46 * value)
+	{
+		___callback_0 = value;
+		Il2CppCodeGenWriteBarrier((void**)(&___callback_0), (void*)value);
+	}
+};
+
+
+// GooglePlayGames.Android.AndroidClient/<>c__DisplayClass47_0
+struct U3CU3Ec__DisplayClass47_0_t4B10C607ECA6ED4EC8328E6B474FC71F802E7125  : public RuntimeObject
+{
+public:
+	// System.Action`2<GooglePlayGames.BasicApi.CommonStatusCodes,GooglePlayGames.BasicApi.PlayerStats> GooglePlayGames.Android.AndroidClient/<>c__DisplayClass47_0::callback
+	Action_2_t780FB18E67AC464A50B094492A06E11D0DF1D172 * ___callback_0;
+	// GooglePlayGames.Android.AndroidClient GooglePlayGames.Android.AndroidClient/<>c__DisplayClass47_0::<>4__this
+	AndroidClient_tBA581A83F4D454AA570D59367F3447F7193BF3B2 * ___U3CU3E4__this_1;
+
+public:
+	inline static int32_t get_offset_of_callback_0() { return static_cast<int32_t>(offsetof(U3CU3Ec__DisplayClass47_0_t4B10C607ECA6ED4EC8328E6B474FC71F802E7125, ___callback_0)); }
+	inline Action_2_t780FB18E67AC464A50B094492A06E11D0DF1D172 * get_callback_0() const { return ___callback_0; }
+	inline Action_2_t780FB18E67AC464A50B094492A06E11D0DF1D172 ** get_address_of_callback_0() { return &___callback_0; }
+	inline void set_callback_0(Action_2_t780FB18E67AC464A50B094492A06E11D0DF1D172 * value)
+	{
+		___callback_0 = value;
+		Il2CppCodeGenWriteBarrier((void**)(&___callback_0), (void*)value);
+	}
+
+	inline static int32_t get_offset_of_U3CU3E4__this_1() { return static_cast<int32_t>(offsetof(U3CU3Ec__DisplayClass47_0_t4B10C607ECA6ED4EC8328E6B474FC71F802E7125, ___U3CU3E4__this_1)); }
+	inline AndroidClient_tBA581A83F4D454AA570D59367F3447F7193BF3B2 * get_U3CU3E4__this_1() const { return ___U3CU3E4__this_1; }
+	inline AndroidClient_tBA581A83F4D454AA570D59367F3447F7193BF3B2 ** get_address_of_U3CU3E4__this_1() { return &___U3CU3E4__this_1; }
+	inline void set_U3CU3E4__this_1(AndroidClient_tBA581A83F4D454AA570D59367F3447F7193BF3B2 * value)
+	{
+		___U3CU3E4__this_1 = value;
+		Il2CppCodeGenWriteBarrier((void**)(&___U3CU3E4__this_1), (void*)value);
+	}
+};
+
 
 // GooglePlayGames.Android.AndroidClient/<>c__DisplayClass48_0
 struct U3CU3Ec__DisplayClass48_0_tF55F99D03A650FB20307C6B18DAF1313A14C33F7  : public RuntimeObject
@@ -4491,6 +4771,24 @@ public:
 };
 
 
+// System.Single
+struct Single_tE07797BA3C98D4CA9B5A19413C19A76688AB899E 
+{
+public:
+	// System.Single System.Single::m_value
+	float ___m_value_0;
+
+public:
+	inline static int32_t get_offset_of_m_value_0() { return static_cast<int32_t>(offsetof(Single_tE07797BA3C98D4CA9B5A19413C19A76688AB899E, ___m_value_0)); }
+	inline float get_m_value_0() const { return ___m_value_0; }
+	inline float* get_address_of_m_value_0() { return &___m_value_0; }
+	inline void set_m_value_0(float value)
+	{
+		___m_value_0 = value;
+	}
+};
+
+
 // System.UInt64
 struct UInt64_tEC57511B3E3CA2DBA1BEBD434C6983E31C943281 
 {
@@ -5352,6 +5650,24 @@ struct Exception_t_marshaled_com
 	StackTraceU5BU5D_t4AD999C288CB6D1F38A299D12B1598D606588971* ___captured_traces_14;
 	Il2CppSafeArray/*NONE*/* ___native_trace_ips_15;
 };
+
+// GooglePlayGames.BasicApi.FriendsListVisibilityStatus
+struct FriendsListVisibilityStatus_t353204B8A8C11D7ED64F59483F10A0C2010402FD 
+{
+public:
+	// System.Int32 GooglePlayGames.BasicApi.FriendsListVisibilityStatus::value__
+	int32_t ___value___2;
+
+public:
+	inline static int32_t get_offset_of_value___2() { return static_cast<int32_t>(offsetof(FriendsListVisibilityStatus_t353204B8A8C11D7ED64F59483F10A0C2010402FD, ___value___2)); }
+	inline int32_t get_value___2() const { return ___value___2; }
+	inline int32_t* get_address_of_value___2() { return &___value___2; }
+	inline void set_value___2(int32_t value)
+	{
+		___value___2 = value;
+	}
+};
+
 
 // System.Int32Enum
 struct Int32Enum_t9B63F771913F2B6D586F1173B44A41FBE26F6B5C 
@@ -7706,6 +8022,15 @@ public:
 };
 
 
+// System.Action`1<GooglePlayGames.BasicApi.FriendsListVisibilityStatus>
+struct Action_1_t83D4049B0560A54AF04ACCA619A2FA343D81FD46  : public MulticastDelegate_t
+{
+public:
+
+public:
+};
+
+
 // System.Action`1<GooglePlayGames.BasicApi.Nearby.INearbyConnectionClient>
 struct Action_1_tD4E3131F8801005BF06CEBA1838FA49CBB285172  : public MulticastDelegate_t
 {
@@ -7726,6 +8051,15 @@ public:
 
 // System.Action`1<GooglePlayGames.BasicApi.LeaderboardScoreData>
 struct Action_1_t2F0F651210175332DCE126659B641AFABEA069B3  : public MulticastDelegate_t
+{
+public:
+
+public:
+};
+
+
+// System.Action`1<GooglePlayGames.BasicApi.LoadFriendsStatus>
+struct Action_1_tFBCCF6B7BE425F8161C22FEA37361607EE8E1151  : public MulticastDelegate_t
 {
 public:
 
@@ -8278,43 +8612,6 @@ public:
 		Il2CppCodeGenWriteBarrier((void**)m_Items + index, (void*)value);
 	}
 };
-// System.String[]
-struct StringU5BU5D_tACEBFEDE350025B554CD507C9AE8FFE49359549A  : public RuntimeArray
-{
-public:
-	ALIGN_FIELD (8) String_t* m_Items[1];
-
-public:
-	inline String_t* GetAt(il2cpp_array_size_t index) const
-	{
-		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
-		return m_Items[index];
-	}
-	inline String_t** GetAddressAt(il2cpp_array_size_t index)
-	{
-		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
-		return m_Items + index;
-	}
-	inline void SetAt(il2cpp_array_size_t index, String_t* value)
-	{
-		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
-		m_Items[index] = value;
-		Il2CppCodeGenWriteBarrier((void**)m_Items + index, (void*)value);
-	}
-	inline String_t* GetAtUnchecked(il2cpp_array_size_t index) const
-	{
-		return m_Items[index];
-	}
-	inline String_t** GetAddressAtUnchecked(il2cpp_array_size_t index)
-	{
-		return m_Items + index;
-	}
-	inline void SetAtUnchecked(il2cpp_array_size_t index, String_t* value)
-	{
-		m_Items[index] = value;
-		Il2CppCodeGenWriteBarrier((void**)m_Items + index, (void*)value);
-	}
-};
 // UnityEngine.SocialPlatforms.IUserProfile[]
 struct IUserProfileU5BU5D_t4B36B0CF06DE6A00F5D6D0A015DC3E99B02FC65E  : public RuntimeArray
 {
@@ -8347,6 +8644,43 @@ public:
 		return m_Items + index;
 	}
 	inline void SetAtUnchecked(il2cpp_array_size_t index, RuntimeObject* value)
+	{
+		m_Items[index] = value;
+		Il2CppCodeGenWriteBarrier((void**)m_Items + index, (void*)value);
+	}
+};
+// System.String[]
+struct StringU5BU5D_tACEBFEDE350025B554CD507C9AE8FFE49359549A  : public RuntimeArray
+{
+public:
+	ALIGN_FIELD (8) String_t* m_Items[1];
+
+public:
+	inline String_t* GetAt(il2cpp_array_size_t index) const
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		return m_Items[index];
+	}
+	inline String_t** GetAddressAt(il2cpp_array_size_t index)
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		return m_Items + index;
+	}
+	inline void SetAt(il2cpp_array_size_t index, String_t* value)
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		m_Items[index] = value;
+		Il2CppCodeGenWriteBarrier((void**)m_Items + index, (void*)value);
+	}
+	inline String_t* GetAtUnchecked(il2cpp_array_size_t index) const
+	{
+		return m_Items[index];
+	}
+	inline String_t** GetAddressAtUnchecked(il2cpp_array_size_t index)
+	{
+		return m_Items + index;
+	}
+	inline void SetAtUnchecked(il2cpp_array_size_t index, String_t* value)
 	{
 		m_Items[index] = value;
 		Il2CppCodeGenWriteBarrier((void**)m_Items + index, (void*)value);
@@ -8537,14 +8871,26 @@ public:
 };
 
 
+// System.Void GooglePlayGames.Android.AndroidClient::InvokeCallbackOnGameThread<System.Boolean>(System.Action`1<T>,T)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AndroidClient_InvokeCallbackOnGameThread_TisBoolean_t07D1E3F34E4813023D64F584DFF7B34C9D922F37_mA7CC7B35CCC2219E772E5D1E648A17379F35F7A1_gshared (Action_1_tCE2D770918A65CAD277C08C4E8C05385EA267E83 * ___callback0, bool ___data1, const RuntimeMethod* method);
 // !!0[] System.Array::Empty<System.Object>()
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR ObjectU5BU5D_tC1F4EE0DB0B7300255F5FD4AF64FE4C585CF5ADE* Array_Empty_TisRuntimeObject_m1FBC21243DF3542384C523801E8CA8A97606C747_gshared_inline (const RuntimeMethod* method);
 // !!0 UnityEngine.AndroidJavaObject::Call<System.Object>(System.String,System.Object[])
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject * AndroidJavaObject_Call_TisRuntimeObject_mB802C2A6B0365A1670402D283EB7FA241C326B0E_gshared (AndroidJavaObject_t10188D5695DCD09C9F621B44B0A8C93A2281236E * __this, String_t* ___methodName0, ObjectU5BU5D_tC1F4EE0DB0B7300255F5FD4AF64FE4C585CF5ADE* ___args1, const RuntimeMethod* method);
-// System.Void GooglePlayGames.Android.AndroidClient::InvokeCallbackOnGameThread<System.Object>(System.Action`1<T>,T)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AndroidClient_InvokeCallbackOnGameThread_TisRuntimeObject_mD650AAD15375DAF3BEB4D0D2D01EABDB22B95B23_gshared (Action_1_tD9663D9715FAA4E62035CFCF1AD4D094EE7872DC * ___callback0, RuntimeObject * ___data1, const RuntimeMethod* method);
+// System.Void GooglePlayGames.Android.AndroidClient::InvokeCallbackOnGameThread<System.Int32Enum>(System.Action`1<T>,T)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AndroidClient_InvokeCallbackOnGameThread_TisInt32Enum_t9B63F771913F2B6D586F1173B44A41FBE26F6B5C_m9B70615A297BE54070ECEB309366F21FAE028E99_gshared (Action_1_tF0FD284A49EB7135379250254D6B49FA84383C09 * ___callback0, int32_t ___data1, const RuntimeMethod* method);
+// System.Void System.Action`1<System.Boolean>::.ctor(System.Object,System.IntPtr)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Action_1__ctor_m2A1B34C27CAE6ED7FD924E5F59C0A1ACBBF22C38_gshared (Action_1_tCE2D770918A65CAD277C08C4E8C05385EA267E83 * __this, RuntimeObject * ___object0, intptr_t ___method1, const RuntimeMethod* method);
 // !!0 UnityEngine.AndroidJavaObject::Call<System.Int32>(System.String,System.Object[])
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AndroidJavaObject_Call_TisInt32_tFDE5F8CD43D10453F6A2E0C77FE48C6CC7009046_m02A4D4C9FD8B15173829454766683BA424408A2A_gshared (AndroidJavaObject_t10188D5695DCD09C9F621B44B0A8C93A2281236E * __this, String_t* ___methodName0, ObjectU5BU5D_tC1F4EE0DB0B7300255F5FD4AF64FE4C585CF5ADE* ___args1, const RuntimeMethod* method);
+// System.Action`1<T> GooglePlayGames.Android.AndroidClient::AsOnGameThreadCallback<System.Int32Enum>(System.Action`1<T>)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Action_1_tF0FD284A49EB7135379250254D6B49FA84383C09 * AndroidClient_AsOnGameThreadCallback_TisInt32Enum_t9B63F771913F2B6D586F1173B44A41FBE26F6B5C_m78D15DA214891967A209F1B8E4F39D717ECADC19_gshared (Action_1_tF0FD284A49EB7135379250254D6B49FA84383C09 * ___callback0, const RuntimeMethod* method);
+// !!0 UnityEngine.AndroidJavaObject::Call<System.Single>(System.String,System.Object[])
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float AndroidJavaObject_Call_TisSingle_tE07797BA3C98D4CA9B5A19413C19A76688AB899E_m068E70BCBA9EACF8129B1C9F711D3132EB6C9061_gshared (AndroidJavaObject_t10188D5695DCD09C9F621B44B0A8C93A2281236E * __this, String_t* ___methodName0, ObjectU5BU5D_tC1F4EE0DB0B7300255F5FD4AF64FE4C585CF5ADE* ___args1, const RuntimeMethod* method);
+// System.Void GooglePlayGames.Android.AndroidClient::InvokeCallbackOnGameThread<System.Int32Enum,System.Object>(System.Action`2<T1,T2>,T1,T2)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AndroidClient_InvokeCallbackOnGameThread_TisInt32Enum_t9B63F771913F2B6D586F1173B44A41FBE26F6B5C_TisRuntimeObject_m4AE012DCA610171DFD07AB0E2631EA99EF92250E_gshared (Action_2_tAEEAE0CA76819C6105A7D08A17A11166D3071492 * ___callback0, int32_t ___t11, RuntimeObject * ___t22, const RuntimeMethod* method);
+// System.Void GooglePlayGames.Android.AndroidClient::InvokeCallbackOnGameThread<System.Object>(System.Action`1<T>,T)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AndroidClient_InvokeCallbackOnGameThread_TisRuntimeObject_mD650AAD15375DAF3BEB4D0D2D01EABDB22B95B23_gshared (Action_1_tD9663D9715FAA4E62035CFCF1AD4D094EE7872DC * ___callback0, RuntimeObject * ___data1, const RuntimeMethod* method);
 // !!0 UnityEngine.AndroidJavaObject::Call<System.UInt64>(System.String,System.Object[])
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint64_t AndroidJavaObject_Call_TisUInt64_tEC57511B3E3CA2DBA1BEBD434C6983E31C943281_m2BA7EAB8A0E14BA8EEDCD666116A2F5E1B7FFD53_gshared (AndroidJavaObject_t10188D5695DCD09C9F621B44B0A8C93A2281236E * __this, String_t* ___methodName0, ObjectU5BU5D_tC1F4EE0DB0B7300255F5FD4AF64FE4C585CF5ADE* ___args1, const RuntimeMethod* method);
 // !!0 UnityEngine.AndroidJavaObject::Call<System.Int64>(System.String,System.Object[])
@@ -8555,8 +8901,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Action_1_Invoke_m587509C88BB83721D7918D8
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Action_1_Invoke_m2652E72792A278523D6D8962CBBEA84177BB4556_gshared (Action_1_tF0FD284A49EB7135379250254D6B49FA84383C09 * __this, int32_t ___obj0, const RuntimeMethod* method);
 // !!0 UnityEngine.AndroidJavaObject::Call<System.Boolean>(System.String,System.Object[])
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool AndroidJavaObject_Call_TisBoolean_t07D1E3F34E4813023D64F584DFF7B34C9D922F37_m705BF7B215A83B7851B19591CE37DA93250C7A8A_gshared (AndroidJavaObject_t10188D5695DCD09C9F621B44B0A8C93A2281236E * __this, String_t* ___methodName0, ObjectU5BU5D_tC1F4EE0DB0B7300255F5FD4AF64FE4C585CF5ADE* ___args1, const RuntimeMethod* method);
-// System.Void System.Action`1<System.Boolean>::.ctor(System.Object,System.IntPtr)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Action_1__ctor_m2A1B34C27CAE6ED7FD924E5F59C0A1ACBBF22C38_gshared (Action_1_tCE2D770918A65CAD277C08C4E8C05385EA267E83 * __this, RuntimeObject * ___object0, intptr_t ___method1, const RuntimeMethod* method);
 // System.Void System.Collections.Generic.List`1<System.Object>::.ctor()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void List_1__ctor_m0F0E00088CF56FEACC9E32D8B7D91B93D91DAA3B_gshared (List_1_t3F94120C77410A62EAE48421CF166B83AB95A2F5 * __this, const RuntimeMethod* method);
 // System.Void System.Collections.Generic.List`1<System.Object>::Add(!0)
@@ -8602,6 +8946,19 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Nullable_1__ctor_m9CF59B4AE8E66F6926A090
 
 // System.Void System.Object::.ctor()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Object__ctor_m88880E0413421D13FD95325EDCE231707CE1F405 (RuntimeObject * __this, const RuntimeMethod* method);
+// System.Void System.Action::Invoke()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Action_Invoke_m3FFA5BE3D64F0FF8E1E1CB6F953913FADB5EB89E (Action_tAF41423D285AE0862865348CF6CE51CD085ABBA6 * __this, const RuntimeMethod* method);
+// System.Void GooglePlayGames.Android.AndroidClient::InvokeCallbackOnGameThread<System.Boolean>(System.Action`1<T>,T)
+inline void AndroidClient_InvokeCallbackOnGameThread_TisBoolean_t07D1E3F34E4813023D64F584DFF7B34C9D922F37_mA7CC7B35CCC2219E772E5D1E648A17379F35F7A1 (Action_1_tCE2D770918A65CAD277C08C4E8C05385EA267E83 * ___callback0, bool ___data1, const RuntimeMethod* method)
+{
+	((  void (*) (Action_1_tCE2D770918A65CAD277C08C4E8C05385EA267E83 *, bool, const RuntimeMethod*))AndroidClient_InvokeCallbackOnGameThread_TisBoolean_t07D1E3F34E4813023D64F584DFF7B34C9D922F37_mA7CC7B35CCC2219E772E5D1E648A17379F35F7A1_gshared)(___callback0, ___data1, method);
+}
+// System.Void GooglePlayGames.Android.AndroidClient::LoadAllFriends(System.Int32,System.Boolean,System.Boolean,System.Action`1<System.Boolean>)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AndroidClient_LoadAllFriends_mBE886B9B77231FEF2BA4496FC9E93A1342082224 (AndroidClient_tBA581A83F4D454AA570D59367F3447F7193BF3B2 * __this, int32_t ___pageSize0, bool ___forceReload1, bool ___loadMore2, Action_1_tCE2D770918A65CAD277C08C4E8C05385EA267E83 * ___callback3, const RuntimeMethod* method);
+// System.String System.String::Concat(System.String,System.String)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* String_Concat_m4B4AB72618348C5DFBFBA8DED84B9E2EBDB55E1B (String_t* ___str00, String_t* ___str11, const RuntimeMethod* method);
+// System.Void GooglePlayGames.OurUtils.Logger::d(System.String)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Logger_d_m350987175B36E8B1A5896367A32B197F73B0864A (String_t* ___msg0, const RuntimeMethod* method);
 // !!0[] System.Array::Empty<System.Object>()
 inline ObjectU5BU5D_tC1F4EE0DB0B7300255F5FD4AF64FE4C585CF5ADE* Array_Empty_TisRuntimeObject_m1FBC21243DF3542384C523801E8CA8A97606C747_inline (const RuntimeMethod* method)
 {
@@ -8612,11 +8969,73 @@ inline AndroidJavaObject_t10188D5695DCD09C9F621B44B0A8C93A2281236E * AndroidJava
 {
 	return ((  AndroidJavaObject_t10188D5695DCD09C9F621B44B0A8C93A2281236E * (*) (AndroidJavaObject_t10188D5695DCD09C9F621B44B0A8C93A2281236E *, String_t*, ObjectU5BU5D_tC1F4EE0DB0B7300255F5FD4AF64FE4C585CF5ADE*, const RuntimeMethod*))AndroidJavaObject_Call_TisRuntimeObject_mB802C2A6B0365A1670402D283EB7FA241C326B0E_gshared)(__this, ___methodName0, ___args1, method);
 }
+// UnityEngine.SocialPlatforms.IUserProfile[] GooglePlayGames.Android.AndroidJavaConverter::playersBufferToArray(UnityEngine.AndroidJavaObject)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR IUserProfileU5BU5D_t4B36B0CF06DE6A00F5D6D0A015DC3E99B02FC65E* AndroidJavaConverter_playersBufferToArray_m051D641AE574865FFA94E924B829A387A7429878 (AndroidJavaObject_t10188D5695DCD09C9F621B44B0A8C93A2281236E * ___playersBuffer0, const RuntimeMethod* method);
+// System.Void GooglePlayGames.Android.AndroidClient::InvokeCallbackOnGameThread<GooglePlayGames.BasicApi.LoadFriendsStatus>(System.Action`1<T>,T)
+inline void AndroidClient_InvokeCallbackOnGameThread_TisLoadFriendsStatus_t14AB28B64E647E2B64ED77E90F83DC1D61834265_m24661C692FA6731A2C62C7E246E155428583F363 (Action_1_tFBCCF6B7BE425F8161C22FEA37361607EE8E1151 * ___callback0, int32_t ___data1, const RuntimeMethod* method)
+{
+	((  void (*) (Action_1_tFBCCF6B7BE425F8161C22FEA37361607EE8E1151 *, int32_t, const RuntimeMethod*))AndroidClient_InvokeCallbackOnGameThread_TisInt32Enum_t9B63F771913F2B6D586F1173B44A41FBE26F6B5C_m9B70615A297BE54070ECEB309366F21FAE028E99_gshared)(___callback0, ___data1, method);
+}
+// System.Void GooglePlayGames.Android.AndroidClient/<>c__DisplayClass35_1::.ctor()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass35_1__ctor_mDB4350EA98B5673200C7D48CD90089DF19D7D602 (U3CU3Ec__DisplayClass35_1_t514D2E56BDAE5CC8E5376E2E58F6B2715C46D1AE * __this, const RuntimeMethod* method);
+// System.Void System.Action`1<System.Boolean>::.ctor(System.Object,System.IntPtr)
+inline void Action_1__ctor_m2A1B34C27CAE6ED7FD924E5F59C0A1ACBBF22C38 (Action_1_tCE2D770918A65CAD277C08C4E8C05385EA267E83 * __this, RuntimeObject * ___object0, intptr_t ___method1, const RuntimeMethod* method)
+{
+	((  void (*) (Action_1_tCE2D770918A65CAD277C08C4E8C05385EA267E83 *, RuntimeObject *, intptr_t, const RuntimeMethod*))Action_1__ctor_m2A1B34C27CAE6ED7FD924E5F59C0A1ACBBF22C38_gshared)(__this, ___object0, ___method1, method);
+}
+// System.Void GooglePlayGames.Android.AndroidHelperFragment::IsResolutionRequired(UnityEngine.AndroidJavaObject,System.Action`1<System.Boolean>)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AndroidHelperFragment_IsResolutionRequired_mC675B3D8E01E0CF9EFBA686F6D4741E1C7C0EC17 (AndroidJavaObject_t10188D5695DCD09C9F621B44B0A8C93A2281236E * ___friendsSharingConsentException0, Action_1_tCE2D770918A65CAD277C08C4E8C05385EA267E83 * ___cb1, const RuntimeMethod* method);
+// !!0 UnityEngine.AndroidJavaObject::Call<System.Int32>(System.String,System.Object[])
+inline int32_t AndroidJavaObject_Call_TisInt32_tFDE5F8CD43D10453F6A2E0C77FE48C6CC7009046_m02A4D4C9FD8B15173829454766683BA424408A2A (AndroidJavaObject_t10188D5695DCD09C9F621B44B0A8C93A2281236E * __this, String_t* ___methodName0, ObjectU5BU5D_tC1F4EE0DB0B7300255F5FD4AF64FE4C585CF5ADE* ___args1, const RuntimeMethod* method)
+{
+	return ((  int32_t (*) (AndroidJavaObject_t10188D5695DCD09C9F621B44B0A8C93A2281236E *, String_t*, ObjectU5BU5D_tC1F4EE0DB0B7300255F5FD4AF64FE4C585CF5ADE*, const RuntimeMethod*))AndroidJavaObject_Call_TisInt32_tFDE5F8CD43D10453F6A2E0C77FE48C6CC7009046_m02A4D4C9FD8B15173829454766683BA424408A2A_gshared)(__this, ___methodName0, ___args1, method);
+}
+// System.String System.Int32::ToString()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* Int32_ToString_m340C0A14D16799421EFDF8A81C8A16FA76D48411 (int32_t* __this, const RuntimeMethod* method);
+// System.Void UnityEngine.Debug::Log(System.Object)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Debug_Log_mC26E5AD0D8D156C7FFD173AA15827F69225E9DB8 (RuntimeObject * ___message0, const RuntimeMethod* method);
+// System.Void GooglePlayGames.Android.AndroidClient::InvokeCallbackOnGameThread<GooglePlayGames.BasicApi.UIStatus>(System.Action`1<T>,T)
+inline void AndroidClient_InvokeCallbackOnGameThread_TisUIStatus_t34F64DC1927A392210216047169D4E196183BD14_m78B26B077A1A979B11C5596B45DC6E9A1A2929B6 (Action_1_t6B1F89E58437C0598230633DF931FDE7AA632F94 * ___callback0, int32_t ___data1, const RuntimeMethod* method)
+{
+	((  void (*) (Action_1_t6B1F89E58437C0598230633DF931FDE7AA632F94 *, int32_t, const RuntimeMethod*))AndroidClient_InvokeCallbackOnGameThread_TisInt32Enum_t9B63F771913F2B6D586F1173B44A41FBE26F6B5C_m9B70615A297BE54070ECEB309366F21FAE028E99_gshared)(___callback0, ___data1, method);
+}
+// System.Void GooglePlayGames.Android.AndroidClient/<>c__DisplayClass37_1::.ctor()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass37_1__ctor_m39E475FED73F0D8E4D55C757EE5C0B71E0444448 (U3CU3Ec__DisplayClass37_1_tF74C9E0DD6647133DE88E1A3DAB64D215CE27DEE * __this, const RuntimeMethod* method);
+// System.Action`1<T> GooglePlayGames.Android.AndroidClient::AsOnGameThreadCallback<GooglePlayGames.BasicApi.UIStatus>(System.Action`1<T>)
+inline Action_1_t6B1F89E58437C0598230633DF931FDE7AA632F94 * AndroidClient_AsOnGameThreadCallback_TisUIStatus_t34F64DC1927A392210216047169D4E196183BD14_mCE03419A2E064D4DE545A13D6DD35F695F7817B9 (Action_1_t6B1F89E58437C0598230633DF931FDE7AA632F94 * ___callback0, const RuntimeMethod* method)
+{
+	return ((  Action_1_t6B1F89E58437C0598230633DF931FDE7AA632F94 * (*) (Action_1_t6B1F89E58437C0598230633DF931FDE7AA632F94 *, const RuntimeMethod*))AndroidClient_AsOnGameThreadCallback_TisInt32Enum_t9B63F771913F2B6D586F1173B44A41FBE26F6B5C_m78D15DA214891967A209F1B8E4F39D717ECADC19_gshared)(___callback0, method);
+}
+// System.Void GooglePlayGames.Android.AndroidHelperFragment::AskForLoadFriendsResolution(UnityEngine.AndroidJavaObject,System.Action`1<GooglePlayGames.BasicApi.UIStatus>)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AndroidHelperFragment_AskForLoadFriendsResolution_m62AEA039A0EF2EFBF8846EC4B15EE6A753FB74B3 (AndroidJavaObject_t10188D5695DCD09C9F621B44B0A8C93A2281236E * ___friendsSharingConsentException0, Action_1_t6B1F89E58437C0598230633DF931FDE7AA632F94 * ___cb1, const RuntimeMethod* method);
+// GooglePlayGames.BasicApi.FriendsListVisibilityStatus GooglePlayGames.Android.AndroidJavaConverter::ToFriendsListVisibilityStatus(System.Int32)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AndroidJavaConverter_ToFriendsListVisibilityStatus_mD52E188D9CD2FC472865A87CC05D04A5EADEABB2 (int32_t ___playerListVisibility0, const RuntimeMethod* method);
+// System.Void GooglePlayGames.Android.AndroidClient::InvokeCallbackOnGameThread<GooglePlayGames.BasicApi.FriendsListVisibilityStatus>(System.Action`1<T>,T)
+inline void AndroidClient_InvokeCallbackOnGameThread_TisFriendsListVisibilityStatus_t353204B8A8C11D7ED64F59483F10A0C2010402FD_m36C32CA9CE02A203DF27342154DD60F8CE27DEA1 (Action_1_t83D4049B0560A54AF04ACCA619A2FA343D81FD46 * ___callback0, int32_t ___data1, const RuntimeMethod* method)
+{
+	((  void (*) (Action_1_t83D4049B0560A54AF04ACCA619A2FA343D81FD46 *, int32_t, const RuntimeMethod*))AndroidClient_InvokeCallbackOnGameThread_TisInt32Enum_t9B63F771913F2B6D586F1173B44A41FBE26F6B5C_m9B70615A297BE54070ECEB309366F21FAE028E99_gshared)(___callback0, ___data1, method);
+}
+// !!0 UnityEngine.AndroidJavaObject::Call<System.Single>(System.String,System.Object[])
+inline float AndroidJavaObject_Call_TisSingle_tE07797BA3C98D4CA9B5A19413C19A76688AB899E_m068E70BCBA9EACF8129B1C9F711D3132EB6C9061 (AndroidJavaObject_t10188D5695DCD09C9F621B44B0A8C93A2281236E * __this, String_t* ___methodName0, ObjectU5BU5D_tC1F4EE0DB0B7300255F5FD4AF64FE4C585CF5ADE* ___args1, const RuntimeMethod* method)
+{
+	return ((  float (*) (AndroidJavaObject_t10188D5695DCD09C9F621B44B0A8C93A2281236E *, String_t*, ObjectU5BU5D_tC1F4EE0DB0B7300255F5FD4AF64FE4C585CF5ADE*, const RuntimeMethod*))AndroidJavaObject_Call_TisSingle_tE07797BA3C98D4CA9B5A19413C19A76688AB899E_m068E70BCBA9EACF8129B1C9F711D3132EB6C9061_gshared)(__this, ___methodName0, ___args1, method);
+}
+// System.Void GooglePlayGames.BasicApi.PlayerStats::.ctor(System.Int32,System.Single,System.Int32,System.Int32,System.Single,System.Single,System.Single,System.Single,System.Single,System.Single)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PlayerStats__ctor_m88A7B125D9A13D0B44923F142BC6D69200D3A356 (PlayerStats_tDF1598DA58B629082F9C1889DF0E3242571521A5 * __this, int32_t ___numberOfPurchases0, float ___avgSessionLength1, int32_t ___daysSinceLastPlayed2, int32_t ___numberOfSessions3, float ___sessPercentile4, float ___spendPercentile5, float ___spendProbability6, float ___churnProbability7, float ___highSpenderProbability8, float ___totalSpendNext28Days9, const RuntimeMethod* method);
+// System.Void GooglePlayGames.Android.AndroidClient::InvokeCallbackOnGameThread<GooglePlayGames.BasicApi.CommonStatusCodes,GooglePlayGames.BasicApi.PlayerStats>(System.Action`2<T1,T2>,T1,T2)
+inline void AndroidClient_InvokeCallbackOnGameThread_TisCommonStatusCodes_tB68EDA346666BA225DDC1B5A045875777CC9061E_TisPlayerStats_tDF1598DA58B629082F9C1889DF0E3242571521A5_mDDB33C10750F0E733FD7E35373854A52F2BC3CD9 (Action_2_t780FB18E67AC464A50B094492A06E11D0DF1D172 * ___callback0, int32_t ___t11, PlayerStats_tDF1598DA58B629082F9C1889DF0E3242571521A5 * ___t22, const RuntimeMethod* method)
+{
+	((  void (*) (Action_2_t780FB18E67AC464A50B094492A06E11D0DF1D172 *, int32_t, PlayerStats_tDF1598DA58B629082F9C1889DF0E3242571521A5 *, const RuntimeMethod*))AndroidClient_InvokeCallbackOnGameThread_TisInt32Enum_t9B63F771913F2B6D586F1173B44A41FBE26F6B5C_TisRuntimeObject_m4AE012DCA610171DFD07AB0E2631EA99EF92250E_gshared)(___callback0, ___t11, ___t22, method);
+}
 // !!0 UnityEngine.AndroidJavaObject::Call<System.String>(System.String,System.Object[])
 inline String_t* AndroidJavaObject_Call_TisString_t_mB2E722C64FC7BD9F98B983053A6D3F9D94D355AE (AndroidJavaObject_t10188D5695DCD09C9F621B44B0A8C93A2281236E * __this, String_t* ___methodName0, ObjectU5BU5D_tC1F4EE0DB0B7300255F5FD4AF64FE4C585CF5ADE* ___args1, const RuntimeMethod* method)
 {
 	return ((  String_t* (*) (AndroidJavaObject_t10188D5695DCD09C9F621B44B0A8C93A2281236E *, String_t*, ObjectU5BU5D_tC1F4EE0DB0B7300255F5FD4AF64FE4C585CF5ADE*, const RuntimeMethod*))AndroidJavaObject_Call_TisRuntimeObject_mB802C2A6B0365A1670402D283EB7FA241C326B0E_gshared)(__this, ___methodName0, ___args1, method);
 }
+// System.Boolean GooglePlayGames.Android.AndroidClient::IsAuthenticated()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool AndroidClient_IsAuthenticated_mCFA1F8A759FAA70222F9F1C5CD7AB2C3161A6B47 (AndroidClient_tBA581A83F4D454AA570D59367F3447F7193BF3B2 * __this, const RuntimeMethod* method);
+// System.Void GooglePlayGames.BasicApi.PlayerStats::.ctor()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PlayerStats__ctor_m6834E3374DD90F38BD39FB12F1AD1B3A241AA23D (PlayerStats_tDF1598DA58B629082F9C1889DF0E3242571521A5 * __this, const RuntimeMethod* method);
 // System.Boolean System.String::op_Equality(System.String,System.String)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool String_op_Equality_m2B91EE68355F142F67095973D32EB5828B7B73CB (String_t* ___a0, String_t* ___b1, const RuntimeMethod* method);
 // GooglePlayGames.BasicApi.Player GooglePlayGames.Android.AndroidJavaConverter::ToPlayer(UnityEngine.AndroidJavaObject)
@@ -8630,17 +9049,8 @@ inline void AndroidClient_InvokeCallbackOnGameThread_TisIUserProfileU5BU5D_t4B36
 }
 // System.Void System.Threading.Monitor::Exit(System.Object)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Monitor_Exit_mA776B403DA88AC77CDEEF67AB9F0D0E77ABD254A (RuntimeObject * ___obj0, const RuntimeMethod* method);
-// System.String System.Int32::ToString()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* Int32_ToString_m340C0A14D16799421EFDF8A81C8A16FA76D48411 (int32_t* __this, const RuntimeMethod* method);
 // System.String System.String::Concat(System.String,System.String,System.String,System.String)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* String_Concat_m37A5BF26F8F8F1892D60D727303B23FB604FEE78 (String_t* ___str00, String_t* ___str11, String_t* ___str22, String_t* ___str33, const RuntimeMethod* method);
-// System.Void UnityEngine.Debug::Log(System.Object)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Debug_Log_mC26E5AD0D8D156C7FFD173AA15827F69225E9DB8 (RuntimeObject * ___message0, const RuntimeMethod* method);
-// !!0 UnityEngine.AndroidJavaObject::Call<System.Int32>(System.String,System.Object[])
-inline int32_t AndroidJavaObject_Call_TisInt32_tFDE5F8CD43D10453F6A2E0C77FE48C6CC7009046_m02A4D4C9FD8B15173829454766683BA424408A2A (AndroidJavaObject_t10188D5695DCD09C9F621B44B0A8C93A2281236E * __this, String_t* ___methodName0, ObjectU5BU5D_tC1F4EE0DB0B7300255F5FD4AF64FE4C585CF5ADE* ___args1, const RuntimeMethod* method)
-{
-	return ((  int32_t (*) (AndroidJavaObject_t10188D5695DCD09C9F621B44B0A8C93A2281236E *, String_t*, ObjectU5BU5D_tC1F4EE0DB0B7300255F5FD4AF64FE4C585CF5ADE*, const RuntimeMethod*))AndroidJavaObject_Call_TisInt32_tFDE5F8CD43D10453F6A2E0C77FE48C6CC7009046_m02A4D4C9FD8B15173829454766683BA424408A2A_gshared)(__this, ___methodName0, ___args1, method);
-}
 // System.Void GooglePlayGames.BasicApi.Achievement::.ctor()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Achievement__ctor_m35DDED6D554E387D61DFCFBB198F450D8A9D4046 (Achievement_t3568D5274558223323FAE6B5FB075B5580920F3A * __this, const RuntimeMethod* method);
 // System.Void GooglePlayGames.BasicApi.Achievement::set_Id(System.String)
@@ -8688,8 +9098,6 @@ inline void AndroidClient_InvokeCallbackOnGameThread_TisAchievementU5BU5D_tC89C0
 {
 	((  void (*) (Action_1_t6E455ED07F53B8951E2CFAC74B2FACB902442FFF *, AchievementU5BU5D_tC89C0EEDA1DACDB119E2351AABC29F801FD6B6C0*, const RuntimeMethod*))AndroidClient_InvokeCallbackOnGameThread_TisRuntimeObject_mD650AAD15375DAF3BEB4D0D2D01EABDB22B95B23_gshared)(___callback0, ___data1, method);
 }
-// System.String System.String::Concat(System.String,System.String)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* String_Concat_m4B4AB72618348C5DFBFBA8DED84B9E2EBDB55E1B (String_t* ___str00, String_t* ___str11, const RuntimeMethod* method);
 // System.Void GooglePlayGames.Android.AndroidClient::SignOut()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AndroidClient_SignOut_mE2611414DB3D1208AF2381F3E93C779E73400E73 (AndroidClient_tBA581A83F4D454AA570D59367F3447F7193BF3B2 * __this, const RuntimeMethod* method);
 // System.Void System.Action`1<UnityEngine.AndroidJavaObject>::Invoke(!0)
@@ -8722,13 +9130,6 @@ inline void AndroidClient_InvokeCallbackOnGameThread_TisLeaderboardScoreData_tFB
 }
 // System.Void GooglePlayGames.Android.AndroidClient/<>c__DisplayClass59_1::.ctor()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass59_1__ctor_m41638177A71D5AB2563E4D3C81E81A52F4EAEF1F (U3CU3Ec__DisplayClass59_1_t17F3077C359A10D6C98565DDA3188F77A32E42C6 * __this, const RuntimeMethod* method);
-// System.Void System.Action`1<System.Boolean>::.ctor(System.Object,System.IntPtr)
-inline void Action_1__ctor_m2A1B34C27CAE6ED7FD924E5F59C0A1ACBBF22C38 (Action_1_tCE2D770918A65CAD277C08C4E8C05385EA267E83 * __this, RuntimeObject * ___object0, intptr_t ___method1, const RuntimeMethod* method)
-{
-	((  void (*) (Action_1_tCE2D770918A65CAD277C08C4E8C05385EA267E83 *, RuntimeObject *, intptr_t, const RuntimeMethod*))Action_1__ctor_m2A1B34C27CAE6ED7FD924E5F59C0A1ACBBF22C38_gshared)(__this, ___object0, ___method1, method);
-}
-// System.Void GooglePlayGames.Android.AndroidHelperFragment::IsResolutionRequired(UnityEngine.AndroidJavaObject,System.Action`1<System.Boolean>)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AndroidHelperFragment_IsResolutionRequired_mC675B3D8E01E0CF9EFBA686F6D4741E1C7C0EC17 (AndroidJavaObject_t10188D5695DCD09C9F621B44B0A8C93A2281236E * ___friendsSharingConsentException0, Action_1_tCE2D770918A65CAD277C08C4E8C05385EA267E83 * ___cb1, const RuntimeMethod* method);
 // System.Void GooglePlayGames.BasicApi.LeaderboardScoreData::.ctor(System.String,GooglePlayGames.BasicApi.ResponseStatus)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void LeaderboardScoreData__ctor_m490635C001311982B303DAF38BC556F72F07771B (LeaderboardScoreData_tFB3294363C69976558D10147503B5A6C1B12471A * __this, String_t* ___leaderboardId0, int32_t ___status1, const RuntimeMethod* method);
 // System.String GooglePlayGames.BasicApi.ScorePageToken::get_LeaderboardId()
@@ -8773,8 +9174,6 @@ inline int32_t AndroidJavaObject_Get_TisInt32_tFDE5F8CD43D10453F6A2E0C77FE48C6CC
 {
 	return ((  int32_t (*) (AndroidJavaObject_t10188D5695DCD09C9F621B44B0A8C93A2281236E *, String_t*, const RuntimeMethod*))AndroidJavaObject_Get_TisInt32_tFDE5F8CD43D10453F6A2E0C77FE48C6CC7009046_mAA20D556A954E5DB5CE7F883CA865350D567F7F6_gshared)(__this, ___fieldName0, method);
 }
-// System.Void GooglePlayGames.OurUtils.Logger::d(System.String)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Logger_d_m350987175B36E8B1A5896367A32B197F73B0864A (String_t* ___msg0, const RuntimeMethod* method);
 // !!0 UnityEngine.AndroidJavaObject::Get<UnityEngine.AndroidJavaObject>(System.String)
 inline AndroidJavaObject_t10188D5695DCD09C9F621B44B0A8C93A2281236E * AndroidJavaObject_Get_TisAndroidJavaObject_t10188D5695DCD09C9F621B44B0A8C93A2281236E_mFBBE4027C3B10CC9A3F370241DFC7A997C567B12 (AndroidJavaObject_t10188D5695DCD09C9F621B44B0A8C93A2281236E * __this, String_t* ___fieldName0, const RuntimeMethod* method)
 {
@@ -8865,8 +9264,6 @@ inline void Action_2_Invoke_m5FF016CA366F9707EA47902CF530A2D88318FF0E (Action_2_
 {
 	((  void (*) (Action_2_t7A8C1BD978A367C3B60A91560C0045D63597562D *, int32_t, List_1_t5F18829CFCBB086043265F2B5298389F9BC067E4 *, const RuntimeMethod*))Action_2_Invoke_m152C98E120D38857ED1464915833AAE22C0812B5_gshared)(__this, ___arg10, ___arg21, method);
 }
-// System.Boolean GooglePlayGames.Android.AndroidClient::IsAuthenticated()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool AndroidClient_IsAuthenticated_mCFA1F8A759FAA70222F9F1C5CD7AB2C3161A6B47 (AndroidClient_tBA581A83F4D454AA570D59367F3447F7193BF3B2 * __this, const RuntimeMethod* method);
 // System.Void GooglePlayGames.Android.AndroidSavedGameClient/<>c__DisplayClass13_1::.ctor()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass13_1__ctor_m9ADCE85800EF46CE7D803B0E7B3CD63EBBFA2AC3 (U3CU3Ec__DisplayClass13_1_t619C52E9E0299533B21B5A4F71E7BB0D2D404DA8 * __this, const RuntimeMethod* method);
 // System.Void GooglePlayGames.BasicApi.SavedGame.ConflictCallback::Invoke(GooglePlayGames.BasicApi.SavedGame.IConflictResolver,GooglePlayGames.BasicApi.SavedGame.ISavedGameMetadata,System.Byte[],GooglePlayGames.BasicApi.SavedGame.ISavedGameMetadata,System.Byte[])
@@ -8924,8 +9321,6 @@ inline void AndroidTaskUtils_AddOnSuccessListener_TisAndroidJavaObject_t10188D56
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AndroidSavedGameClient_AddOnFailureListenerWithSignOut_mD337E26D79F57227EC95B74620C139DDA583A599 (AndroidSavedGameClient_t1D10251D6F4A57ED4D2C998561C1758F668D085A * __this, AndroidJavaObject_t10188D5695DCD09C9F621B44B0A8C93A2281236E * ___task0, Action_1_t7449340739FEAA6CF9730CC1FBD056945E792E5B * ___callback1, const RuntimeMethod* method);
 // UnityEngine.AndroidJavaObject GooglePlayGames.Android.AndroidSnapshotMetadata::get_JavaSnapshot()
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR AndroidJavaObject_t10188D5695DCD09C9F621B44B0A8C93A2281236E * AndroidSnapshotMetadata_get_JavaSnapshot_mCDDEBBA1CA735613D7889D0F7F3A4BA3E12D599B_inline (AndroidSnapshotMetadata_t4078BCA32AAAD09C523990C3CF0269C99DDAEB7A * __this, const RuntimeMethod* method);
-// System.Void System.Action::Invoke()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Action_Invoke_m3FFA5BE3D64F0FF8E1E1CB6F953913FADB5EB89E (Action_tAF41423D285AE0862865348CF6CE51CD085ABBA6 * __this, const RuntimeMethod* method);
 // System.Void GooglePlayGames.Android.AndroidTokenClient/<>c::.ctor()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__ctor_m006BBF9ED3A1907F58F6E75C9947EAFF1FB4A9A7 (U3CU3Ec_tFEA4E9CD045992B66CA49AD4C075C719C17EEC54 * __this, const RuntimeMethod* method);
 // System.Void UnityEngine.AndroidJavaClass::.ctor(System.String)
@@ -9158,6 +9553,1143 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__ctor_mEBF80A620A94FE40D2596C51F
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* Boolean_ToString_m59BB8456DD05A874BBD756E57EA8AD983287015C (bool* __this, const RuntimeMethod* method);
 // GooglePlayGames.BasicApi.VideoCaptureOverlayState GooglePlayGames.Android.AndroidVideoClient/OnCaptureOverlayStateListenerProxy::FromVideoCaptureOverlayState(System.Int32)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t OnCaptureOverlayStateListenerProxy_FromVideoCaptureOverlayState_m4C062F855CDDC03616E9A5B0863B52405DDDDD53 (int32_t ___overlayState0, const RuntimeMethod* method);
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+// System.Void GooglePlayGames.Android.AndroidClient/<>c__DisplayClass20_0::.ctor()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass20_0__ctor_m86811327607CBA1F1AF62ED919D1B1EC2E49FC30 (U3CU3Ec__DisplayClass20_0_t3BD03DA049C5F54E6849504F7EFA64EE4EA6B84D * __this, const RuntimeMethod* method)
+{
+	{
+		Object__ctor_m88880E0413421D13FD95325EDCE231707CE1F405(__this, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void GooglePlayGames.Android.AndroidClient/<>c__DisplayClass20_0::<InvokeCallbackOnGameThread>b__0()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass20_0_U3CInvokeCallbackOnGameThreadU3Eb__0_mAAF180829C886D931EDB24FA17B71CF2DB220CF9 (U3CU3Ec__DisplayClass20_0_t3BD03DA049C5F54E6849504F7EFA64EE4EA6B84D * __this, const RuntimeMethod* method)
+{
+	{
+		// PlayGamesHelperObject.RunOnGameThread(() => { callback(); });
+		Action_tAF41423D285AE0862865348CF6CE51CD085ABBA6 * L_0 = __this->get_callback_0();
+		NullCheck(L_0);
+		Action_Invoke_m3FFA5BE3D64F0FF8E1E1CB6F953913FADB5EB89E(L_0, /*hidden argument*/NULL);
+		// PlayGamesHelperObject.RunOnGameThread(() => { callback(); });
+		return;
+	}
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+// System.Void GooglePlayGames.Android.AndroidClient/<>c__DisplayClass32_0::.ctor()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass32_0__ctor_m0E553FC069792D5AC3C335ED3509933BD3EF6AC5 (U3CU3Ec__DisplayClass32_0_tE75F7BAC89BD1A8F5C35119D494FDAFB5F49E8A8 * __this, const RuntimeMethod* method)
+{
+	{
+		Object__ctor_m88880E0413421D13FD95325EDCE231707CE1F405(__this, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void GooglePlayGames.Android.AndroidClient/<>c__DisplayClass32_0::<LoadAllFriends>b__0(GooglePlayGames.BasicApi.LoadFriendsStatus)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass32_0_U3CLoadAllFriendsU3Eb__0_m0529F98F04F643D13D60A8B174058CFBC909690A (U3CU3Ec__DisplayClass32_0_tE75F7BAC89BD1A8F5C35119D494FDAFB5F49E8A8 * __this, int32_t ___result0, const RuntimeMethod* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&AndroidClient_InvokeCallbackOnGameThread_TisBoolean_t07D1E3F34E4813023D64F584DFF7B34C9D922F37_mA7CC7B35CCC2219E772E5D1E648A17379F35F7A1_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&AndroidClient_tBA581A83F4D454AA570D59367F3447F7193BF3B2_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&LoadFriendsStatus_t14AB28B64E647E2B64ED77E90F83DC1D61834265_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Logger_t3CA8CDA0069054EEEB97286B98E898DEAF625207_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral6D588D20E590B3DA8B690768E086672D5EE3BC4D);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		// mLastLoadFriendsStatus = result;
+		AndroidClient_tBA581A83F4D454AA570D59367F3447F7193BF3B2 * L_0 = __this->get_U3CU3E4__this_0();
+		int32_t L_1 = ___result0;
+		NullCheck(L_0);
+		L_0->set_mLastLoadFriendsStatus_10(L_1);
+		int32_t L_2 = ___result0;
+		switch (((int32_t)il2cpp_codegen_subtract((int32_t)L_2, (int32_t)((int32_t)-5))))
+		{
+			case 0:
+			{
+				goto IL_005e;
+			}
+			case 1:
+			{
+				goto IL_005e;
+			}
+			case 2:
+			{
+				goto IL_005e;
+			}
+			case 3:
+			{
+				goto IL_006b;
+			}
+			case 4:
+			{
+				goto IL_006b;
+			}
+			case 5:
+			{
+				goto IL_006b;
+			}
+			case 6:
+			{
+				goto IL_0037;
+			}
+			case 7:
+			{
+				goto IL_0044;
+			}
+		}
+	}
+	{
+		goto IL_006b;
+	}
+
+IL_0037:
+	{
+		// InvokeCallbackOnGameThread(callback, true);
+		Action_1_tCE2D770918A65CAD277C08C4E8C05385EA267E83 * L_3 = __this->get_callback_1();
+		IL2CPP_RUNTIME_CLASS_INIT(AndroidClient_tBA581A83F4D454AA570D59367F3447F7193BF3B2_il2cpp_TypeInfo_var);
+		AndroidClient_InvokeCallbackOnGameThread_TisBoolean_t07D1E3F34E4813023D64F584DFF7B34C9D922F37_mA7CC7B35CCC2219E772E5D1E648A17379F35F7A1(L_3, (bool)1, /*hidden argument*/AndroidClient_InvokeCallbackOnGameThread_TisBoolean_t07D1E3F34E4813023D64F584DFF7B34C9D922F37_mA7CC7B35CCC2219E772E5D1E648A17379F35F7A1_RuntimeMethod_var);
+		// break;
+		return;
+	}
+
+IL_0044:
+	{
+		// LoadAllFriends(pageSize, /* forceReload= */ false, /* loadMore= */ true, callback);
+		AndroidClient_tBA581A83F4D454AA570D59367F3447F7193BF3B2 * L_4 = __this->get_U3CU3E4__this_0();
+		int32_t L_5 = __this->get_pageSize_2();
+		Action_1_tCE2D770918A65CAD277C08C4E8C05385EA267E83 * L_6 = __this->get_callback_1();
+		NullCheck(L_4);
+		AndroidClient_LoadAllFriends_mBE886B9B77231FEF2BA4496FC9E93A1342082224(L_4, L_5, (bool)0, (bool)1, L_6, /*hidden argument*/NULL);
+		// break;
+		return;
+	}
+
+IL_005e:
+	{
+		// InvokeCallbackOnGameThread(callback, false);
+		Action_1_tCE2D770918A65CAD277C08C4E8C05385EA267E83 * L_7 = __this->get_callback_1();
+		IL2CPP_RUNTIME_CLASS_INIT(AndroidClient_tBA581A83F4D454AA570D59367F3447F7193BF3B2_il2cpp_TypeInfo_var);
+		AndroidClient_InvokeCallbackOnGameThread_TisBoolean_t07D1E3F34E4813023D64F584DFF7B34C9D922F37_mA7CC7B35CCC2219E772E5D1E648A17379F35F7A1(L_7, (bool)0, /*hidden argument*/AndroidClient_InvokeCallbackOnGameThread_TisBoolean_t07D1E3F34E4813023D64F584DFF7B34C9D922F37_mA7CC7B35CCC2219E772E5D1E648A17379F35F7A1_RuntimeMethod_var);
+		// break;
+		return;
+	}
+
+IL_006b:
+	{
+		// GooglePlayGames.OurUtils.Logger.d("There was an error when loading friends." + result);
+		RuntimeObject * L_8 = Box(LoadFriendsStatus_t14AB28B64E647E2B64ED77E90F83DC1D61834265_il2cpp_TypeInfo_var, (&___result0));
+		NullCheck(L_8);
+		String_t* L_9;
+		L_9 = VirtFuncInvoker0< String_t* >::Invoke(3 /* System.String System.Object::ToString() */, L_8);
+		___result0 = *(int32_t*)UnBox(L_8);
+		String_t* L_10;
+		L_10 = String_Concat_m4B4AB72618348C5DFBFBA8DED84B9E2EBDB55E1B(_stringLiteral6D588D20E590B3DA8B690768E086672D5EE3BC4D, L_9, /*hidden argument*/NULL);
+		IL2CPP_RUNTIME_CLASS_INIT(Logger_t3CA8CDA0069054EEEB97286B98E898DEAF625207_il2cpp_TypeInfo_var);
+		Logger_d_m350987175B36E8B1A5896367A32B197F73B0864A(L_10, /*hidden argument*/NULL);
+		// InvokeCallbackOnGameThread(callback, false);
+		Action_1_tCE2D770918A65CAD277C08C4E8C05385EA267E83 * L_11 = __this->get_callback_1();
+		IL2CPP_RUNTIME_CLASS_INIT(AndroidClient_tBA581A83F4D454AA570D59367F3447F7193BF3B2_il2cpp_TypeInfo_var);
+		AndroidClient_InvokeCallbackOnGameThread_TisBoolean_t07D1E3F34E4813023D64F584DFF7B34C9D922F37_mA7CC7B35CCC2219E772E5D1E648A17379F35F7A1(L_11, (bool)0, /*hidden argument*/AndroidClient_InvokeCallbackOnGameThread_TisBoolean_t07D1E3F34E4813023D64F584DFF7B34C9D922F37_mA7CC7B35CCC2219E772E5D1E648A17379F35F7A1_RuntimeMethod_var);
+		// });
+		return;
+	}
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+// System.Void GooglePlayGames.Android.AndroidClient/<>c__DisplayClass35_0::.ctor()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass35_0__ctor_mA0620B148A8934B1DBAFFA74031A699D32565DB9 (U3CU3Ec__DisplayClass35_0_t4B792C26A5EC5B570439BE34D5DE5A83A86B177E * __this, const RuntimeMethod* method)
+{
+	{
+		Object__ctor_m88880E0413421D13FD95325EDCE231707CE1F405(__this, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void GooglePlayGames.Android.AndroidClient/<>c__DisplayClass35_0::<LoadFriendsPaginated>b__0(UnityEngine.AndroidJavaObject)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass35_0_U3CLoadFriendsPaginatedU3Eb__0_mC6EABA50ED262137CA3A47872FD30EF8119CF428 (U3CU3Ec__DisplayClass35_0_t4B792C26A5EC5B570439BE34D5DE5A83A86B177E * __this, AndroidJavaObject_t10188D5695DCD09C9F621B44B0A8C93A2281236E * ___annotatedData0, const RuntimeMethod* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&AndroidClient_InvokeCallbackOnGameThread_TisLoadFriendsStatus_t14AB28B64E647E2B64ED77E90F83DC1D61834265_m24661C692FA6731A2C62C7E246E155428583F363_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&AndroidClient_tBA581A83F4D454AA570D59367F3447F7193BF3B2_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&AndroidJavaObject_Call_TisAndroidJavaObject_t10188D5695DCD09C9F621B44B0A8C93A2281236E_mC5ED59BBD9C24EFFD98D8C3819C7E15DFE08F412_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Array_Empty_TisRuntimeObject_m1FBC21243DF3542384C523801E8CA8A97606C747_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&IDisposable_t099785737FC6A1E3699919A94109383715A8D807_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&ObjectU5BU5D_tC1F4EE0DB0B7300255F5FD4AF64FE4C585CF5ADE_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral5004BB2B79B894E5CC70CDBEA1DD320044EF8F3A);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral534477A97466CA5EB28D776B81399AA7EED4C083);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralA9DF91FB4A133186AE97F3F3E096FF3D0539D3A4);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralBF68B5E8806879817720F1AA46DC7730FCB8187E);
+		s_Il2CppMethodInitialized = true;
+	}
+	AndroidJavaObject_t10188D5695DCD09C9F621B44B0A8C93A2281236E * V_0 = NULL;
+	AndroidJavaObject_t10188D5695DCD09C9F621B44B0A8C93A2281236E * V_1 = NULL;
+	bool V_2 = false;
+	Exception_t * __last_unhandled_exception = 0;
+	il2cpp::utils::ExceptionSupportStack<int32_t, 1> __leave_targets;
+	int32_t G_B4_0 = 0;
+	AndroidClient_tBA581A83F4D454AA570D59367F3447F7193BF3B2 * G_B6_0 = NULL;
+	AndroidClient_tBA581A83F4D454AA570D59367F3447F7193BF3B2 * G_B5_0 = NULL;
+	int32_t G_B7_0 = 0;
+	AndroidClient_tBA581A83F4D454AA570D59367F3447F7193BF3B2 * G_B7_1 = NULL;
+	{
+		// using (var playersBuffer = annotatedData.Call<AndroidJavaObject>("get"))
+		AndroidJavaObject_t10188D5695DCD09C9F621B44B0A8C93A2281236E * L_0 = ___annotatedData0;
+		ObjectU5BU5D_tC1F4EE0DB0B7300255F5FD4AF64FE4C585CF5ADE* L_1;
+		L_1 = Array_Empty_TisRuntimeObject_m1FBC21243DF3542384C523801E8CA8A97606C747_inline(/*hidden argument*/Array_Empty_TisRuntimeObject_m1FBC21243DF3542384C523801E8CA8A97606C747_RuntimeMethod_var);
+		NullCheck(L_0);
+		AndroidJavaObject_t10188D5695DCD09C9F621B44B0A8C93A2281236E * L_2;
+		L_2 = AndroidJavaObject_Call_TisAndroidJavaObject_t10188D5695DCD09C9F621B44B0A8C93A2281236E_mC5ED59BBD9C24EFFD98D8C3819C7E15DFE08F412(L_0, _stringLiteralBF68B5E8806879817720F1AA46DC7730FCB8187E, L_1, /*hidden argument*/AndroidJavaObject_Call_TisAndroidJavaObject_t10188D5695DCD09C9F621B44B0A8C93A2281236E_mC5ED59BBD9C24EFFD98D8C3819C7E15DFE08F412_RuntimeMethod_var);
+		V_0 = L_2;
+	}
+
+IL_0011:
+	try
+	{ // begin try (depth: 1)
+		{
+			// AndroidJavaObject metadata = playersBuffer.Call<AndroidJavaObject>("getMetadata");
+			AndroidJavaObject_t10188D5695DCD09C9F621B44B0A8C93A2281236E * L_3 = V_0;
+			ObjectU5BU5D_tC1F4EE0DB0B7300255F5FD4AF64FE4C585CF5ADE* L_4;
+			L_4 = Array_Empty_TisRuntimeObject_m1FBC21243DF3542384C523801E8CA8A97606C747_inline(/*hidden argument*/Array_Empty_TisRuntimeObject_m1FBC21243DF3542384C523801E8CA8A97606C747_RuntimeMethod_var);
+			NullCheck(L_3);
+			AndroidJavaObject_t10188D5695DCD09C9F621B44B0A8C93A2281236E * L_5;
+			L_5 = AndroidJavaObject_Call_TisAndroidJavaObject_t10188D5695DCD09C9F621B44B0A8C93A2281236E_mC5ED59BBD9C24EFFD98D8C3819C7E15DFE08F412(L_3, _stringLiteralA9DF91FB4A133186AE97F3F3E096FF3D0539D3A4, L_4, /*hidden argument*/AndroidJavaObject_Call_TisAndroidJavaObject_t10188D5695DCD09C9F621B44B0A8C93A2281236E_mC5ED59BBD9C24EFFD98D8C3819C7E15DFE08F412_RuntimeMethod_var);
+			V_1 = L_5;
+			// var areMoreFriendsToLoad = metadata != null &&
+			//                            metadata.Call<AndroidJavaObject>("getString",
+			//                                "next_page_token") != null;
+			AndroidJavaObject_t10188D5695DCD09C9F621B44B0A8C93A2281236E * L_6 = V_1;
+			if (!L_6)
+			{
+				goto IL_0043;
+			}
+		}
+
+IL_0025:
+		{
+			AndroidJavaObject_t10188D5695DCD09C9F621B44B0A8C93A2281236E * L_7 = V_1;
+			ObjectU5BU5D_tC1F4EE0DB0B7300255F5FD4AF64FE4C585CF5ADE* L_8 = (ObjectU5BU5D_tC1F4EE0DB0B7300255F5FD4AF64FE4C585CF5ADE*)(ObjectU5BU5D_tC1F4EE0DB0B7300255F5FD4AF64FE4C585CF5ADE*)SZArrayNew(ObjectU5BU5D_tC1F4EE0DB0B7300255F5FD4AF64FE4C585CF5ADE_il2cpp_TypeInfo_var, (uint32_t)1);
+			ObjectU5BU5D_tC1F4EE0DB0B7300255F5FD4AF64FE4C585CF5ADE* L_9 = L_8;
+			NullCheck(L_9);
+			ArrayElementTypeCheck (L_9, _stringLiteral534477A97466CA5EB28D776B81399AA7EED4C083);
+			(L_9)->SetAt(static_cast<il2cpp_array_size_t>(0), (RuntimeObject *)_stringLiteral534477A97466CA5EB28D776B81399AA7EED4C083);
+			NullCheck(L_7);
+			AndroidJavaObject_t10188D5695DCD09C9F621B44B0A8C93A2281236E * L_10;
+			L_10 = AndroidJavaObject_Call_TisAndroidJavaObject_t10188D5695DCD09C9F621B44B0A8C93A2281236E_mC5ED59BBD9C24EFFD98D8C3819C7E15DFE08F412(L_7, _stringLiteral5004BB2B79B894E5CC70CDBEA1DD320044EF8F3A, L_9, /*hidden argument*/AndroidJavaObject_Call_TisAndroidJavaObject_t10188D5695DCD09C9F621B44B0A8C93A2281236E_mC5ED59BBD9C24EFFD98D8C3819C7E15DFE08F412_RuntimeMethod_var);
+			G_B4_0 = ((!(((RuntimeObject*)(AndroidJavaObject_t10188D5695DCD09C9F621B44B0A8C93A2281236E *)L_10) <= ((RuntimeObject*)(RuntimeObject *)NULL)))? 1 : 0);
+			goto IL_0044;
+		}
+
+IL_0043:
+		{
+			G_B4_0 = 0;
+		}
+
+IL_0044:
+		{
+			V_2 = (bool)G_B4_0;
+			// mFriends = AndroidJavaConverter.playersBufferToArray(playersBuffer);
+			AndroidClient_tBA581A83F4D454AA570D59367F3447F7193BF3B2 * L_11 = __this->get_U3CU3E4__this_0();
+			AndroidJavaObject_t10188D5695DCD09C9F621B44B0A8C93A2281236E * L_12 = V_0;
+			IUserProfileU5BU5D_t4B36B0CF06DE6A00F5D6D0A015DC3E99B02FC65E* L_13;
+			L_13 = AndroidJavaConverter_playersBufferToArray_m051D641AE574865FFA94E924B829A387A7429878(L_12, /*hidden argument*/NULL);
+			NullCheck(L_11);
+			L_11->set_mFriends_9(L_13);
+			// mLastLoadFriendsStatus = areMoreFriendsToLoad
+			//     ? LoadFriendsStatus.LoadMore
+			//     : LoadFriendsStatus.Completed;
+			AndroidClient_tBA581A83F4D454AA570D59367F3447F7193BF3B2 * L_14 = __this->get_U3CU3E4__this_0();
+			bool L_15 = V_2;
+			G_B5_0 = L_14;
+			if (L_15)
+			{
+				G_B6_0 = L_14;
+				goto IL_0062;
+			}
+		}
+
+IL_005f:
+		{
+			G_B7_0 = 1;
+			G_B7_1 = G_B5_0;
+			goto IL_0063;
+		}
+
+IL_0062:
+		{
+			G_B7_0 = 2;
+			G_B7_1 = G_B6_0;
+		}
+
+IL_0063:
+		{
+			NullCheck(G_B7_1);
+			G_B7_1->set_mLastLoadFriendsStatus_10(G_B7_0);
+			// InvokeCallbackOnGameThread(callback, mLastLoadFriendsStatus);
+			Action_1_tFBCCF6B7BE425F8161C22FEA37361607EE8E1151 * L_16 = __this->get_callback_1();
+			AndroidClient_tBA581A83F4D454AA570D59367F3447F7193BF3B2 * L_17 = __this->get_U3CU3E4__this_0();
+			NullCheck(L_17);
+			int32_t L_18 = L_17->get_mLastLoadFriendsStatus_10();
+			IL2CPP_RUNTIME_CLASS_INIT(AndroidClient_tBA581A83F4D454AA570D59367F3447F7193BF3B2_il2cpp_TypeInfo_var);
+			AndroidClient_InvokeCallbackOnGameThread_TisLoadFriendsStatus_t14AB28B64E647E2B64ED77E90F83DC1D61834265_m24661C692FA6731A2C62C7E246E155428583F363(L_16, L_18, /*hidden argument*/AndroidClient_InvokeCallbackOnGameThread_TisLoadFriendsStatus_t14AB28B64E647E2B64ED77E90F83DC1D61834265_m24661C692FA6731A2C62C7E246E155428583F363_RuntimeMethod_var);
+			// }
+			IL2CPP_LEAVE(0x8A, FINALLY_0080);
+		}
+	} // end try (depth: 1)
+	catch(Il2CppExceptionWrapper& e)
+	{
+		__last_unhandled_exception = (Exception_t *)e.ex;
+		goto FINALLY_0080;
+	}
+
+FINALLY_0080:
+	{ // begin finally (depth: 1)
+		{
+			AndroidJavaObject_t10188D5695DCD09C9F621B44B0A8C93A2281236E * L_19 = V_0;
+			if (!L_19)
+			{
+				goto IL_0089;
+			}
+		}
+
+IL_0083:
+		{
+			AndroidJavaObject_t10188D5695DCD09C9F621B44B0A8C93A2281236E * L_20 = V_0;
+			NullCheck(L_20);
+			InterfaceActionInvoker0::Invoke(0 /* System.Void System.IDisposable::Dispose() */, IDisposable_t099785737FC6A1E3699919A94109383715A8D807_il2cpp_TypeInfo_var, L_20);
+		}
+
+IL_0089:
+		{
+			IL2CPP_END_FINALLY(128)
+		}
+	} // end finally (depth: 1)
+	IL2CPP_CLEANUP(128)
+	{
+		IL2CPP_RETHROW_IF_UNHANDLED(Exception_t *)
+		IL2CPP_JUMP_TBL(0x8A, IL_008a)
+	}
+
+IL_008a:
+	{
+		// });
+		return;
+	}
+}
+// System.Void GooglePlayGames.Android.AndroidClient/<>c__DisplayClass35_0::<LoadFriendsPaginated>b__1(UnityEngine.AndroidJavaObject)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass35_0_U3CLoadFriendsPaginatedU3Eb__1_m9F8458B9E0020000F28ED4440D4D87A7C88465CB (U3CU3Ec__DisplayClass35_0_t4B792C26A5EC5B570439BE34D5DE5A83A86B177E * __this, AndroidJavaObject_t10188D5695DCD09C9F621B44B0A8C93A2281236E * ___exception0, const RuntimeMethod* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Action_1__ctor_m2A1B34C27CAE6ED7FD924E5F59C0A1ACBBF22C38_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Action_1_tCE2D770918A65CAD277C08C4E8C05385EA267E83_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&U3CU3Ec__DisplayClass35_1_U3CLoadFriendsPaginatedU3Eb__2_m8E7643243ECEC88321672789E12FAD6ABF9F2933_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&U3CU3Ec__DisplayClass35_1_t514D2E56BDAE5CC8E5376E2E58F6B2715C46D1AE_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	U3CU3Ec__DisplayClass35_1_t514D2E56BDAE5CC8E5376E2E58F6B2715C46D1AE * V_0 = NULL;
+	{
+		U3CU3Ec__DisplayClass35_1_t514D2E56BDAE5CC8E5376E2E58F6B2715C46D1AE * L_0 = (U3CU3Ec__DisplayClass35_1_t514D2E56BDAE5CC8E5376E2E58F6B2715C46D1AE *)il2cpp_codegen_object_new(U3CU3Ec__DisplayClass35_1_t514D2E56BDAE5CC8E5376E2E58F6B2715C46D1AE_il2cpp_TypeInfo_var);
+		U3CU3Ec__DisplayClass35_1__ctor_mDB4350EA98B5673200C7D48CD90089DF19D7D602(L_0, /*hidden argument*/NULL);
+		V_0 = L_0;
+		U3CU3Ec__DisplayClass35_1_t514D2E56BDAE5CC8E5376E2E58F6B2715C46D1AE * L_1 = V_0;
+		NullCheck(L_1);
+		L_1->set_CSU24U3CU3E8__locals1_1(__this);
+		U3CU3Ec__DisplayClass35_1_t514D2E56BDAE5CC8E5376E2E58F6B2715C46D1AE * L_2 = V_0;
+		AndroidJavaObject_t10188D5695DCD09C9F621B44B0A8C93A2281236E * L_3 = ___exception0;
+		NullCheck(L_2);
+		L_2->set_exception_0(L_3);
+		// AndroidHelperFragment.IsResolutionRequired(exception, resolutionRequired =>
+		// {
+		//     if (resolutionRequired)
+		//     {
+		//         mFriendsResolutionException =
+		//             exception.Call<AndroidJavaObject>("getResolution");
+		//         mLastLoadFriendsStatus = LoadFriendsStatus.ResolutionRequired;
+		//         mFriends = new IUserProfile[0];
+		//         InvokeCallbackOnGameThread(callback, LoadFriendsStatus.ResolutionRequired);
+		//     }
+		//     else
+		//     {
+		//         mFriendsResolutionException = null;
+		//         var statusCode = exception.Call<int>("getStatusCode");
+		//         if (statusCode == /* GamesClientStatusCodes.NETWORK_ERROR_NO_DATA */ 26504)
+		//         {
+		//             mLastLoadFriendsStatus = LoadFriendsStatus.NetworkError;
+		//             InvokeCallbackOnGameThread(callback, LoadFriendsStatus.NetworkError);
+		//             return;
+		//         }
+		// 
+		//         mLastLoadFriendsStatus = LoadFriendsStatus.InternalError;
+		//         Debug.Log("LoadFriends failed with status code: " + statusCode);
+		//         InvokeCallbackOnGameThread(callback, LoadFriendsStatus.InternalError);
+		//     }
+		// });
+		U3CU3Ec__DisplayClass35_1_t514D2E56BDAE5CC8E5376E2E58F6B2715C46D1AE * L_4 = V_0;
+		NullCheck(L_4);
+		AndroidJavaObject_t10188D5695DCD09C9F621B44B0A8C93A2281236E * L_5 = L_4->get_exception_0();
+		U3CU3Ec__DisplayClass35_1_t514D2E56BDAE5CC8E5376E2E58F6B2715C46D1AE * L_6 = V_0;
+		Action_1_tCE2D770918A65CAD277C08C4E8C05385EA267E83 * L_7 = (Action_1_tCE2D770918A65CAD277C08C4E8C05385EA267E83 *)il2cpp_codegen_object_new(Action_1_tCE2D770918A65CAD277C08C4E8C05385EA267E83_il2cpp_TypeInfo_var);
+		Action_1__ctor_m2A1B34C27CAE6ED7FD924E5F59C0A1ACBBF22C38(L_7, L_6, (intptr_t)((intptr_t)U3CU3Ec__DisplayClass35_1_U3CLoadFriendsPaginatedU3Eb__2_m8E7643243ECEC88321672789E12FAD6ABF9F2933_RuntimeMethod_var), /*hidden argument*/Action_1__ctor_m2A1B34C27CAE6ED7FD924E5F59C0A1ACBBF22C38_RuntimeMethod_var);
+		AndroidHelperFragment_IsResolutionRequired_mC675B3D8E01E0CF9EFBA686F6D4741E1C7C0EC17(L_5, L_7, /*hidden argument*/NULL);
+		// return;
+		return;
+	}
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+// System.Void GooglePlayGames.Android.AndroidClient/<>c__DisplayClass35_1::.ctor()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass35_1__ctor_mDB4350EA98B5673200C7D48CD90089DF19D7D602 (U3CU3Ec__DisplayClass35_1_t514D2E56BDAE5CC8E5376E2E58F6B2715C46D1AE * __this, const RuntimeMethod* method)
+{
+	{
+		Object__ctor_m88880E0413421D13FD95325EDCE231707CE1F405(__this, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void GooglePlayGames.Android.AndroidClient/<>c__DisplayClass35_1::<LoadFriendsPaginated>b__2(System.Boolean)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass35_1_U3CLoadFriendsPaginatedU3Eb__2_m8E7643243ECEC88321672789E12FAD6ABF9F2933 (U3CU3Ec__DisplayClass35_1_t514D2E56BDAE5CC8E5376E2E58F6B2715C46D1AE * __this, bool ___resolutionRequired0, const RuntimeMethod* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&AndroidClient_InvokeCallbackOnGameThread_TisLoadFriendsStatus_t14AB28B64E647E2B64ED77E90F83DC1D61834265_m24661C692FA6731A2C62C7E246E155428583F363_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&AndroidClient_tBA581A83F4D454AA570D59367F3447F7193BF3B2_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&AndroidJavaObject_Call_TisAndroidJavaObject_t10188D5695DCD09C9F621B44B0A8C93A2281236E_mC5ED59BBD9C24EFFD98D8C3819C7E15DFE08F412_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&AndroidJavaObject_Call_TisInt32_tFDE5F8CD43D10453F6A2E0C77FE48C6CC7009046_m02A4D4C9FD8B15173829454766683BA424408A2A_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Array_Empty_TisRuntimeObject_m1FBC21243DF3542384C523801E8CA8A97606C747_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Debug_tEB68BCBEB8EFD60F8043C67146DC05E7F50F374B_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&IUserProfileU5BU5D_t4B36B0CF06DE6A00F5D6D0A015DC3E99B02FC65E_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral45249FF012C050F03C791D13FCFECD7AC4807BB1);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral7BFFFD5E5A2B4420619D29806257E528B6964E43);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralF55D056B97B3C6279CCE8A130E4636043B18A2BB);
+		s_Il2CppMethodInitialized = true;
+	}
+	int32_t V_0 = 0;
+	{
+		// if (resolutionRequired)
+		bool L_0 = ___resolutionRequired0;
+		if (!L_0)
+		{
+			goto IL_0063;
+		}
+	}
+	{
+		// mFriendsResolutionException =
+		//     exception.Call<AndroidJavaObject>("getResolution");
+		U3CU3Ec__DisplayClass35_0_t4B792C26A5EC5B570439BE34D5DE5A83A86B177E * L_1 = __this->get_CSU24U3CU3E8__locals1_1();
+		NullCheck(L_1);
+		AndroidClient_tBA581A83F4D454AA570D59367F3447F7193BF3B2 * L_2 = L_1->get_U3CU3E4__this_0();
+		AndroidJavaObject_t10188D5695DCD09C9F621B44B0A8C93A2281236E * L_3 = __this->get_exception_0();
+		ObjectU5BU5D_tC1F4EE0DB0B7300255F5FD4AF64FE4C585CF5ADE* L_4;
+		L_4 = Array_Empty_TisRuntimeObject_m1FBC21243DF3542384C523801E8CA8A97606C747_inline(/*hidden argument*/Array_Empty_TisRuntimeObject_m1FBC21243DF3542384C523801E8CA8A97606C747_RuntimeMethod_var);
+		NullCheck(L_3);
+		AndroidJavaObject_t10188D5695DCD09C9F621B44B0A8C93A2281236E * L_5;
+		L_5 = AndroidJavaObject_Call_TisAndroidJavaObject_t10188D5695DCD09C9F621B44B0A8C93A2281236E_mC5ED59BBD9C24EFFD98D8C3819C7E15DFE08F412(L_3, _stringLiteral45249FF012C050F03C791D13FCFECD7AC4807BB1, L_4, /*hidden argument*/AndroidJavaObject_Call_TisAndroidJavaObject_t10188D5695DCD09C9F621B44B0A8C93A2281236E_mC5ED59BBD9C24EFFD98D8C3819C7E15DFE08F412_RuntimeMethod_var);
+		NullCheck(L_2);
+		L_2->set_mFriendsResolutionException_13(L_5);
+		// mLastLoadFriendsStatus = LoadFriendsStatus.ResolutionRequired;
+		U3CU3Ec__DisplayClass35_0_t4B792C26A5EC5B570439BE34D5DE5A83A86B177E * L_6 = __this->get_CSU24U3CU3E8__locals1_1();
+		NullCheck(L_6);
+		AndroidClient_tBA581A83F4D454AA570D59367F3447F7193BF3B2 * L_7 = L_6->get_U3CU3E4__this_0();
+		NullCheck(L_7);
+		L_7->set_mLastLoadFriendsStatus_10(((int32_t)-3));
+		// mFriends = new IUserProfile[0];
+		U3CU3Ec__DisplayClass35_0_t4B792C26A5EC5B570439BE34D5DE5A83A86B177E * L_8 = __this->get_CSU24U3CU3E8__locals1_1();
+		NullCheck(L_8);
+		AndroidClient_tBA581A83F4D454AA570D59367F3447F7193BF3B2 * L_9 = L_8->get_U3CU3E4__this_0();
+		IUserProfileU5BU5D_t4B36B0CF06DE6A00F5D6D0A015DC3E99B02FC65E* L_10 = (IUserProfileU5BU5D_t4B36B0CF06DE6A00F5D6D0A015DC3E99B02FC65E*)(IUserProfileU5BU5D_t4B36B0CF06DE6A00F5D6D0A015DC3E99B02FC65E*)SZArrayNew(IUserProfileU5BU5D_t4B36B0CF06DE6A00F5D6D0A015DC3E99B02FC65E_il2cpp_TypeInfo_var, (uint32_t)0);
+		NullCheck(L_9);
+		L_9->set_mFriends_9(L_10);
+		// InvokeCallbackOnGameThread(callback, LoadFriendsStatus.ResolutionRequired);
+		U3CU3Ec__DisplayClass35_0_t4B792C26A5EC5B570439BE34D5DE5A83A86B177E * L_11 = __this->get_CSU24U3CU3E8__locals1_1();
+		NullCheck(L_11);
+		Action_1_tFBCCF6B7BE425F8161C22FEA37361607EE8E1151 * L_12 = L_11->get_callback_1();
+		IL2CPP_RUNTIME_CLASS_INIT(AndroidClient_tBA581A83F4D454AA570D59367F3447F7193BF3B2_il2cpp_TypeInfo_var);
+		AndroidClient_InvokeCallbackOnGameThread_TisLoadFriendsStatus_t14AB28B64E647E2B64ED77E90F83DC1D61834265_m24661C692FA6731A2C62C7E246E155428583F363(L_12, ((int32_t)-3), /*hidden argument*/AndroidClient_InvokeCallbackOnGameThread_TisLoadFriendsStatus_t14AB28B64E647E2B64ED77E90F83DC1D61834265_m24661C692FA6731A2C62C7E246E155428583F363_RuntimeMethod_var);
+		// }
+		return;
+	}
+
+IL_0063:
+	{
+		// mFriendsResolutionException = null;
+		U3CU3Ec__DisplayClass35_0_t4B792C26A5EC5B570439BE34D5DE5A83A86B177E * L_13 = __this->get_CSU24U3CU3E8__locals1_1();
+		NullCheck(L_13);
+		AndroidClient_tBA581A83F4D454AA570D59367F3447F7193BF3B2 * L_14 = L_13->get_U3CU3E4__this_0();
+		NullCheck(L_14);
+		L_14->set_mFriendsResolutionException_13((AndroidJavaObject_t10188D5695DCD09C9F621B44B0A8C93A2281236E *)NULL);
+		// var statusCode = exception.Call<int>("getStatusCode");
+		AndroidJavaObject_t10188D5695DCD09C9F621B44B0A8C93A2281236E * L_15 = __this->get_exception_0();
+		ObjectU5BU5D_tC1F4EE0DB0B7300255F5FD4AF64FE4C585CF5ADE* L_16;
+		L_16 = Array_Empty_TisRuntimeObject_m1FBC21243DF3542384C523801E8CA8A97606C747_inline(/*hidden argument*/Array_Empty_TisRuntimeObject_m1FBC21243DF3542384C523801E8CA8A97606C747_RuntimeMethod_var);
+		NullCheck(L_15);
+		int32_t L_17;
+		L_17 = AndroidJavaObject_Call_TisInt32_tFDE5F8CD43D10453F6A2E0C77FE48C6CC7009046_m02A4D4C9FD8B15173829454766683BA424408A2A(L_15, _stringLiteral7BFFFD5E5A2B4420619D29806257E528B6964E43, L_16, /*hidden argument*/AndroidJavaObject_Call_TisInt32_tFDE5F8CD43D10453F6A2E0C77FE48C6CC7009046_m02A4D4C9FD8B15173829454766683BA424408A2A_RuntimeMethod_var);
+		V_0 = L_17;
+		// if (statusCode == /* GamesClientStatusCodes.NETWORK_ERROR_NO_DATA */ 26504)
+		int32_t L_18 = V_0;
+		if ((!(((uint32_t)L_18) == ((uint32_t)((int32_t)26504)))))
+		{
+			goto IL_00b7;
+		}
+	}
+	{
+		// mLastLoadFriendsStatus = LoadFriendsStatus.NetworkError;
+		U3CU3Ec__DisplayClass35_0_t4B792C26A5EC5B570439BE34D5DE5A83A86B177E * L_19 = __this->get_CSU24U3CU3E8__locals1_1();
+		NullCheck(L_19);
+		AndroidClient_tBA581A83F4D454AA570D59367F3447F7193BF3B2 * L_20 = L_19->get_U3CU3E4__this_0();
+		NullCheck(L_20);
+		L_20->set_mLastLoadFriendsStatus_10(((int32_t)-6));
+		// InvokeCallbackOnGameThread(callback, LoadFriendsStatus.NetworkError);
+		U3CU3Ec__DisplayClass35_0_t4B792C26A5EC5B570439BE34D5DE5A83A86B177E * L_21 = __this->get_CSU24U3CU3E8__locals1_1();
+		NullCheck(L_21);
+		Action_1_tFBCCF6B7BE425F8161C22FEA37361607EE8E1151 * L_22 = L_21->get_callback_1();
+		IL2CPP_RUNTIME_CLASS_INIT(AndroidClient_tBA581A83F4D454AA570D59367F3447F7193BF3B2_il2cpp_TypeInfo_var);
+		AndroidClient_InvokeCallbackOnGameThread_TisLoadFriendsStatus_t14AB28B64E647E2B64ED77E90F83DC1D61834265_m24661C692FA6731A2C62C7E246E155428583F363(L_22, ((int32_t)-6), /*hidden argument*/AndroidClient_InvokeCallbackOnGameThread_TisLoadFriendsStatus_t14AB28B64E647E2B64ED77E90F83DC1D61834265_m24661C692FA6731A2C62C7E246E155428583F363_RuntimeMethod_var);
+		// return;
+		return;
+	}
+
+IL_00b7:
+	{
+		// mLastLoadFriendsStatus = LoadFriendsStatus.InternalError;
+		U3CU3Ec__DisplayClass35_0_t4B792C26A5EC5B570439BE34D5DE5A83A86B177E * L_23 = __this->get_CSU24U3CU3E8__locals1_1();
+		NullCheck(L_23);
+		AndroidClient_tBA581A83F4D454AA570D59367F3447F7193BF3B2 * L_24 = L_23->get_U3CU3E4__this_0();
+		NullCheck(L_24);
+		L_24->set_mLastLoadFriendsStatus_10(((int32_t)-4));
+		// Debug.Log("LoadFriends failed with status code: " + statusCode);
+		String_t* L_25;
+		L_25 = Int32_ToString_m340C0A14D16799421EFDF8A81C8A16FA76D48411((int32_t*)(&V_0), /*hidden argument*/NULL);
+		String_t* L_26;
+		L_26 = String_Concat_m4B4AB72618348C5DFBFBA8DED84B9E2EBDB55E1B(_stringLiteralF55D056B97B3C6279CCE8A130E4636043B18A2BB, L_25, /*hidden argument*/NULL);
+		IL2CPP_RUNTIME_CLASS_INIT(Debug_tEB68BCBEB8EFD60F8043C67146DC05E7F50F374B_il2cpp_TypeInfo_var);
+		Debug_Log_mC26E5AD0D8D156C7FFD173AA15827F69225E9DB8(L_26, /*hidden argument*/NULL);
+		// InvokeCallbackOnGameThread(callback, LoadFriendsStatus.InternalError);
+		U3CU3Ec__DisplayClass35_0_t4B792C26A5EC5B570439BE34D5DE5A83A86B177E * L_27 = __this->get_CSU24U3CU3E8__locals1_1();
+		NullCheck(L_27);
+		Action_1_tFBCCF6B7BE425F8161C22FEA37361607EE8E1151 * L_28 = L_27->get_callback_1();
+		IL2CPP_RUNTIME_CLASS_INIT(AndroidClient_tBA581A83F4D454AA570D59367F3447F7193BF3B2_il2cpp_TypeInfo_var);
+		AndroidClient_InvokeCallbackOnGameThread_TisLoadFriendsStatus_t14AB28B64E647E2B64ED77E90F83DC1D61834265_m24661C692FA6731A2C62C7E246E155428583F363(L_28, ((int32_t)-4), /*hidden argument*/AndroidClient_InvokeCallbackOnGameThread_TisLoadFriendsStatus_t14AB28B64E647E2B64ED77E90F83DC1D61834265_m24661C692FA6731A2C62C7E246E155428583F363_RuntimeMethod_var);
+		// });
+		return;
+	}
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+// System.Void GooglePlayGames.Android.AndroidClient/<>c__DisplayClass37_0::.ctor()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass37_0__ctor_m079DF3C9E1E0C8C4B2C0FE3E12B7A04139F72707 (U3CU3Ec__DisplayClass37_0_t4BB39D58F0807DF08E9CCC85EE1EE93C2A491950 * __this, const RuntimeMethod* method)
+{
+	{
+		Object__ctor_m88880E0413421D13FD95325EDCE231707CE1F405(__this, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void GooglePlayGames.Android.AndroidClient/<>c__DisplayClass37_0::<AskForLoadFriendsResolution>b__0(UnityEngine.AndroidJavaObject)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass37_0_U3CAskForLoadFriendsResolutionU3Eb__0_mBA9C9BB78DEC5833B7622A7D6D3A8AB7BA784DD2 (U3CU3Ec__DisplayClass37_0_t4BB39D58F0807DF08E9CCC85EE1EE93C2A491950 * __this, AndroidJavaObject_t10188D5695DCD09C9F621B44B0A8C93A2281236E * ___annotatedData0, const RuntimeMethod* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&AndroidClient_InvokeCallbackOnGameThread_TisUIStatus_t34F64DC1927A392210216047169D4E196183BD14_m78B26B077A1A979B11C5596B45DC6E9A1A2929B6_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&AndroidClient_tBA581A83F4D454AA570D59367F3447F7193BF3B2_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		// task, annotatedData => { InvokeCallbackOnGameThread(callback, UIStatus.Valid); });
+		Action_1_t6B1F89E58437C0598230633DF931FDE7AA632F94 * L_0 = __this->get_callback_0();
+		IL2CPP_RUNTIME_CLASS_INIT(AndroidClient_tBA581A83F4D454AA570D59367F3447F7193BF3B2_il2cpp_TypeInfo_var);
+		AndroidClient_InvokeCallbackOnGameThread_TisUIStatus_t34F64DC1927A392210216047169D4E196183BD14_m78B26B077A1A979B11C5596B45DC6E9A1A2929B6(L_0, 1, /*hidden argument*/AndroidClient_InvokeCallbackOnGameThread_TisUIStatus_t34F64DC1927A392210216047169D4E196183BD14_m78B26B077A1A979B11C5596B45DC6E9A1A2929B6_RuntimeMethod_var);
+		// task, annotatedData => { InvokeCallbackOnGameThread(callback, UIStatus.Valid); });
+		return;
+	}
+}
+// System.Void GooglePlayGames.Android.AndroidClient/<>c__DisplayClass37_0::<AskForLoadFriendsResolution>b__1(UnityEngine.AndroidJavaObject)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass37_0_U3CAskForLoadFriendsResolutionU3Eb__1_mF647BF73BB5E9B4A2D34DA53BEDDFA4E60A2089F (U3CU3Ec__DisplayClass37_0_t4BB39D58F0807DF08E9CCC85EE1EE93C2A491950 * __this, AndroidJavaObject_t10188D5695DCD09C9F621B44B0A8C93A2281236E * ___exception0, const RuntimeMethod* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Action_1__ctor_m2A1B34C27CAE6ED7FD924E5F59C0A1ACBBF22C38_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Action_1_tCE2D770918A65CAD277C08C4E8C05385EA267E83_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&U3CU3Ec__DisplayClass37_1_U3CAskForLoadFriendsResolutionU3Eb__2_m42E6E7CF664258C8850442FDD34D7841DDBCDB22_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&U3CU3Ec__DisplayClass37_1_tF74C9E0DD6647133DE88E1A3DAB64D215CE27DEE_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	U3CU3Ec__DisplayClass37_1_tF74C9E0DD6647133DE88E1A3DAB64D215CE27DEE * V_0 = NULL;
+	{
+		U3CU3Ec__DisplayClass37_1_tF74C9E0DD6647133DE88E1A3DAB64D215CE27DEE * L_0 = (U3CU3Ec__DisplayClass37_1_tF74C9E0DD6647133DE88E1A3DAB64D215CE27DEE *)il2cpp_codegen_object_new(U3CU3Ec__DisplayClass37_1_tF74C9E0DD6647133DE88E1A3DAB64D215CE27DEE_il2cpp_TypeInfo_var);
+		U3CU3Ec__DisplayClass37_1__ctor_m39E475FED73F0D8E4D55C757EE5C0B71E0444448(L_0, /*hidden argument*/NULL);
+		V_0 = L_0;
+		U3CU3Ec__DisplayClass37_1_tF74C9E0DD6647133DE88E1A3DAB64D215CE27DEE * L_1 = V_0;
+		NullCheck(L_1);
+		L_1->set_CSU24U3CU3E8__locals1_1(__this);
+		U3CU3Ec__DisplayClass37_1_tF74C9E0DD6647133DE88E1A3DAB64D215CE27DEE * L_2 = V_0;
+		AndroidJavaObject_t10188D5695DCD09C9F621B44B0A8C93A2281236E * L_3 = ___exception0;
+		NullCheck(L_2);
+		L_2->set_exception_0(L_3);
+		// AndroidHelperFragment.IsResolutionRequired(exception, resolutionRequired =>
+		// {
+		//     if (resolutionRequired)
+		//     {
+		//         mFriendsResolutionException =
+		//             exception.Call<AndroidJavaObject>("getResolution");
+		//         AndroidHelperFragment.AskForLoadFriendsResolution(
+		//             mFriendsResolutionException, AsOnGameThreadCallback(callback));
+		//     }
+		//     else
+		//     {
+		//         var statusCode = exception.Call<int>("getStatusCode");
+		//         if (statusCode == /* GamesClientStatusCodes.NETWORK_ERROR_NO_DATA */ 26504)
+		//         {
+		//             InvokeCallbackOnGameThread(callback, UIStatus.NetworkError);
+		//             return;
+		//         }
+		// 
+		//         Debug.Log("LoadFriends failed with status code: " + statusCode);
+		//         InvokeCallbackOnGameThread(callback, UIStatus.InternalError);
+		//     }
+		// });
+		U3CU3Ec__DisplayClass37_1_tF74C9E0DD6647133DE88E1A3DAB64D215CE27DEE * L_4 = V_0;
+		NullCheck(L_4);
+		AndroidJavaObject_t10188D5695DCD09C9F621B44B0A8C93A2281236E * L_5 = L_4->get_exception_0();
+		U3CU3Ec__DisplayClass37_1_tF74C9E0DD6647133DE88E1A3DAB64D215CE27DEE * L_6 = V_0;
+		Action_1_tCE2D770918A65CAD277C08C4E8C05385EA267E83 * L_7 = (Action_1_tCE2D770918A65CAD277C08C4E8C05385EA267E83 *)il2cpp_codegen_object_new(Action_1_tCE2D770918A65CAD277C08C4E8C05385EA267E83_il2cpp_TypeInfo_var);
+		Action_1__ctor_m2A1B34C27CAE6ED7FD924E5F59C0A1ACBBF22C38(L_7, L_6, (intptr_t)((intptr_t)U3CU3Ec__DisplayClass37_1_U3CAskForLoadFriendsResolutionU3Eb__2_m42E6E7CF664258C8850442FDD34D7841DDBCDB22_RuntimeMethod_var), /*hidden argument*/Action_1__ctor_m2A1B34C27CAE6ED7FD924E5F59C0A1ACBBF22C38_RuntimeMethod_var);
+		AndroidHelperFragment_IsResolutionRequired_mC675B3D8E01E0CF9EFBA686F6D4741E1C7C0EC17(L_5, L_7, /*hidden argument*/NULL);
+		// return;
+		return;
+	}
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+// System.Void GooglePlayGames.Android.AndroidClient/<>c__DisplayClass37_1::.ctor()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass37_1__ctor_m39E475FED73F0D8E4D55C757EE5C0B71E0444448 (U3CU3Ec__DisplayClass37_1_tF74C9E0DD6647133DE88E1A3DAB64D215CE27DEE * __this, const RuntimeMethod* method)
+{
+	{
+		Object__ctor_m88880E0413421D13FD95325EDCE231707CE1F405(__this, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void GooglePlayGames.Android.AndroidClient/<>c__DisplayClass37_1::<AskForLoadFriendsResolution>b__2(System.Boolean)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass37_1_U3CAskForLoadFriendsResolutionU3Eb__2_m42E6E7CF664258C8850442FDD34D7841DDBCDB22 (U3CU3Ec__DisplayClass37_1_tF74C9E0DD6647133DE88E1A3DAB64D215CE27DEE * __this, bool ___resolutionRequired0, const RuntimeMethod* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&AndroidClient_AsOnGameThreadCallback_TisUIStatus_t34F64DC1927A392210216047169D4E196183BD14_mCE03419A2E064D4DE545A13D6DD35F695F7817B9_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&AndroidClient_InvokeCallbackOnGameThread_TisUIStatus_t34F64DC1927A392210216047169D4E196183BD14_m78B26B077A1A979B11C5596B45DC6E9A1A2929B6_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&AndroidClient_tBA581A83F4D454AA570D59367F3447F7193BF3B2_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&AndroidJavaObject_Call_TisAndroidJavaObject_t10188D5695DCD09C9F621B44B0A8C93A2281236E_mC5ED59BBD9C24EFFD98D8C3819C7E15DFE08F412_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&AndroidJavaObject_Call_TisInt32_tFDE5F8CD43D10453F6A2E0C77FE48C6CC7009046_m02A4D4C9FD8B15173829454766683BA424408A2A_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Array_Empty_TisRuntimeObject_m1FBC21243DF3542384C523801E8CA8A97606C747_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Debug_tEB68BCBEB8EFD60F8043C67146DC05E7F50F374B_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral45249FF012C050F03C791D13FCFECD7AC4807BB1);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral7BFFFD5E5A2B4420619D29806257E528B6964E43);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralF55D056B97B3C6279CCE8A130E4636043B18A2BB);
+		s_Il2CppMethodInitialized = true;
+	}
+	int32_t V_0 = 0;
+	{
+		// if (resolutionRequired)
+		bool L_0 = ___resolutionRequired0;
+		if (!L_0)
+		{
+			goto IL_004e;
+		}
+	}
+	{
+		// mFriendsResolutionException =
+		//     exception.Call<AndroidJavaObject>("getResolution");
+		U3CU3Ec__DisplayClass37_0_t4BB39D58F0807DF08E9CCC85EE1EE93C2A491950 * L_1 = __this->get_CSU24U3CU3E8__locals1_1();
+		NullCheck(L_1);
+		AndroidClient_tBA581A83F4D454AA570D59367F3447F7193BF3B2 * L_2 = L_1->get_U3CU3E4__this_1();
+		AndroidJavaObject_t10188D5695DCD09C9F621B44B0A8C93A2281236E * L_3 = __this->get_exception_0();
+		ObjectU5BU5D_tC1F4EE0DB0B7300255F5FD4AF64FE4C585CF5ADE* L_4;
+		L_4 = Array_Empty_TisRuntimeObject_m1FBC21243DF3542384C523801E8CA8A97606C747_inline(/*hidden argument*/Array_Empty_TisRuntimeObject_m1FBC21243DF3542384C523801E8CA8A97606C747_RuntimeMethod_var);
+		NullCheck(L_3);
+		AndroidJavaObject_t10188D5695DCD09C9F621B44B0A8C93A2281236E * L_5;
+		L_5 = AndroidJavaObject_Call_TisAndroidJavaObject_t10188D5695DCD09C9F621B44B0A8C93A2281236E_mC5ED59BBD9C24EFFD98D8C3819C7E15DFE08F412(L_3, _stringLiteral45249FF012C050F03C791D13FCFECD7AC4807BB1, L_4, /*hidden argument*/AndroidJavaObject_Call_TisAndroidJavaObject_t10188D5695DCD09C9F621B44B0A8C93A2281236E_mC5ED59BBD9C24EFFD98D8C3819C7E15DFE08F412_RuntimeMethod_var);
+		NullCheck(L_2);
+		L_2->set_mFriendsResolutionException_13(L_5);
+		// AndroidHelperFragment.AskForLoadFriendsResolution(
+		//     mFriendsResolutionException, AsOnGameThreadCallback(callback));
+		U3CU3Ec__DisplayClass37_0_t4BB39D58F0807DF08E9CCC85EE1EE93C2A491950 * L_6 = __this->get_CSU24U3CU3E8__locals1_1();
+		NullCheck(L_6);
+		AndroidClient_tBA581A83F4D454AA570D59367F3447F7193BF3B2 * L_7 = L_6->get_U3CU3E4__this_1();
+		NullCheck(L_7);
+		AndroidJavaObject_t10188D5695DCD09C9F621B44B0A8C93A2281236E * L_8 = L_7->get_mFriendsResolutionException_13();
+		U3CU3Ec__DisplayClass37_0_t4BB39D58F0807DF08E9CCC85EE1EE93C2A491950 * L_9 = __this->get_CSU24U3CU3E8__locals1_1();
+		NullCheck(L_9);
+		Action_1_t6B1F89E58437C0598230633DF931FDE7AA632F94 * L_10 = L_9->get_callback_0();
+		IL2CPP_RUNTIME_CLASS_INIT(AndroidClient_tBA581A83F4D454AA570D59367F3447F7193BF3B2_il2cpp_TypeInfo_var);
+		Action_1_t6B1F89E58437C0598230633DF931FDE7AA632F94 * L_11;
+		L_11 = AndroidClient_AsOnGameThreadCallback_TisUIStatus_t34F64DC1927A392210216047169D4E196183BD14_mCE03419A2E064D4DE545A13D6DD35F695F7817B9(L_10, /*hidden argument*/AndroidClient_AsOnGameThreadCallback_TisUIStatus_t34F64DC1927A392210216047169D4E196183BD14_mCE03419A2E064D4DE545A13D6DD35F695F7817B9_RuntimeMethod_var);
+		AndroidHelperFragment_AskForLoadFriendsResolution_m62AEA039A0EF2EFBF8846EC4B15EE6A753FB74B3(L_8, L_11, /*hidden argument*/NULL);
+		// }
+		return;
+	}
+
+IL_004e:
+	{
+		// var statusCode = exception.Call<int>("getStatusCode");
+		AndroidJavaObject_t10188D5695DCD09C9F621B44B0A8C93A2281236E * L_12 = __this->get_exception_0();
+		ObjectU5BU5D_tC1F4EE0DB0B7300255F5FD4AF64FE4C585CF5ADE* L_13;
+		L_13 = Array_Empty_TisRuntimeObject_m1FBC21243DF3542384C523801E8CA8A97606C747_inline(/*hidden argument*/Array_Empty_TisRuntimeObject_m1FBC21243DF3542384C523801E8CA8A97606C747_RuntimeMethod_var);
+		NullCheck(L_12);
+		int32_t L_14;
+		L_14 = AndroidJavaObject_Call_TisInt32_tFDE5F8CD43D10453F6A2E0C77FE48C6CC7009046_m02A4D4C9FD8B15173829454766683BA424408A2A(L_12, _stringLiteral7BFFFD5E5A2B4420619D29806257E528B6964E43, L_13, /*hidden argument*/AndroidJavaObject_Call_TisInt32_tFDE5F8CD43D10453F6A2E0C77FE48C6CC7009046_m02A4D4C9FD8B15173829454766683BA424408A2A_RuntimeMethod_var);
+		V_0 = L_14;
+		// if (statusCode == /* GamesClientStatusCodes.NETWORK_ERROR_NO_DATA */ 26504)
+		int32_t L_15 = V_0;
+		if ((!(((uint32_t)L_15) == ((uint32_t)((int32_t)26504)))))
+		{
+			goto IL_007f;
+		}
+	}
+	{
+		// InvokeCallbackOnGameThread(callback, UIStatus.NetworkError);
+		U3CU3Ec__DisplayClass37_0_t4BB39D58F0807DF08E9CCC85EE1EE93C2A491950 * L_16 = __this->get_CSU24U3CU3E8__locals1_1();
+		NullCheck(L_16);
+		Action_1_t6B1F89E58437C0598230633DF931FDE7AA632F94 * L_17 = L_16->get_callback_0();
+		IL2CPP_RUNTIME_CLASS_INIT(AndroidClient_tBA581A83F4D454AA570D59367F3447F7193BF3B2_il2cpp_TypeInfo_var);
+		AndroidClient_InvokeCallbackOnGameThread_TisUIStatus_t34F64DC1927A392210216047169D4E196183BD14_m78B26B077A1A979B11C5596B45DC6E9A1A2929B6(L_17, ((int32_t)-20), /*hidden argument*/AndroidClient_InvokeCallbackOnGameThread_TisUIStatus_t34F64DC1927A392210216047169D4E196183BD14_m78B26B077A1A979B11C5596B45DC6E9A1A2929B6_RuntimeMethod_var);
+		// return;
+		return;
+	}
+
+IL_007f:
+	{
+		// Debug.Log("LoadFriends failed with status code: " + statusCode);
+		String_t* L_18;
+		L_18 = Int32_ToString_m340C0A14D16799421EFDF8A81C8A16FA76D48411((int32_t*)(&V_0), /*hidden argument*/NULL);
+		String_t* L_19;
+		L_19 = String_Concat_m4B4AB72618348C5DFBFBA8DED84B9E2EBDB55E1B(_stringLiteralF55D056B97B3C6279CCE8A130E4636043B18A2BB, L_18, /*hidden argument*/NULL);
+		IL2CPP_RUNTIME_CLASS_INIT(Debug_tEB68BCBEB8EFD60F8043C67146DC05E7F50F374B_il2cpp_TypeInfo_var);
+		Debug_Log_mC26E5AD0D8D156C7FFD173AA15827F69225E9DB8(L_19, /*hidden argument*/NULL);
+		// InvokeCallbackOnGameThread(callback, UIStatus.InternalError);
+		U3CU3Ec__DisplayClass37_0_t4BB39D58F0807DF08E9CCC85EE1EE93C2A491950 * L_20 = __this->get_CSU24U3CU3E8__locals1_1();
+		NullCheck(L_20);
+		Action_1_t6B1F89E58437C0598230633DF931FDE7AA632F94 * L_21 = L_20->get_callback_0();
+		IL2CPP_RUNTIME_CLASS_INIT(AndroidClient_tBA581A83F4D454AA570D59367F3447F7193BF3B2_il2cpp_TypeInfo_var);
+		AndroidClient_InvokeCallbackOnGameThread_TisUIStatus_t34F64DC1927A392210216047169D4E196183BD14_m78B26B077A1A979B11C5596B45DC6E9A1A2929B6(L_21, ((int32_t)-2), /*hidden argument*/AndroidClient_InvokeCallbackOnGameThread_TisUIStatus_t34F64DC1927A392210216047169D4E196183BD14_m78B26B077A1A979B11C5596B45DC6E9A1A2929B6_RuntimeMethod_var);
+		// });
+		return;
+	}
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+// System.Void GooglePlayGames.Android.AndroidClient/<>c__DisplayClass39_0::.ctor()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass39_0__ctor_m58C1E1C1E538FFA04A7B944C262FF66753E79F91 (U3CU3Ec__DisplayClass39_0_tFDF588BDFF20E759A9CCB87F36CB7FF8C260FB4D * __this, const RuntimeMethod* method)
+{
+	{
+		Object__ctor_m88880E0413421D13FD95325EDCE231707CE1F405(__this, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void GooglePlayGames.Android.AndroidClient/<>c__DisplayClass39_0::<GetFriendsListVisibility>b__0(UnityEngine.AndroidJavaObject)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass39_0_U3CGetFriendsListVisibilityU3Eb__0_m46A1D44DA14DC5BEB937F88A67A68DA8EE1C3EAA (U3CU3Ec__DisplayClass39_0_tFDF588BDFF20E759A9CCB87F36CB7FF8C260FB4D * __this, AndroidJavaObject_t10188D5695DCD09C9F621B44B0A8C93A2281236E * ___annotatedData0, const RuntimeMethod* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&AndroidClient_InvokeCallbackOnGameThread_TisFriendsListVisibilityStatus_t353204B8A8C11D7ED64F59483F10A0C2010402FD_m36C32CA9CE02A203DF27342154DD60F8CE27DEA1_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&AndroidClient_tBA581A83F4D454AA570D59367F3447F7193BF3B2_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&AndroidJavaObject_Call_TisAndroidJavaObject_t10188D5695DCD09C9F621B44B0A8C93A2281236E_mC5ED59BBD9C24EFFD98D8C3819C7E15DFE08F412_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&AndroidJavaObject_Call_TisInt32_tFDE5F8CD43D10453F6A2E0C77FE48C6CC7009046_m02A4D4C9FD8B15173829454766683BA424408A2A_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Array_Empty_TisRuntimeObject_m1FBC21243DF3542384C523801E8CA8A97606C747_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral4BAF45B663A9FCB5F97487C161CE49E0B461F2B6);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralBF68B5E8806879817720F1AA46DC7730FCB8187E);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralF059EC5CB4AB244E5BA381DD03CF4957BD419295);
+		s_Il2CppMethodInitialized = true;
+	}
+	int32_t V_0 = 0;
+	{
+		// AndroidJavaObject currentPlayerInfo =
+		//     annotatedData.Call<AndroidJavaObject>("get").Call<AndroidJavaObject>(
+		//         "getCurrentPlayerInfo");
+		AndroidJavaObject_t10188D5695DCD09C9F621B44B0A8C93A2281236E * L_0 = ___annotatedData0;
+		ObjectU5BU5D_tC1F4EE0DB0B7300255F5FD4AF64FE4C585CF5ADE* L_1;
+		L_1 = Array_Empty_TisRuntimeObject_m1FBC21243DF3542384C523801E8CA8A97606C747_inline(/*hidden argument*/Array_Empty_TisRuntimeObject_m1FBC21243DF3542384C523801E8CA8A97606C747_RuntimeMethod_var);
+		NullCheck(L_0);
+		AndroidJavaObject_t10188D5695DCD09C9F621B44B0A8C93A2281236E * L_2;
+		L_2 = AndroidJavaObject_Call_TisAndroidJavaObject_t10188D5695DCD09C9F621B44B0A8C93A2281236E_mC5ED59BBD9C24EFFD98D8C3819C7E15DFE08F412(L_0, _stringLiteralBF68B5E8806879817720F1AA46DC7730FCB8187E, L_1, /*hidden argument*/AndroidJavaObject_Call_TisAndroidJavaObject_t10188D5695DCD09C9F621B44B0A8C93A2281236E_mC5ED59BBD9C24EFFD98D8C3819C7E15DFE08F412_RuntimeMethod_var);
+		ObjectU5BU5D_tC1F4EE0DB0B7300255F5FD4AF64FE4C585CF5ADE* L_3;
+		L_3 = Array_Empty_TisRuntimeObject_m1FBC21243DF3542384C523801E8CA8A97606C747_inline(/*hidden argument*/Array_Empty_TisRuntimeObject_m1FBC21243DF3542384C523801E8CA8A97606C747_RuntimeMethod_var);
+		NullCheck(L_2);
+		AndroidJavaObject_t10188D5695DCD09C9F621B44B0A8C93A2281236E * L_4;
+		L_4 = AndroidJavaObject_Call_TisAndroidJavaObject_t10188D5695DCD09C9F621B44B0A8C93A2281236E_mC5ED59BBD9C24EFFD98D8C3819C7E15DFE08F412(L_2, _stringLiteralF059EC5CB4AB244E5BA381DD03CF4957BD419295, L_3, /*hidden argument*/AndroidJavaObject_Call_TisAndroidJavaObject_t10188D5695DCD09C9F621B44B0A8C93A2281236E_mC5ED59BBD9C24EFFD98D8C3819C7E15DFE08F412_RuntimeMethod_var);
+		// int playerListVisibility =
+		//     currentPlayerInfo.Call<int>("getFriendsListVisibilityStatus");
+		ObjectU5BU5D_tC1F4EE0DB0B7300255F5FD4AF64FE4C585CF5ADE* L_5;
+		L_5 = Array_Empty_TisRuntimeObject_m1FBC21243DF3542384C523801E8CA8A97606C747_inline(/*hidden argument*/Array_Empty_TisRuntimeObject_m1FBC21243DF3542384C523801E8CA8A97606C747_RuntimeMethod_var);
+		NullCheck(L_4);
+		int32_t L_6;
+		L_6 = AndroidJavaObject_Call_TisInt32_tFDE5F8CD43D10453F6A2E0C77FE48C6CC7009046_m02A4D4C9FD8B15173829454766683BA424408A2A(L_4, _stringLiteral4BAF45B663A9FCB5F97487C161CE49E0B461F2B6, L_5, /*hidden argument*/AndroidJavaObject_Call_TisInt32_tFDE5F8CD43D10453F6A2E0C77FE48C6CC7009046_m02A4D4C9FD8B15173829454766683BA424408A2A_RuntimeMethod_var);
+		V_0 = L_6;
+		// InvokeCallbackOnGameThread(callback,
+		//     AndroidJavaConverter.ToFriendsListVisibilityStatus(playerListVisibility));
+		Action_1_t83D4049B0560A54AF04ACCA619A2FA343D81FD46 * L_7 = __this->get_callback_0();
+		int32_t L_8 = V_0;
+		int32_t L_9;
+		L_9 = AndroidJavaConverter_ToFriendsListVisibilityStatus_mD52E188D9CD2FC472865A87CC05D04A5EADEABB2(L_8, /*hidden argument*/NULL);
+		IL2CPP_RUNTIME_CLASS_INIT(AndroidClient_tBA581A83F4D454AA570D59367F3447F7193BF3B2_il2cpp_TypeInfo_var);
+		AndroidClient_InvokeCallbackOnGameThread_TisFriendsListVisibilityStatus_t353204B8A8C11D7ED64F59483F10A0C2010402FD_m36C32CA9CE02A203DF27342154DD60F8CE27DEA1(L_7, L_9, /*hidden argument*/AndroidClient_InvokeCallbackOnGameThread_TisFriendsListVisibilityStatus_t353204B8A8C11D7ED64F59483F10A0C2010402FD_m36C32CA9CE02A203DF27342154DD60F8CE27DEA1_RuntimeMethod_var);
+		// });
+		return;
+	}
+}
+// System.Void GooglePlayGames.Android.AndroidClient/<>c__DisplayClass39_0::<GetFriendsListVisibility>b__1(UnityEngine.AndroidJavaObject)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass39_0_U3CGetFriendsListVisibilityU3Eb__1_m3D598F219E741BD8F6C854A52D1235F73865FE98 (U3CU3Ec__DisplayClass39_0_tFDF588BDFF20E759A9CCB87F36CB7FF8C260FB4D * __this, AndroidJavaObject_t10188D5695DCD09C9F621B44B0A8C93A2281236E * ___exception0, const RuntimeMethod* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&AndroidClient_InvokeCallbackOnGameThread_TisFriendsListVisibilityStatus_t353204B8A8C11D7ED64F59483F10A0C2010402FD_m36C32CA9CE02A203DF27342154DD60F8CE27DEA1_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&AndroidClient_tBA581A83F4D454AA570D59367F3447F7193BF3B2_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		// InvokeCallbackOnGameThread(callback, FriendsListVisibilityStatus.NetworkError);
+		Action_1_t83D4049B0560A54AF04ACCA619A2FA343D81FD46 * L_0 = __this->get_callback_0();
+		IL2CPP_RUNTIME_CLASS_INIT(AndroidClient_tBA581A83F4D454AA570D59367F3447F7193BF3B2_il2cpp_TypeInfo_var);
+		AndroidClient_InvokeCallbackOnGameThread_TisFriendsListVisibilityStatus_t353204B8A8C11D7ED64F59483F10A0C2010402FD_m36C32CA9CE02A203DF27342154DD60F8CE27DEA1(L_0, ((int32_t)-4), /*hidden argument*/AndroidClient_InvokeCallbackOnGameThread_TisFriendsListVisibilityStatus_t353204B8A8C11D7ED64F59483F10A0C2010402FD_m36C32CA9CE02A203DF27342154DD60F8CE27DEA1_RuntimeMethod_var);
+		// return;
+		return;
+	}
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+// System.Void GooglePlayGames.Android.AndroidClient/<>c__DisplayClass47_0::.ctor()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass47_0__ctor_m877D689B6E876811E2CBEC0D16390882623DD646 (U3CU3Ec__DisplayClass47_0_t4B10C607ECA6ED4EC8328E6B474FC71F802E7125 * __this, const RuntimeMethod* method)
+{
+	{
+		Object__ctor_m88880E0413421D13FD95325EDCE231707CE1F405(__this, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void GooglePlayGames.Android.AndroidClient/<>c__DisplayClass47_0::<GetPlayerStats>b__0(UnityEngine.AndroidJavaObject)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass47_0_U3CGetPlayerStatsU3Eb__0_m3CE1D87E37A978BD3A976D29E21BD0B7A0814F10 (U3CU3Ec__DisplayClass47_0_t4B10C607ECA6ED4EC8328E6B474FC71F802E7125 * __this, AndroidJavaObject_t10188D5695DCD09C9F621B44B0A8C93A2281236E * ___annotatedData0, const RuntimeMethod* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&AndroidClient_InvokeCallbackOnGameThread_TisCommonStatusCodes_tB68EDA346666BA225DDC1B5A045875777CC9061E_TisPlayerStats_tDF1598DA58B629082F9C1889DF0E3242571521A5_mDDB33C10750F0E733FD7E35373854A52F2BC3CD9_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&AndroidClient_tBA581A83F4D454AA570D59367F3447F7193BF3B2_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&AndroidJavaObject_Call_TisAndroidJavaObject_t10188D5695DCD09C9F621B44B0A8C93A2281236E_mC5ED59BBD9C24EFFD98D8C3819C7E15DFE08F412_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&AndroidJavaObject_Call_TisInt32_tFDE5F8CD43D10453F6A2E0C77FE48C6CC7009046_m02A4D4C9FD8B15173829454766683BA424408A2A_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&AndroidJavaObject_Call_TisSingle_tE07797BA3C98D4CA9B5A19413C19A76688AB899E_m068E70BCBA9EACF8129B1C9F711D3132EB6C9061_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Array_Empty_TisRuntimeObject_m1FBC21243DF3542384C523801E8CA8A97606C747_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&IDisposable_t099785737FC6A1E3699919A94109383715A8D807_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&PlayerStats_tDF1598DA58B629082F9C1889DF0E3242571521A5_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral0FFB0A0266691BD7C2B31691C095453E7F6EABC7);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral17710F7581C5EF43B501A51F5029D577D1B3A07C);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral5C74360290F2429EE2C7ACF3ED3EF80F9B772812);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral64127C86A389CDFCCE0CD1646EBF1F8AC12045F3);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral89A120204C5A30CDE790FE6F95C2D3AE1AD655D6);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralBD0DD0865C3872DC5129D863F726B8868042F1E8);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralBF68B5E8806879817720F1AA46DC7730FCB8187E);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralC7965BE7BF53D4BC93DEC2FDAB349BBA5A9C501D);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralCCAE9C77E413C6B915BCC57EC5A2C440CBD7D541);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralCD31636C37FE221187CCDD1EF632DFEBDF8BDB23);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralE2216C6C2ABA25033433B5F6C882002A5EC2C72D);
+		s_Il2CppMethodInitialized = true;
+	}
+	AndroidJavaObject_t10188D5695DCD09C9F621B44B0A8C93A2281236E * V_0 = NULL;
+	float V_1 = 0.0f;
+	int32_t V_2 = 0;
+	int32_t V_3 = 0;
+	float V_4 = 0.0f;
+	float V_5 = 0.0f;
+	float V_6 = 0.0f;
+	float V_7 = 0.0f;
+	float V_8 = 0.0f;
+	float V_9 = 0.0f;
+	PlayerStats_tDF1598DA58B629082F9C1889DF0E3242571521A5 * V_10 = NULL;
+	Exception_t * __last_unhandled_exception = 0;
+	il2cpp::utils::ExceptionSupportStack<int32_t, 1> __leave_targets;
+	{
+		// using (var playerStatsJava = annotatedData.Call<AndroidJavaObject>("get"))
+		AndroidJavaObject_t10188D5695DCD09C9F621B44B0A8C93A2281236E * L_0 = ___annotatedData0;
+		ObjectU5BU5D_tC1F4EE0DB0B7300255F5FD4AF64FE4C585CF5ADE* L_1;
+		L_1 = Array_Empty_TisRuntimeObject_m1FBC21243DF3542384C523801E8CA8A97606C747_inline(/*hidden argument*/Array_Empty_TisRuntimeObject_m1FBC21243DF3542384C523801E8CA8A97606C747_RuntimeMethod_var);
+		NullCheck(L_0);
+		AndroidJavaObject_t10188D5695DCD09C9F621B44B0A8C93A2281236E * L_2;
+		L_2 = AndroidJavaObject_Call_TisAndroidJavaObject_t10188D5695DCD09C9F621B44B0A8C93A2281236E_mC5ED59BBD9C24EFFD98D8C3819C7E15DFE08F412(L_0, _stringLiteralBF68B5E8806879817720F1AA46DC7730FCB8187E, L_1, /*hidden argument*/AndroidJavaObject_Call_TisAndroidJavaObject_t10188D5695DCD09C9F621B44B0A8C93A2281236E_mC5ED59BBD9C24EFFD98D8C3819C7E15DFE08F412_RuntimeMethod_var);
+		V_0 = L_2;
+	}
+
+IL_0011:
+	try
+	{ // begin try (depth: 1)
+		// int numberOfPurchases = playerStatsJava.Call<int>("getNumberOfPurchases");
+		AndroidJavaObject_t10188D5695DCD09C9F621B44B0A8C93A2281236E * L_3 = V_0;
+		ObjectU5BU5D_tC1F4EE0DB0B7300255F5FD4AF64FE4C585CF5ADE* L_4;
+		L_4 = Array_Empty_TisRuntimeObject_m1FBC21243DF3542384C523801E8CA8A97606C747_inline(/*hidden argument*/Array_Empty_TisRuntimeObject_m1FBC21243DF3542384C523801E8CA8A97606C747_RuntimeMethod_var);
+		NullCheck(L_3);
+		int32_t L_5;
+		L_5 = AndroidJavaObject_Call_TisInt32_tFDE5F8CD43D10453F6A2E0C77FE48C6CC7009046_m02A4D4C9FD8B15173829454766683BA424408A2A(L_3, _stringLiteralC7965BE7BF53D4BC93DEC2FDAB349BBA5A9C501D, L_4, /*hidden argument*/AndroidJavaObject_Call_TisInt32_tFDE5F8CD43D10453F6A2E0C77FE48C6CC7009046_m02A4D4C9FD8B15173829454766683BA424408A2A_RuntimeMethod_var);
+		// float avgSessionLength = playerStatsJava.Call<float>("getAverageSessionLength");
+		AndroidJavaObject_t10188D5695DCD09C9F621B44B0A8C93A2281236E * L_6 = V_0;
+		ObjectU5BU5D_tC1F4EE0DB0B7300255F5FD4AF64FE4C585CF5ADE* L_7;
+		L_7 = Array_Empty_TisRuntimeObject_m1FBC21243DF3542384C523801E8CA8A97606C747_inline(/*hidden argument*/Array_Empty_TisRuntimeObject_m1FBC21243DF3542384C523801E8CA8A97606C747_RuntimeMethod_var);
+		NullCheck(L_6);
+		float L_8;
+		L_8 = AndroidJavaObject_Call_TisSingle_tE07797BA3C98D4CA9B5A19413C19A76688AB899E_m068E70BCBA9EACF8129B1C9F711D3132EB6C9061(L_6, _stringLiteralCCAE9C77E413C6B915BCC57EC5A2C440CBD7D541, L_7, /*hidden argument*/AndroidJavaObject_Call_TisSingle_tE07797BA3C98D4CA9B5A19413C19A76688AB899E_m068E70BCBA9EACF8129B1C9F711D3132EB6C9061_RuntimeMethod_var);
+		V_1 = L_8;
+		// int daysSinceLastPlayed = playerStatsJava.Call<int>("getDaysSinceLastPlayed");
+		AndroidJavaObject_t10188D5695DCD09C9F621B44B0A8C93A2281236E * L_9 = V_0;
+		ObjectU5BU5D_tC1F4EE0DB0B7300255F5FD4AF64FE4C585CF5ADE* L_10;
+		L_10 = Array_Empty_TisRuntimeObject_m1FBC21243DF3542384C523801E8CA8A97606C747_inline(/*hidden argument*/Array_Empty_TisRuntimeObject_m1FBC21243DF3542384C523801E8CA8A97606C747_RuntimeMethod_var);
+		NullCheck(L_9);
+		int32_t L_11;
+		L_11 = AndroidJavaObject_Call_TisInt32_tFDE5F8CD43D10453F6A2E0C77FE48C6CC7009046_m02A4D4C9FD8B15173829454766683BA424408A2A(L_9, _stringLiteral5C74360290F2429EE2C7ACF3ED3EF80F9B772812, L_10, /*hidden argument*/AndroidJavaObject_Call_TisInt32_tFDE5F8CD43D10453F6A2E0C77FE48C6CC7009046_m02A4D4C9FD8B15173829454766683BA424408A2A_RuntimeMethod_var);
+		V_2 = L_11;
+		// int numberOfSessions = playerStatsJava.Call<int>("getNumberOfSessions");
+		AndroidJavaObject_t10188D5695DCD09C9F621B44B0A8C93A2281236E * L_12 = V_0;
+		ObjectU5BU5D_tC1F4EE0DB0B7300255F5FD4AF64FE4C585CF5ADE* L_13;
+		L_13 = Array_Empty_TisRuntimeObject_m1FBC21243DF3542384C523801E8CA8A97606C747_inline(/*hidden argument*/Array_Empty_TisRuntimeObject_m1FBC21243DF3542384C523801E8CA8A97606C747_RuntimeMethod_var);
+		NullCheck(L_12);
+		int32_t L_14;
+		L_14 = AndroidJavaObject_Call_TisInt32_tFDE5F8CD43D10453F6A2E0C77FE48C6CC7009046_m02A4D4C9FD8B15173829454766683BA424408A2A(L_12, _stringLiteral64127C86A389CDFCCE0CD1646EBF1F8AC12045F3, L_13, /*hidden argument*/AndroidJavaObject_Call_TisInt32_tFDE5F8CD43D10453F6A2E0C77FE48C6CC7009046_m02A4D4C9FD8B15173829454766683BA424408A2A_RuntimeMethod_var);
+		V_3 = L_14;
+		// float sessionPercentile = playerStatsJava.Call<float>("getSessionPercentile");
+		AndroidJavaObject_t10188D5695DCD09C9F621B44B0A8C93A2281236E * L_15 = V_0;
+		ObjectU5BU5D_tC1F4EE0DB0B7300255F5FD4AF64FE4C585CF5ADE* L_16;
+		L_16 = Array_Empty_TisRuntimeObject_m1FBC21243DF3542384C523801E8CA8A97606C747_inline(/*hidden argument*/Array_Empty_TisRuntimeObject_m1FBC21243DF3542384C523801E8CA8A97606C747_RuntimeMethod_var);
+		NullCheck(L_15);
+		float L_17;
+		L_17 = AndroidJavaObject_Call_TisSingle_tE07797BA3C98D4CA9B5A19413C19A76688AB899E_m068E70BCBA9EACF8129B1C9F711D3132EB6C9061(L_15, _stringLiteralBD0DD0865C3872DC5129D863F726B8868042F1E8, L_16, /*hidden argument*/AndroidJavaObject_Call_TisSingle_tE07797BA3C98D4CA9B5A19413C19A76688AB899E_m068E70BCBA9EACF8129B1C9F711D3132EB6C9061_RuntimeMethod_var);
+		V_4 = L_17;
+		// float spendPercentile = playerStatsJava.Call<float>("getSpendPercentile");
+		AndroidJavaObject_t10188D5695DCD09C9F621B44B0A8C93A2281236E * L_18 = V_0;
+		ObjectU5BU5D_tC1F4EE0DB0B7300255F5FD4AF64FE4C585CF5ADE* L_19;
+		L_19 = Array_Empty_TisRuntimeObject_m1FBC21243DF3542384C523801E8CA8A97606C747_inline(/*hidden argument*/Array_Empty_TisRuntimeObject_m1FBC21243DF3542384C523801E8CA8A97606C747_RuntimeMethod_var);
+		NullCheck(L_18);
+		float L_20;
+		L_20 = AndroidJavaObject_Call_TisSingle_tE07797BA3C98D4CA9B5A19413C19A76688AB899E_m068E70BCBA9EACF8129B1C9F711D3132EB6C9061(L_18, _stringLiteral89A120204C5A30CDE790FE6F95C2D3AE1AD655D6, L_19, /*hidden argument*/AndroidJavaObject_Call_TisSingle_tE07797BA3C98D4CA9B5A19413C19A76688AB899E_m068E70BCBA9EACF8129B1C9F711D3132EB6C9061_RuntimeMethod_var);
+		V_5 = L_20;
+		// float spendProbability = playerStatsJava.Call<float>("getSpendProbability");
+		AndroidJavaObject_t10188D5695DCD09C9F621B44B0A8C93A2281236E * L_21 = V_0;
+		ObjectU5BU5D_tC1F4EE0DB0B7300255F5FD4AF64FE4C585CF5ADE* L_22;
+		L_22 = Array_Empty_TisRuntimeObject_m1FBC21243DF3542384C523801E8CA8A97606C747_inline(/*hidden argument*/Array_Empty_TisRuntimeObject_m1FBC21243DF3542384C523801E8CA8A97606C747_RuntimeMethod_var);
+		NullCheck(L_21);
+		float L_23;
+		L_23 = AndroidJavaObject_Call_TisSingle_tE07797BA3C98D4CA9B5A19413C19A76688AB899E_m068E70BCBA9EACF8129B1C9F711D3132EB6C9061(L_21, _stringLiteral17710F7581C5EF43B501A51F5029D577D1B3A07C, L_22, /*hidden argument*/AndroidJavaObject_Call_TisSingle_tE07797BA3C98D4CA9B5A19413C19A76688AB899E_m068E70BCBA9EACF8129B1C9F711D3132EB6C9061_RuntimeMethod_var);
+		V_6 = L_23;
+		// float churnProbability = playerStatsJava.Call<float>("getChurnProbability");
+		AndroidJavaObject_t10188D5695DCD09C9F621B44B0A8C93A2281236E * L_24 = V_0;
+		ObjectU5BU5D_tC1F4EE0DB0B7300255F5FD4AF64FE4C585CF5ADE* L_25;
+		L_25 = Array_Empty_TisRuntimeObject_m1FBC21243DF3542384C523801E8CA8A97606C747_inline(/*hidden argument*/Array_Empty_TisRuntimeObject_m1FBC21243DF3542384C523801E8CA8A97606C747_RuntimeMethod_var);
+		NullCheck(L_24);
+		float L_26;
+		L_26 = AndroidJavaObject_Call_TisSingle_tE07797BA3C98D4CA9B5A19413C19A76688AB899E_m068E70BCBA9EACF8129B1C9F711D3132EB6C9061(L_24, _stringLiteralE2216C6C2ABA25033433B5F6C882002A5EC2C72D, L_25, /*hidden argument*/AndroidJavaObject_Call_TisSingle_tE07797BA3C98D4CA9B5A19413C19A76688AB899E_m068E70BCBA9EACF8129B1C9F711D3132EB6C9061_RuntimeMethod_var);
+		V_7 = L_26;
+		// float highSpenderProbability = playerStatsJava.Call<float>("getHighSpenderProbability");
+		AndroidJavaObject_t10188D5695DCD09C9F621B44B0A8C93A2281236E * L_27 = V_0;
+		ObjectU5BU5D_tC1F4EE0DB0B7300255F5FD4AF64FE4C585CF5ADE* L_28;
+		L_28 = Array_Empty_TisRuntimeObject_m1FBC21243DF3542384C523801E8CA8A97606C747_inline(/*hidden argument*/Array_Empty_TisRuntimeObject_m1FBC21243DF3542384C523801E8CA8A97606C747_RuntimeMethod_var);
+		NullCheck(L_27);
+		float L_29;
+		L_29 = AndroidJavaObject_Call_TisSingle_tE07797BA3C98D4CA9B5A19413C19A76688AB899E_m068E70BCBA9EACF8129B1C9F711D3132EB6C9061(L_27, _stringLiteral0FFB0A0266691BD7C2B31691C095453E7F6EABC7, L_28, /*hidden argument*/AndroidJavaObject_Call_TisSingle_tE07797BA3C98D4CA9B5A19413C19A76688AB899E_m068E70BCBA9EACF8129B1C9F711D3132EB6C9061_RuntimeMethod_var);
+		V_8 = L_29;
+		// float totalSpendNext28Days = playerStatsJava.Call<float>("getTotalSpendNext28Days");
+		AndroidJavaObject_t10188D5695DCD09C9F621B44B0A8C93A2281236E * L_30 = V_0;
+		ObjectU5BU5D_tC1F4EE0DB0B7300255F5FD4AF64FE4C585CF5ADE* L_31;
+		L_31 = Array_Empty_TisRuntimeObject_m1FBC21243DF3542384C523801E8CA8A97606C747_inline(/*hidden argument*/Array_Empty_TisRuntimeObject_m1FBC21243DF3542384C523801E8CA8A97606C747_RuntimeMethod_var);
+		NullCheck(L_30);
+		float L_32;
+		L_32 = AndroidJavaObject_Call_TisSingle_tE07797BA3C98D4CA9B5A19413C19A76688AB899E_m068E70BCBA9EACF8129B1C9F711D3132EB6C9061(L_30, _stringLiteralCD31636C37FE221187CCDD1EF632DFEBDF8BDB23, L_31, /*hidden argument*/AndroidJavaObject_Call_TisSingle_tE07797BA3C98D4CA9B5A19413C19A76688AB899E_m068E70BCBA9EACF8129B1C9F711D3132EB6C9061_RuntimeMethod_var);
+		V_9 = L_32;
+		// PlayerStats result = new PlayerStats(
+		//     numberOfPurchases,
+		//     avgSessionLength,
+		//     daysSinceLastPlayed,
+		//     numberOfSessions,
+		//     sessionPercentile,
+		//     spendPercentile,
+		//     spendProbability,
+		//     churnProbability,
+		//     highSpenderProbability,
+		//     totalSpendNext28Days);
+		float L_33 = V_1;
+		int32_t L_34 = V_2;
+		int32_t L_35 = V_3;
+		float L_36 = V_4;
+		float L_37 = V_5;
+		float L_38 = V_6;
+		float L_39 = V_7;
+		float L_40 = V_8;
+		float L_41 = V_9;
+		PlayerStats_tDF1598DA58B629082F9C1889DF0E3242571521A5 * L_42 = (PlayerStats_tDF1598DA58B629082F9C1889DF0E3242571521A5 *)il2cpp_codegen_object_new(PlayerStats_tDF1598DA58B629082F9C1889DF0E3242571521A5_il2cpp_TypeInfo_var);
+		PlayerStats__ctor_m88A7B125D9A13D0B44923F142BC6D69200D3A356(L_42, L_5, L_33, L_34, L_35, L_36, L_37, L_38, L_39, L_40, L_41, /*hidden argument*/NULL);
+		V_10 = L_42;
+		// InvokeCallbackOnGameThread(callback, CommonStatusCodes.Success, result);
+		Action_2_t780FB18E67AC464A50B094492A06E11D0DF1D172 * L_43 = __this->get_callback_0();
+		PlayerStats_tDF1598DA58B629082F9C1889DF0E3242571521A5 * L_44 = V_10;
+		IL2CPP_RUNTIME_CLASS_INIT(AndroidClient_tBA581A83F4D454AA570D59367F3447F7193BF3B2_il2cpp_TypeInfo_var);
+		AndroidClient_InvokeCallbackOnGameThread_TisCommonStatusCodes_tB68EDA346666BA225DDC1B5A045875777CC9061E_TisPlayerStats_tDF1598DA58B629082F9C1889DF0E3242571521A5_mDDB33C10750F0E733FD7E35373854A52F2BC3CD9(L_43, 0, L_44, /*hidden argument*/AndroidClient_InvokeCallbackOnGameThread_TisCommonStatusCodes_tB68EDA346666BA225DDC1B5A045875777CC9061E_TisPlayerStats_tDF1598DA58B629082F9C1889DF0E3242571521A5_mDDB33C10750F0E733FD7E35373854A52F2BC3CD9_RuntimeMethod_var);
+		// }
+		IL2CPP_LEAVE(0xF0, FINALLY_00e6);
+	} // end try (depth: 1)
+	catch(Il2CppExceptionWrapper& e)
+	{
+		__last_unhandled_exception = (Exception_t *)e.ex;
+		goto FINALLY_00e6;
+	}
+
+FINALLY_00e6:
+	{ // begin finally (depth: 1)
+		{
+			AndroidJavaObject_t10188D5695DCD09C9F621B44B0A8C93A2281236E * L_45 = V_0;
+			if (!L_45)
+			{
+				goto IL_00ef;
+			}
+		}
+
+IL_00e9:
+		{
+			AndroidJavaObject_t10188D5695DCD09C9F621B44B0A8C93A2281236E * L_46 = V_0;
+			NullCheck(L_46);
+			InterfaceActionInvoker0::Invoke(0 /* System.Void System.IDisposable::Dispose() */, IDisposable_t099785737FC6A1E3699919A94109383715A8D807_il2cpp_TypeInfo_var, L_46);
+		}
+
+IL_00ef:
+		{
+			IL2CPP_END_FINALLY(230)
+		}
+	} // end finally (depth: 1)
+	IL2CPP_CLEANUP(230)
+	{
+		IL2CPP_RETHROW_IF_UNHANDLED(Exception_t *)
+		IL2CPP_JUMP_TBL(0xF0, IL_00f0)
+	}
+
+IL_00f0:
+	{
+		// });
+		return;
+	}
+}
+// System.Void GooglePlayGames.Android.AndroidClient/<>c__DisplayClass47_0::<GetPlayerStats>b__1(UnityEngine.AndroidJavaObject)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass47_0_U3CGetPlayerStatsU3Eb__1_m0994C6F296E4479626EE5C1B2E2A6CA6331025E4 (U3CU3Ec__DisplayClass47_0_t4B10C607ECA6ED4EC8328E6B474FC71F802E7125 * __this, AndroidJavaObject_t10188D5695DCD09C9F621B44B0A8C93A2281236E * ___e0, const RuntimeMethod* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&AndroidClient_InvokeCallbackOnGameThread_TisCommonStatusCodes_tB68EDA346666BA225DDC1B5A045875777CC9061E_TisPlayerStats_tDF1598DA58B629082F9C1889DF0E3242571521A5_mDDB33C10750F0E733FD7E35373854A52F2BC3CD9_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&AndroidClient_tBA581A83F4D454AA570D59367F3447F7193BF3B2_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&AndroidJavaObject_Call_TisString_t_mB2E722C64FC7BD9F98B983053A6D3F9D94D355AE_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Array_Empty_TisRuntimeObject_m1FBC21243DF3542384C523801E8CA8A97606C747_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Debug_tEB68BCBEB8EFD60F8043C67146DC05E7F50F374B_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&PlayerStats_tDF1598DA58B629082F9C1889DF0E3242571521A5_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral2031F4EEABE50C80501FAD9E38A616B1DC8E6AA8);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral495DD512A2F1C21C6107D1EA689AF431C75A1C5A);
+		s_Il2CppMethodInitialized = true;
+	}
+	int32_t V_0 = 0;
+	int32_t G_B3_0 = 0;
+	{
+		// Debug.Log("GetPlayerStats failed: " + e.Call<string>("toString"));
+		AndroidJavaObject_t10188D5695DCD09C9F621B44B0A8C93A2281236E * L_0 = ___e0;
+		ObjectU5BU5D_tC1F4EE0DB0B7300255F5FD4AF64FE4C585CF5ADE* L_1;
+		L_1 = Array_Empty_TisRuntimeObject_m1FBC21243DF3542384C523801E8CA8A97606C747_inline(/*hidden argument*/Array_Empty_TisRuntimeObject_m1FBC21243DF3542384C523801E8CA8A97606C747_RuntimeMethod_var);
+		NullCheck(L_0);
+		String_t* L_2;
+		L_2 = AndroidJavaObject_Call_TisString_t_mB2E722C64FC7BD9F98B983053A6D3F9D94D355AE(L_0, _stringLiteral495DD512A2F1C21C6107D1EA689AF431C75A1C5A, L_1, /*hidden argument*/AndroidJavaObject_Call_TisString_t_mB2E722C64FC7BD9F98B983053A6D3F9D94D355AE_RuntimeMethod_var);
+		String_t* L_3;
+		L_3 = String_Concat_m4B4AB72618348C5DFBFBA8DED84B9E2EBDB55E1B(_stringLiteral2031F4EEABE50C80501FAD9E38A616B1DC8E6AA8, L_2, /*hidden argument*/NULL);
+		IL2CPP_RUNTIME_CLASS_INIT(Debug_tEB68BCBEB8EFD60F8043C67146DC05E7F50F374B_il2cpp_TypeInfo_var);
+		Debug_Log_mC26E5AD0D8D156C7FFD173AA15827F69225E9DB8(L_3, /*hidden argument*/NULL);
+		// var statusCode = IsAuthenticated()
+		//     ? CommonStatusCodes.InternalError
+		//     : CommonStatusCodes.SignInRequired;
+		AndroidClient_tBA581A83F4D454AA570D59367F3447F7193BF3B2 * L_4 = __this->get_U3CU3E4__this_1();
+		NullCheck(L_4);
+		bool L_5;
+		L_5 = AndroidClient_IsAuthenticated_mCFA1F8A759FAA70222F9F1C5CD7AB2C3161A6B47(L_4, /*hidden argument*/NULL);
+		if (L_5)
+		{
+			goto IL_002f;
+		}
+	}
+	{
+		G_B3_0 = 4;
+		goto IL_0030;
+	}
+
+IL_002f:
+	{
+		G_B3_0 = 8;
+	}
+
+IL_0030:
+	{
+		V_0 = G_B3_0;
+		// InvokeCallbackOnGameThread(callback, statusCode, new PlayerStats());
+		Action_2_t780FB18E67AC464A50B094492A06E11D0DF1D172 * L_6 = __this->get_callback_0();
+		int32_t L_7 = V_0;
+		PlayerStats_tDF1598DA58B629082F9C1889DF0E3242571521A5 * L_8 = (PlayerStats_tDF1598DA58B629082F9C1889DF0E3242571521A5 *)il2cpp_codegen_object_new(PlayerStats_tDF1598DA58B629082F9C1889DF0E3242571521A5_il2cpp_TypeInfo_var);
+		PlayerStats__ctor_m6834E3374DD90F38BD39FB12F1AD1B3A241AA23D(L_8, /*hidden argument*/NULL);
+		IL2CPP_RUNTIME_CLASS_INIT(AndroidClient_tBA581A83F4D454AA570D59367F3447F7193BF3B2_il2cpp_TypeInfo_var);
+		AndroidClient_InvokeCallbackOnGameThread_TisCommonStatusCodes_tB68EDA346666BA225DDC1B5A045875777CC9061E_TisPlayerStats_tDF1598DA58B629082F9C1889DF0E3242571521A5_mDDB33C10750F0E733FD7E35373854A52F2BC3CD9(L_6, L_7, L_8, /*hidden argument*/AndroidClient_InvokeCallbackOnGameThread_TisCommonStatusCodes_tB68EDA346666BA225DDC1B5A045875777CC9061E_TisPlayerStats_tDF1598DA58B629082F9C1889DF0E3242571521A5_mDDB33C10750F0E733FD7E35373854A52F2BC3CD9_RuntimeMethod_var);
+		// });
+		return;
+	}
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
 #ifdef __clang__
 #pragma clang diagnostic push
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
